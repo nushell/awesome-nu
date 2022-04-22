@@ -36,4 +36,4 @@ Other tools that work with or within the nu language ecosystem.
 - [starship](https://starship.rs/#nushell): The minimal, blazing-fast, and infinitely customizable prompt for any shell.
 - [zoxide](https://github.com/ajeetdsouza/zoxide): A smarter cd command, inspired by z and autojump.
 - [oh-my-posh](https://ohmyposh.dev/docs/installation/prompt): A prompt theme engine for any shell.
-- [virtual-env](https://docs.python.org/3/library/venv.html): Provides support for creating lightweight Python "virtual environments".
+- [virtualenv](https://github.com/pypa/virtualenv): Provides support for creating lightweight Python "virtual environments".
