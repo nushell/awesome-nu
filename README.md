@@ -37,3 +37,10 @@ Other tools that work with or within the nu language ecosystem.
 - [zoxide](https://github.com/ajeetdsouza/zoxide): A smarter cd command, inspired by z and autojump.
 - [oh-my-posh](https://ohmyposh.dev/docs/installation/prompt): A prompt theme engine for any shell.
 - [virtualenv](https://github.com/pypa/virtualenv): Provides support for creating lightweight Python "virtual environments".
+
+## Editor Extensions
+Plugins and Extensions that you can use in other text editors
+- [Tree-sitter](https://github.com/LhKipp/tree-sitter-nu): A Tree-sitter project for nushell.
+- [nvim plugin](https://github.com/LhKipp/nvim-nu): A nvim pluging for nushell.
+- [helix](https://github.com/helix-editor/helix): The helix editor also uses tree-sitter queries and are integrated into it now.
+- [visual studio code](https://github.com/nushell/vscode-nushell-lang): The official nushell visual studio code extension. Also available on the [Microsoft Marketeplace](https://marketplace.visualstudio.com/items?itemName=TheNuProjectContributors.vscode-nushell-lang) and within visual studio code itself.
