@@ -37,6 +37,7 @@ Other tools that work with or within the nu language ecosystem.
 - [zoxide](https://github.com/ajeetdsouza/zoxide): A smarter cd command, inspired by z and autojump.
 - [oh-my-posh](https://ohmyposh.dev/docs/installation/prompt): A prompt theme engine for any shell.
 - [virtualenv](https://github.com/pypa/virtualenv): Provides support for creating lightweight Python "virtual environments".
+- [ansible](https://github.com/Yethal/ansible-role-nushell): Ansible role that installs nushell on your server
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
