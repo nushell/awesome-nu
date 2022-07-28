@@ -9,6 +9,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_query](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query): Query json, xml and web pages.
 - [nu_plugin_inc](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc): Plugin to increment semantic versioning strings.
 - [nu_plugin_gstat](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_gstat): Show the git working tree status.
+- [nu_plugin_net](https://crates.io/crates/nu_plugin_net): List network interfaces on any platform
 
 ## Scripts
 You can find some examples about how to create and use scripts in the [Nushell Scripts](https://www.nushell.sh/book/scripts.html) page.
