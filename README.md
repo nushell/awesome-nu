@@ -48,3 +48,4 @@ Plugins and Extensions that you can use in other text editors
 - [helix](https://github.com/helix-editor/helix): The helix editor also uses tree-sitter queries and are integrated into it now.
 - [visual studio code](https://github.com/nushell/vscode-nushell-lang): The official nushell visual studio code extension. Also available on the [Microsoft Marketeplace](https://marketplace.visualstudio.com/items?itemName=TheNuProjectContributors.vscode-nushell-lang) and within visual studio code itself.
 - [Sublime Text](https://github.com/kurokirasama/nushell_sublime_syntax): A Sublime Text plugin for Nushell
+- [Emacs](https://github.com/azzamsa/emacs-nushell): Emacs major mode for Nushell scripts.
