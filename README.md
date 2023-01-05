@@ -17,6 +17,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex): A regular expressions plugin for nushell.
 - [nu_plugin_template](https://github.com/fdncred/nu_plugin_template): A `cargo-generate` template for making it easier to create nushell plugins.
 - [nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist): A plist plugin for nushell.
+- [nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot): A terminal plotting plugin for nushell.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your currect version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
