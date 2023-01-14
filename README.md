@@ -11,7 +11,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_gstat](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_gstat): Show the git working tree status.
 - [nu_plugin_net](https://crates.io/crates/nu_plugin_net): List network interfaces on any platform
 - [nu_plugin_pnet](https://github.com/fdncred/nu_plugin_pnet): Same as above but named `pnet` as to not conflict with Windows `net` built-in.
-- [nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader): A high leval, general binary data reader.
+- [nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader): A high level, general binary data reader.
 - [nu_plugin_from_parquet](https://github.com/fdncred/nu_plugin_from_parquet): A plugin to parse parquet files into nushell data structures.
 - [nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio): A bioinformatics plugin for nushell. 
 - [nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex): A regular expressions plugin for nushell.
