@@ -60,3 +60,4 @@ Plugins and Extensions that you can use in other text editors
 - [Sublime Text](https://github.com/kurokirasama/nushell_sublime_syntax): A Sublime Text plugin for Nushell.
 - [Emacs](https://github.com/azzamsa/emacs-nushell): Emacs major mode for Nushell scripts.
 - [Sublime Text](https://github.com/stevenxxiu/sublime_text_nushell): A Sublime Text pluging for Nushell.
+- [WIP tree-sitter](https://github.com/fdncred/tree-sitter-nu): Please help create our nushell tree-sitter implementation.
