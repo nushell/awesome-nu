@@ -33,6 +33,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [ultimate_extractor](https://github.com/nushell/nu_scripts/blob/main/data_extraction/ultimate_extractor.nu): Function to extract archives with different extensions.
 - [math_functions](https://github.com/nushell/nu_scripts/blob/main/maths/math_functions.nu): Math functions for doing things like `factorial`, `root`.
 - [wolframalpha](https://github.com/nushell/nu_scripts/blob/main/api_wrappers/wolframalpha.nu): WolframAlpha API wrapper.
+- [packer.nu](https://github.com/Jan9103/packer.nu): A packer.nvim inspired package-manager for NuShell.
 
 ## Custom Completions
 You can find some examples about how to create and use custom completions in the [Nushell Custom Completions](https://www.nushell.sh/book/custom_completions.html) page.
