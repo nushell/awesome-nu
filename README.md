@@ -41,7 +41,7 @@ You can find some examples about how to create and use custom completions in the
 - [make](https://github.com/nushell/nu_scripts/blob/main/custom-completions/make/make-completions.nu): Completions for `make` commands.
 - [npm](https://github.com/nushell/nu_scripts/blob/main/custom-completions/npm/npm-completions.nu): Completions for `npm` commands.
 - [cargo](https://github.com/nushell/nu_scripts/blob/main/custom-completions/cargo/cargo-completions.nu): Completions for `cargo` commands.
-- [winget](https://github.com/nushell/nu_scripts/blob/main/custom-completions/winget/winget-completions.nu): Compleitons for `winget` package manager.
+- [winget](https://github.com/nushell/nu_scripts/blob/main/custom-completions/winget/winget-completions.nu): Completions for `winget` package manager.
 
 ## Integrations
 Other tools that work with or within the nu language ecosystem.
@@ -53,7 +53,8 @@ Other tools that work with or within the nu language ecosystem.
 - [ansible](https://github.com/Yethal/ansible-role-nushell): Ansible role that installs nushell on your server
 - [github action](https://github.com/marketplace/actions/setup-nu): A GitHub action that runs nushell in your CI.
 - [nix flake](https://git.sr.ht/~mangoiv/nu-shell.nix): A [`nix`](https://nixos.org/) flake that outputs `nushell` packages, docs and tests as well as a `devShell` for developing `nushell`.
-- [atuin](https://github.com/ellie/atuin) 🐢 Magical shell history
+- [atuin](https://github.com/ellie/atuin): 🐢 Magical shell history
+- [jc](https://github.com/kellyjonbrazil/jc): a collection of parsers for common unix tools that outputs JSON
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
