@@ -21,6 +21,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5): A plugin to parse HDF5 files into nushell record.
 - [nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount): A nushell extension to load a beancount file into nu structured data.
 - [nu_plugin_from_bencode](https://github.com/bluk/nu_plugin_from_bencode): A converter plugin from the bencode format for Nushell.
+- [nu_plugin_dialog](https://github.com/Trivernis/nu-plugin-dialog): A nushell plugin for user interaction.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your currect version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
