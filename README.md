@@ -19,20 +19,26 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist): A plist plugin for nushell.
 - [nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot): A terminal plotting plugin for nushell.
 - [nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5): A plugin to parse HDF5 files into nushell record.
+- [nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount): A nushell extension to load a beancount file into nu structured data.
+- [nu_plugin_from_bencode](https://github.com/bluk/nu_plugin_from_bencode): A converter plugin from the bencode format for Nushell.
+- [nu_plugin_dialog](https://github.com/Trivernis/nu-plugin-dialog): A nushell plugin for user interaction.
+- [nu_plugin_formats](https://crates.io/crates/nu_plugin_formats): A nushell plugin for from eml, ics, ini, vcf.
+- [nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm): A nushell plugin to parse Dicom files.
+- [nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl): A Hashicorp Configuration Language plugin for nushell.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your currect version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
 ## Scripts
 You can find some examples about how to create and use scripts in the [Nushell Scripts](https://www.nushell.sh/book/scripts.html) page.
 
-- [cargo_search](https://github.com/nushell/nu_scripts/blob/main/cool-oneliners/cargo_search.nu): Perform a cargo search.
-- [git_gone](https://github.com/nushell/nu_scripts/blob/main/cool-oneliners/git_gone.nu): Gently try to delete merged branches, excluding the checked out one.
-- [nuschiit](https://github.com/nushell/nu_scripts/blob/main/webscraping/nuschiit.nu): Webscrapping example for the schiit.co.uk website.
-- [conda](https://github.com/nushell/nu_scripts/blob/main/virtual_environments/conda.nu): Activate/deactivate conda virtual environments.
-- [get-weather](https://github.com/nushell/nu_scripts/blob/main/weather/get-weather.nu): Get weather forecast for your location.
-- [ultimate_extractor](https://github.com/nushell/nu_scripts/blob/main/data_extraction/ultimate_extractor.nu): Function to extract archives with different extensions.
-- [math_functions](https://github.com/nushell/nu_scripts/blob/main/maths/math_functions.nu): Math functions for doing things like `factorial`, `root`.
-- [wolframalpha](https://github.com/nushell/nu_scripts/blob/main/api_wrappers/wolframalpha.nu): WolframAlpha API wrapper.
+- [cargo_search](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/cargo_search.nu): Perform a cargo search.
+- [git_gone](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/git_gone.nu): Gently try to delete merged branches, excluding the checked out one.
+- [nuschiit](https://github.com/nushell/nu_scripts/blob/main/sourced/webscraping/nuschiit.nu): Webscrapping example for the schiit.co.uk website.
+- [conda](https://github.com/nushell/nu_scripts/blob/main/modules/virtual_environments/conda.nu): Activate/deactivate conda virtual environments.
+- [get-weather](https://github.com/nushell/nu_scripts/blob/main/modules/weather/get-weather.nu): Get weather forecast for your location.
+- [ultimate_extractor](https://github.com/nushell/nu_scripts/blob/main/modules/data_extraction/ultimate_extractor.nu): Function to extract archives with different extensions.
+- [math_functions](https://github.com/nushell/nu_scripts/blob/main/modules/maths/math_functions.nu): Math functions for doing things like `factorial`, `root`.
+- [wolframalpha](https://github.com/nushell/nu_scripts/blob/main/sourced/api_wrappers/wolframalpha.nu): WolframAlpha API wrapper.
 - [packer.nu](https://github.com/Jan9103/packer.nu): A packer.nvim inspired package-manager for NuShell.
 
 ## Custom Completions
@@ -54,15 +60,15 @@ Other tools that work with or within the nu language ecosystem.
 - [github action](https://github.com/marketplace/actions/setup-nu): A GitHub action that runs nushell in your CI.
 - [nix flake](https://git.sr.ht/~mangoiv/nu-shell.nix): A [`nix`](https://nixos.org/) flake that outputs `nushell` packages, docs and tests as well as a `devShell` for developing `nushell`.
 - [atuin](https://github.com/ellie/atuin): 🐢 Magical shell history
-- [jc](https://github.com/kellyjonbrazil/jc): a collection of parsers for common unix tools that outputs JSON
+- [jc](https://github.com/kellyjonbrazil/jc): A collection of parsers for common unix tools that outputs JSON for easy import into nushell with `from json`.
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
-- [Tree-sitter](https://github.com/LhKipp/tree-sitter-nu): A Tree-sitter project for nushell.
+- [Official Tree-sitter](https://github.com/nushell/tree-sitter-nu): A tree-sitter grammar for nu-lang, the language of nushell.
+- [Alternate Tree-sitter](https://github.com/LhKipp/tree-sitter-nu): A Tree-sitter project for nushell.
 - [nvim plugin](https://github.com/LhKipp/nvim-nu): A nvim pluging for nushell.
 - [helix](https://github.com/helix-editor/helix): The helix editor also uses tree-sitter queries and are integrated into it now.
 - [visual studio code](https://github.com/nushell/vscode-nushell-lang): The official nushell visual studio code extension. Also available on the [Microsoft Marketeplace](https://marketplace.visualstudio.com/items?itemName=TheNuProjectContributors.vscode-nushell-lang) and within visual studio code itself.
 - [Sublime Text](https://github.com/kurokirasama/nushell_sublime_syntax): A Sublime Text plugin for Nushell.
 - [Emacs](https://github.com/azzamsa/emacs-nushell): Emacs major mode for Nushell scripts.
 - [Sublime Text](https://github.com/stevenxxiu/sublime_text_nushell): A Sublime Text pluging for Nushell.
-- [WIP tree-sitter](https://github.com/fdncred/tree-sitter-nu): Please help create our nushell tree-sitter implementation.
