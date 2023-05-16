@@ -24,6 +24,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_dialog](https://github.com/Trivernis/nu-plugin-dialog): A nushell plugin for user interaction.
 - [nu_plugin_formats](https://crates.io/crates/nu_plugin_formats): A nushell plugin for from eml, ics, ini, vcf.
 - [nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm): A nushell plugin to parse Dicom files.
+- [nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl): A Hashicorp Configuration Language plugin for nushell.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your currect version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
@@ -58,7 +59,7 @@ Other tools that work with or within the nu language ecosystem.
 - [ansible](https://github.com/Yethal/ansible-role-nushell): Ansible role that installs nushell on your server
 - [github action](https://github.com/marketplace/actions/setup-nu): A GitHub action that runs nushell in your CI.
 - [nix flake](https://git.sr.ht/~mangoiv/nu-shell.nix): A [`nix`](https://nixos.org/) flake that outputs `nushell` packages, docs and tests as well as a `devShell` for developing `nushell`.
-- [atuin](https://github.com/ellie/atuin) 🐢 Magical shell history
+- [atuin](https://github.com/ellie/atuin): 🐢 Magical shell history
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
