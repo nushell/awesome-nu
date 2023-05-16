@@ -60,6 +60,7 @@ Other tools that work with or within the nu language ecosystem.
 - [github action](https://github.com/marketplace/actions/setup-nu): A GitHub action that runs nushell in your CI.
 - [nix flake](https://git.sr.ht/~mangoiv/nu-shell.nix): A [`nix`](https://nixos.org/) flake that outputs `nushell` packages, docs and tests as well as a `devShell` for developing `nushell`.
 - [atuin](https://github.com/ellie/atuin): 🐢 Magical shell history
+- [jc](https://github.com/kellyjonbrazil/jc): A collection of parsers for common unix tools that outputs JSON for easy import into nushell with `from json`.
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
