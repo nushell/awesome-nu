@@ -27,6 +27,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl): A Hashicorp Configuration Language plugin for nushell.
 - [nu_plugin_json_path](https://github.com/fdncred/nu_plugin_json_path): A nushell plugin for parsing json that uses the json path specification.
 - [nu_plugin_str_similarity](https://github.com/fdncred/nu_plugin_str_similarity): A nushell plugin that helps you calculate the edit distance between two strings using a variety of algorithms.
+- [nu_plugin_bexpand](https://codeberg.org/Taywee/nu-plugin-bexpand): Bash style brace expansion for nushell
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your currect version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
