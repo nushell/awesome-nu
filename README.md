@@ -13,7 +13,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_pnet](https://github.com/fdncred/nu_plugin_pnet): Same as above but named `pnet` as to not conflict with Windows `net` built-in.
 - [nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader): A high level, general binary data reader.
 - [nu_plugin_from_parquet](https://github.com/fdncred/nu_plugin_from_parquet): A plugin to parse parquet files into nushell data structures.
-- [nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio): A bioinformatics plugin for nushell. 
+- [nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio): A bioinformatics plugin for nushell.
 - [nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex): A regular expressions plugin for nushell.
 - [nu_plugin_template](https://github.com/fdncred/nu_plugin_template): A `cargo-generate` template for making it easier to create nushell plugins.
 - [nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist): A plist plugin for nushell.
@@ -65,6 +65,7 @@ Other tools that work with or within the nu language ecosystem.
 - [atuin](https://github.com/ellie/atuin): 🐢 Magical shell history
 - [jc](https://github.com/kellyjonbrazil/jc): A collection of parsers for common unix tools that outputs JSON for easy import into nushell with `from json`.
 - [clap_complete_nushell](https://github.com/clap-rs/clap/tree/master/clap_complete_nushell): A way to generate completions for clap based CLIs.
+- [Nuenv: an experimental Nushell environment for Nix](https://determinate.systems/posts/nuenv)
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
