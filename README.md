@@ -65,7 +65,7 @@ Other tools that work with or within the nu language ecosystem.
 - [atuin](https://github.com/ellie/atuin): 🐢 Magical shell history
 - [jc](https://github.com/kellyjonbrazil/jc): A collection of parsers for common unix tools that outputs JSON for easy import into nushell with `from json`.
 - [clap_complete_nushell](https://github.com/clap-rs/clap/tree/master/clap_complete_nushell): A way to generate completions for clap based CLIs.
-- [Nuenv: an experimental Nushell environment for Nix](https://determinate.systems/posts/nuenv)
+- [Nuenv](https://determinate.systems/posts/nuenv): an experimental Nushell environment for Nix
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
