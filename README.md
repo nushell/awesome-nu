@@ -70,6 +70,7 @@ Other tools that work with or within the nu language ecosystem.
 - [jc](https://github.com/kellyjonbrazil/jc): A collection of parsers for common unix tools that outputs JSON for easy import into nushell with `from json`.
 - [clap_complete_nushell](https://github.com/clap-rs/clap/tree/master/clap_complete_nushell): A way to generate completions for clap based CLIs.
 - [Nuenv](https://determinate.systems/posts/nuenv): An experimental Nushell environment for Nix
+- [Dorothy](https://github.com/bevry/dorothy): 🧙‍♀️ Bring your dotfile commands and configuration to any shell, including Nu, Fish, Zsh, Bash.
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
