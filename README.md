@@ -73,6 +73,7 @@ Other tools that work with or within the nu language ecosystem.
 - [clap_complete_nushell](https://github.com/clap-rs/clap/tree/master/clap_complete_nushell): A way to generate completions for clap based CLIs.
 - [Nuenv](https://determinate.systems/posts/nuenv): An experimental Nushell environment for Nix
 - [Dorothy](https://github.com/bevry/dorothy): 🧙‍♀️ Bring your dotfile commands and configuration to any shell, including Nu, Fish, Zsh, Bash.
+- [bru](https://github.com/selfagency/bru): A Nushell wrapper for Homebrew
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
