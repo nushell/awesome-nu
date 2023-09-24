@@ -74,6 +74,7 @@ Other tools that work with or within the nu language ecosystem.
 - [Nuenv](https://determinate.systems/posts/nuenv): An experimental Nushell environment for Nix
 - [Dorothy](https://github.com/bevry/dorothy): 🧙‍♀️ Bring your dotfile commands and configuration to any shell, including Nu, Fish, Zsh, Bash.
 - [bru](https://github.com/selfagency/bru): A Nushell wrapper for Homebrew
+- [nunvm](https://github.com/Yakiyo/nunvm): A cross-platform nvm clone written in nushell
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
