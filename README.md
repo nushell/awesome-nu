@@ -90,5 +90,5 @@ Plugins and Extensions that you can use in other text editors
 - [Sublime Text](https://github.com/stevenxxiu/sublime_text_nushell): A Sublime Text plugin for Nushell.
 
 ## Reedline Integrations
-Applications that have done a nice job using reedline
+Applications that have done a nice job using [reedline](https://github.com/nushell/reedline)
 - [Glaredb](https://github.com/GlareDB/glaredb): An analytics DBMS for distributed data
