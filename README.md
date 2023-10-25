@@ -77,7 +77,7 @@ Other tools that work with or within the nu language ecosystem.
 - [nunvm](https://github.com/Yakiyo/nunvm): A cross-platform nvm clone written in nushell
 - [nu-stats](https://github.com/Nushell101/nu-stats): Nushell history tools
 - [Direnv](https://github.com/direnv/direnv/blob/master/docs/hook.md#nushell): unclutter your .profile
-- [Nu personal homepage webserver](https://github.com/mikayla-maki/nuPHP)
+- [nuPHP](https://github.com/mikayla-maki/nuPHP): Nu personal homepage webserver
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
