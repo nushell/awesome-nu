@@ -37,6 +37,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_port_list](https://github.com/FMotalleb/nu_plugin_port_list): A nushell plugin to list all active connections.
 - [nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook): A nushell plugin to make and play sounds.
 - [nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications): A nushell plugin to send desktop notifications.
+- [nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard): A nushell plugin to copy text into clipboard or get text from it.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your currect version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
