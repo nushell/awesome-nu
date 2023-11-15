@@ -181,4 +181,14 @@ plugins:
     repository:
       url: https://github.com/FMotalleb/nu_plugin_clipboard
       branch: main
-
+  - name: nu_plugin_explore
+    language: rust-dev
+    repository:
+      url: https://github.com/amtoine/nu_plugin_explore
+      branch: main
+    override:
+      name: "[nu_plugin_explore](https://github.com/amtoine/nu_plugin_explore)"
+      version: "0.1.1"
+      description: "A fast structured data explorer for Nushell."
+      plugin: "0.87.0"
+      protocol: "0.87.0"
