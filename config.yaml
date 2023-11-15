@@ -181,3 +181,9 @@ plugins:
     repository:
       url: https://github.com/FMotalleb/nu_plugin_clipboard
       branch: main
+  - name: nu_plugin_explore
+    language: rust
+    repository:
+      url: https://github.com/amtoine/nu_plugin_explore
+      branch: main
+
