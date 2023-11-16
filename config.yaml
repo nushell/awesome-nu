@@ -188,3 +188,17 @@ plugins:
       branch: main
     override:
       description: "A fast structured data explorer for Nushell."
+
+
+# Example
+#  - name: nu_plugin_bin_reader # the plugins name (mandatory)
+#    language: python # programming language (mandatory)
+#    repository: # information of the repository (mandatory)
+#      url: https://github.com/WindSoilder/nu_plugin_bin_reader # address of the repository (mandatory) (only supports GitHub, GitLab, codeberg)
+#      branch: main # (mandatory)
+#    override: # override any field in the result record (do not use unless you have to `like the plugin is written in Python`)
+#      name: "[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)"
+#      version: "0.0.0"
+#      description: "A high level, general binary data reader."
+#      plugin: "0.0"
+#      protocol: "0.0"
