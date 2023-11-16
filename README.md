@@ -9,7 +9,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_query](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query): Query json, xml and web pages.
 - [nu_plugin_inc](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc): Plugin to increment semantic versioning strings.
 - [nu_plugin_gstat](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_gstat): Show the git working tree status.
-- [nu_plugin_net](https://crates.io/crates/nu_plugin_net): List network interfaces on any platform
+- [nu_plugin_net](https://crates.io/crates/nu_plugin_net): List network interfaces on any platform.
 - [nu_plugin_pnet](https://github.com/fdncred/nu_plugin_pnet): Same as above but named `pnet` as to not conflict with Windows `net` built-in.
 - [nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader): A high level, general binary data reader.
 - [nu_plugin_from_parquet](https://github.com/fdncred/nu_plugin_from_parquet): A plugin to parse parquet files into nushell data structures.
@@ -60,7 +60,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [math_functions](https://github.com/nushell/nu_scripts/blob/main/modules/maths/math_functions.nu): Math functions for doing things like `factorial`, `root`.
 - [wolframalpha](https://github.com/nushell/nu_scripts/blob/main/sourced/api_wrappers/wolframalpha.nu): WolframAlpha API wrapper.
 - [packer.nu](https://github.com/Jan9103/packer.nu): A packer.nvim inspired package-manager for NuShell.
-- [terraform-importer.nu](https://github.com/Yethal/terraform-importer): Automatically import resources into your Terraform state
+- [terraform-importer.nu](https://github.com/Yethal/terraform-importer): Automatically import resources into your Terraform state.
 
 ## Custom Completions
 You can find some examples about how to create and use custom completions in the [Nushell Custom Completions](https://www.nushell.sh/book/custom_completions.html) page.
@@ -77,19 +77,19 @@ Other tools that work with or within the nu language ecosystem.
 - [zoxide](https://github.com/ajeetdsouza/zoxide): A smarter cd command, inspired by z and autojump.
 - [oh-my-posh](https://ohmyposh.dev/docs/installation/prompt): A prompt theme engine for any shell.
 - [virtualenv](https://github.com/pypa/virtualenv): Provides support for creating lightweight Python "virtual environments".
-- [ansible](https://github.com/Yethal/ansible-role-nushell): Ansible role that installs nushell on your server
+- [ansible](https://github.com/Yethal/ansible-role-nushell): Ansible role that installs nushell on your server.
 - [github action](https://github.com/marketplace/actions/setup-nu): A GitHub action that runs nushell in your CI.
 - [nix flake](https://git.sr.ht/~mangoiv/nu-shell.nix): A [`nix`](https://nixos.org/) flake that outputs `nushell` packages, docs and tests as well as a `devShell` for developing `nushell`.
-- [atuin](https://github.com/ellie/atuin): 🐢 Magical shell history
+- [atuin](https://github.com/ellie/atuin): 🐢 Magical shell history.
 - [jc](https://github.com/kellyjonbrazil/jc): A collection of parsers for common unix tools that outputs JSON for easy import into nushell with `from json`.
 - [clap_complete_nushell](https://github.com/clap-rs/clap/tree/master/clap_complete_nushell): A way to generate completions for clap based CLIs.
-- [Nuenv](https://determinate.systems/posts/nuenv): An experimental Nushell environment for Nix
+- [Nuenv](https://determinate.systems/posts/nuenv): An experimental Nushell environment for Nix.
 - [Dorothy](https://github.com/bevry/dorothy): 🧙‍♀️ Bring your dotfile commands and configuration to any shell, including Nu, Fish, Zsh, Bash.
-- [bru](https://github.com/selfagency/bru): A Nushell wrapper for Homebrew
-- [nunvm](https://github.com/Yakiyo/nunvm): A cross-platform nvm clone written in nushell
-- [nu-stats](https://github.com/Nushell101/nu-stats): Nushell history tools
-- [Direnv](https://github.com/direnv/direnv/blob/master/docs/hook.md#nushell): unclutter your .profile
-- [nuPHP](https://github.com/mikayla-maki/nuPHP): Nu personal homepage webserver
+- [bru](https://github.com/selfagency/bru): A Nushell wrapper for Homebrew.
+- [nunvm](https://github.com/Yakiyo/nunvm): A cross-platform nvm clone written in nushell.
+- [nu-stats](https://github.com/Nushell101/nu-stats): Nushell history tools.
+- [Direnv](https://github.com/direnv/direnv/blob/master/docs/hook.md#nushell): unclutter your .profile.
+- [nuPHP](https://github.com/mikayla-maki/nuPHP): Nu personal homepage webserver.
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
@@ -106,4 +106,4 @@ Plugins and Extensions that you can use in other text editors
 
 ## Reedline Integrations
 Applications that have done a nice job using [reedline](https://github.com/nushell/reedline)
-- [Glaredb](https://github.com/GlareDB/glaredb): An analytics DBMS for distributed data
+- [Glaredb](https://github.com/GlareDB/glaredb): An analytics DBMS for distributed data.
