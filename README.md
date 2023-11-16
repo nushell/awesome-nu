@@ -39,7 +39,14 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications): A nushell plugin to send desktop notifications.
 - [nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard): A nushell plugin to copy text into clipboard or get text from it.
 
-> If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your currect version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
+> If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your current version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
+
+> To check the Nushell compatibility of each plugin you can check the [plugin_details.md](https://github.com/nushell/awesome-nu/blob/main/plugin_details.md)
+>>  * ✅ it uses the latest version
+>>  * ⚠️ it does not use the latest version but it may work
+>>  * ⛔ plugin uses a deprecated API (cannot be compiled) or deprecated signature (Nushell cannot interact with them)
+
+> In order to add your own plugin please fork this repository and add it to the list above and the list of plugins in [config.yaml](https://github.com/nushell/awesome-nu/blob/main/config.yaml) and then send a Pull Request.
 
 ## Scripts
 You can find some examples about how to create and use scripts in the [Nushell Scripts](https://www.nushell.sh/book/scripts.html) page.
