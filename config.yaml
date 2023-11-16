@@ -1,0 +1,204 @@
+core:
+  minimum_plugin: "0.60.0"
+  minimum_protocol: "0.60.0"
+  plugin_repository: https://github.com/nushell/nushell/tree/main/crates/nu-plugin
+  protocol_repository: https://github.com/nushell/nushell/tree/main/crates/nu-protocol
+
+plugins:
+  - name: nu_plugin_periodic_table
+    language: rust
+    repository:
+      url: https://github.com/JosephTLyons/nu_plugin_periodic_table
+      branch: master
+  - name: nu_plugin_query
+    language: rust
+    repository:
+      url: https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query
+      branch: main
+  - name: nu_plugin_inc
+    language: rust
+    repository:
+      url: https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc
+      branch: main
+  - name: nu_plugin_gstat
+    language: rust
+    repository:
+      url: https://github.com/nushell/nushell/tree/main/crates/nu_plugin_gstat
+      branch: main
+  - name: nu_plugin_net
+    language: rust
+    repository:
+      url: https://github.com/fennewald/nu_plugin_net
+      branch: main
+  - name: nu_plugin_pnet
+    language: rust
+    repository:
+      url: https://github.com/fdncred/nu_plugin_pnet
+      branch: main
+  - name: nu_plugin_bin_reader
+    language: python
+    repository:
+      url: https://github.com/WindSoilder/nu_plugin_bin_reader
+      branch: main
+    override:
+      name: "[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)"
+      version: "0.0.0"
+      description: "A high level, general binary data reader."
+      plugin: "0.0"
+      protocol: "0.0"
+  - name: nu_plugin_from_parquet
+    language: rust
+    repository:
+      url: https://github.com/fdncred/nu_plugin_from_parquet
+      branch: main
+  - name: nu_plugin_bio
+    language: rust
+    repository:
+      url: https://github.com/Euphrasiologist/nu_plugin_bio
+      branch: main
+  - name: nu_plugin_regex
+    language: rust
+    repository:
+      url: https://github.com/fdncred/nu_plugin_regex
+      branch: main
+  - name: nu_plugin_template
+    language: rust
+    repository:
+      url: https://github.com/fdncred/nu_plugin_template
+      branch: main
+    override:
+      name: "[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)"
+      description: A `cargo-generate` template for making it easier to create nushell plugins.
+  - name: nu_plugin_plist
+    language: rust
+    repository:
+      url: https://github.com/ayax79/nu_plugin_plist
+      branch: main
+  - name: nu_plugin_plot
+    language: rust
+    repository:
+      url: https://github.com/Euphrasiologist/nu_plugin_plot
+      branch: main
+  - name: nu_plugin_from_hdf5
+    language: rust
+    repository:
+      url: https://github.com/Berrysoft/nu_plugin_from_hdf5
+      branch: master
+    override:
+      description: A plugin to parse HDF5 files into nushell record.
+  - name: nu_plugin_from_beancount
+    language: rust
+    repository:
+      url: https://github.com/jcornaz/nu_plugin_from_beancount
+      branch: main
+  - name: nu_plugin_from_bencode
+    language: rust
+    repository:
+      url: https://github.com/bluk/nu_plugin_from_bencode
+      branch: trunk
+  - name: nu_plugin_dialog
+    language: rust
+    repository:
+      url: https://github.com/Trivernis/nu-plugin-dialog
+      branch: main
+  - name: nu_plugin_formats
+    language: rust
+    repository:
+      url: https://github.com/nushell/nushell/tree/main/crates/nu_plugin_formats
+      branch: main
+  - name: nu_plugin_dcm
+    language: rust
+    repository:
+      url: https://github.com/realcundo/nu_plugin_dcm
+      branch: master
+  - name: nu_plugin_hcl
+    language: rust
+    repository:
+      url: https://github.com/Yethal/nu_plugin_hcl
+      branch: main
+  - name: nu_plugin_json_path
+    language: rust
+    repository:
+      url: https://github.com/fdncred/nu_plugin_json_path
+      branch: main
+  - name: nu_plugin_str_similarity
+    language: rust
+    repository:
+      url: https://github.com/fdncred/nu_plugin_str_similarity
+      branch: main
+  - name: nu_plugin_bexpand
+    language: rust
+    repository:
+      url: https://codeberg.org/Taywee/nu-plugin-bexpand
+      branch: main
+  - name: nu_plugin_highlight
+    language: rust
+    repository:
+      url: https://github.com/cptpiepmatz/nu-plugin-highlight
+      branch: main
+  - name: nu_plugin_emoji
+    language: rust
+    repository:
+      url: https://github.com/fdncred/nu_plugin_emoji
+      branch: main
+  - name: nu_plugin_kdl
+    language: rust
+    repository:
+      url: https://github.com/amtoine/nu_plugin_kdl
+      branch: main
+  - name: nu_plugin_file
+    language: rust
+    repository:
+      url: https://github.com/fdncred/nu_plugin_file
+      branch: main
+  - name: nu_plugin_dns
+    language: rust
+    repository:
+      url: https://github.com/dead10ck/nu_plugin_dns
+      branch: main
+  - name: nu_plugin_port_scan
+    language: rust
+    repository:
+      url: https://github.com/FMotalleb/nu_plugin_port_scan
+      branch: main
+  - name: nu_plugin_port_list
+    language: rust
+    repository:
+      url: https://github.com/FMotalleb/nu_plugin_port_list
+      branch: main
+  - name: nu_plugin_audio_hook
+    language: rust
+    repository:
+      url: https://github.com/FMotalleb/nu_plugin_audio_hook
+      branch: main
+  - name: nu_plugin_desktop_notifications
+    language: rust
+    repository:
+      url: https://github.com/FMotalleb/nu_plugin_desktop_notifications
+      branch: main
+  - name: nu_plugin_clipboard
+    language: rust
+    repository:
+      url: https://github.com/FMotalleb/nu_plugin_clipboard
+      branch: main
+  - name: nu_plugin_explore
+    language: rust
+    repository:
+      url: https://github.com/amtoine/nu_plugin_explore
+      branch: main
+    override:
+      description: "A fast structured data explorer for Nushell."
+
+
+# Example
+#  - name: nu_plugin_bin_reader # the plugins name (mandatory)
+#    language: python # programming language (mandatory)
+#    repository: # information of the repository (mandatory)
+#      url: https://github.com/WindSoilder/nu_plugin_bin_reader # address of the repository (mandatory) (only supports GitHub, GitLab, codeberg)
+#      branch: main # (mandatory)
+#    override: # override any field in the result record (do not use unless you have to `like the plugin is written in Python`)
+#      name: "[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)"
+#      version: "0.0.0"
+#      description: "A high level, general binary data reader."
+#      plugin: "0.0"
+#      protocol: "0.0"
