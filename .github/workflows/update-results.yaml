@@ -1,7 +1,7 @@
 on:
-  push:
-    branches: 
-      - main
+  # push:
+  #  branches: 
+  #    - main
   schedule:
     - cron: '0 3 * * 3' # every 6 hours
 
