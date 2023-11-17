@@ -1,6 +1,8 @@
 # awesome-nu
 A curated list of awesome tools that work within the nu language ecosystem e.g. nushell, scripts, nana, etc. Feel free to raise a PR with your very cool script, plugin or custom completion 🚀.
 
+If you are looking for interesting blog posts, media attention or youtube videos on nushell please checkout our [Showcase](https://github.com/nushell/showcase) !
+
 ---
 
 ## Plugins
