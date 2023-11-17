@@ -35,4 +35,4 @@
 |[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.2.0|A nushell plugin to copy text into clipboard or get text from it.|✅0.87.0|✅0.87.0|
 |[nu_plugin_explore](https://github.com/amtoine/nu_plugin_explore)|0.1.1|A fast structured data explorer for Nushell.|✅0.87.0|✅0.87.0|
 
-last update at `2023-11-17 12:34:58 +00:00`
+last update at `2023-11-17 16:54:50 +00:00`
