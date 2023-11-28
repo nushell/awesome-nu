@@ -188,6 +188,12 @@ plugins:
       branch: main
     override:
       description: "A fast structured data explorer for Nushell."
+  - name: nu_plugin_qr_maker
+    language: rust
+    repository:
+      url: https://github.com/FMotalleb/nu_plugin_qr_maker
+      branch: main
+
 
 
 # Example
