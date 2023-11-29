@@ -12,7 +12,7 @@
 |[nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex)|0.1.1|nu plugin to search text with regex|✅0.87.1|✅0.87.1|
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0.2|A `cargo-generate` template for making it easier to create nushell plugins.|⚠️0.80.0|⚠️0.80.0|
 |[nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist)|0.1.6|Plist parsing for nushell|⚠️^0.83|⚠️^0.83|
-|[nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot)|0.76.0|Plot graphs in nushell using numerical lists.|⚠️0.84.0|⚠️0.84.0|
+|[nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot)|0.76.0|Plot graphs in nushell using numerical lists.|✅0.87.1|✅0.87.1|
 |[nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5)|0.1.0|A plugin to parse HDF5 files into nushell record.|✅0.87|✅0.87|
 |[nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount)|2.0.0|A nushell extension to load a beancount file into nu structured data|⚠️0.83.0|⚠️0.83.0|
 |[nu_plugin_from_bencode](https://github.com/bluk/nu_plugin_from_bencode)|0.8.1|A Nushell plugin to convert bencode data into Nu structured values.|✅0.87.1|✅0.87.1|
@@ -28,11 +28,12 @@
 |[nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl)|0.83.2|Add support for the KDL data format to Nushell.|⚠️0.83.2|⚠️0.83.2|
 |[nu_plugin_file](https://github.com/fdncred/nu_plugin_file)|0.1.0|a nushell plugin called file|✅0.87.1|✅0.87.1|
 |[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|1.0.4-alpha.1|A DNS utility for nushell|⚠️0.86.0|⚠️0.86.0|
-|[nu_plugin_port_scan](https://github.com/FMotalleb/nu_plugin_port_scan)|1.0.3|A nushell plugin for scanning ports on a target|✅0.87.0|✅0.87.0|
-|[nu_plugin_port_list](https://github.com/FMotalleb/nu_plugin_port_list)|1.2.2|A nushell plugin to list all active connections|✅0.87.0|✅0.87.0|
-|[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.1.4|A nushell plugin to make and play sounds|✅0.87.0|✅0.87.0|
-|[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|1.0.1|A nushell plugin to send desktop notifications|✅0.87.0|✅0.87.0|
-|[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.3.0|A nushell plugin to copy text into clipboard or get text from it.|✅0.87.0|✅0.87.0|
+|[nu_plugin_port_scan](https://github.com/FMotalleb/nu_plugin_port_scan)|1.0.4|A nushell plugin for scanning ports on a target|✅0.87.1|✅0.87.1|
+|[nu_plugin_port_list](https://github.com/FMotalleb/nu_plugin_port_list)|1.2.4|A nushell plugin to list all active connections|✅0.87.1|✅0.87.1|
+|[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.1.6|A nushell plugin to make and play sounds|✅0.87.1|✅0.87.1|
+|[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|1.0.3|A nushell plugin to send desktop notifications|✅0.87.1|✅0.87.1|
+|[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.3.1|A nushell plugin to copy text into clipboard or get text from it.|✅0.87.1|✅0.87.1|
 |[nu_plugin_explore](https://github.com/amtoine/nu_plugin_explore)|0.1.1|A fast structured data explorer for Nushell.|✅0.87.0|✅0.87.0|
+|[nu_plugin_qr_maker](https://github.com/FMotalleb/nu_plugin_qr_maker)|1.0.0|A nushell plugin to create qr code in terminal|✅0.87.1|✅0.87.1|
 
-last update at `2023-11-22 03:10:11 +00:00`
+last update at `2023-11-29 03:09:39 +00:00`
