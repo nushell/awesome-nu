@@ -3,7 +3,7 @@ on:
   #  branches: 
   #    - main
   schedule:
-    - cron: '0 3 * * 3' # every 6 hours
+    - cron: '0 3 * * 3' # At 03:00 on Wednesday
 
 name: Update plugin_details.md
 
