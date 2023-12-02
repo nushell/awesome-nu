@@ -193,7 +193,11 @@ plugins:
     repository:
       url: https://github.com/FMotalleb/nu_plugin_qr_maker
       branch: main
-
+  - name: nu_plugin_msgpack
+    language: rust
+    repository:
+      url: https://github.com/hulthe/nu_plugin_msgpack
+      branch: main
 
 
 # Example
