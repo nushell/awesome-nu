@@ -30,6 +30,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_json_path](https://github.com/fdncred/nu_plugin_json_path): A nushell plugin for parsing json that uses the json path specification.
 - [nu_plugin_str_similarity](https://github.com/fdncred/nu_plugin_str_similarity): A nushell plugin that helps you calculate the edit distance between two strings using a variety of algorithms.
 - [nu_plugin_bexpand](https://codeberg.org/Taywee/nu-plugin-bexpand): Bash style brace expansion for nushell.
+- [nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env): A Bash environment plugin for nushell
 - [nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight): 🌈 A nushell plugin for syntax highlighting.
 - [nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji): A nushell plugin that makes finding and printing emojis easy in nushell.
 - [nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl): A plugin to add KDL support to Nushell.
