@@ -131,6 +131,11 @@ plugins:
     repository:
       url: https://codeberg.org/Taywee/nu-plugin-bexpand
       branch: main
+  - name: nu_plugin_bash_env
+    language: bash
+    repository:
+      url: https://github.com/tesujimath/nu_plugin_bash_env
+      branch: main
   - name: nu_plugin_highlight
     language: rust
     repository:
