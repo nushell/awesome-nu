@@ -197,7 +197,7 @@ plugins:
     language: rust
     repository:
       url: https://github.com/hulthe/nu_plugin_msgpack
-      branch: main
+      branch: master
   - name: nu_plugin_bash_env
     language: bash
     repository:
