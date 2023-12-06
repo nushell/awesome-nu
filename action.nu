@@ -209,6 +209,9 @@ export module plugin-list {
     ]: record -> record {
         let input = $in
         use version "compare to"
+        if ($input | is-empty) {
+            return $input
+        }
         if ((($input.plugin | compare to $min_plugin) == -1) or ($input.protocol | compare to $min_protocol) == -1) {
             return ($input 
                 | upsert plugin $"⛔($input.plugin)"
