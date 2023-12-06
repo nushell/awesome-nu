@@ -202,7 +202,7 @@ plugins:
     language: bash
     repository:
       url: https://github.com/tesujimath/nu_plugin_bash_env
-      branch: main
+      branch: master
     override: # override any field in the result record (do not use unless you have to `like the plugin is written in Python`)
       name: "[nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env)"
       version: "0.0.0"
