@@ -135,7 +135,11 @@ export module plugin-list {
     ]: string -> record {
         let git_repo = $in # github repository url (e.g. https://github.com/FMotalleb/nu_plugin_port_scan)
         let toml_file_address: string = (get-raw-toml-address $git_repo $branch | url join)
-        return (http get --raw $toml_file_address | from toml) 
+        try {
+            return (http get --raw $toml_file_address | from toml) 
+        } catch {
+            return {}
+        }
     }
 
     # checks if given input is string or not
@@ -160,15 +164,26 @@ export module plugin-list {
         repository: string
     ]: record -> record {
         let toml: record = $in
-        return {
-            name: $"[($toml.package.name)]\(($repository)\)" 
-            version: $toml.package.version
-            description: $toml.package.description?
-            plugin: ($toml.dependencies.nu-plugin 
-                | get self or version)
-            protocol: ($toml.dependencies.nu-protocol 
-                | get self or version)
+        if ([$toml.package?, $toml.dependencies?] | all {|i| $i != null}  ) {
+            return {
+                name: $"[($toml.package.name)]\(($repository)\)" 
+                version: $toml.package.version
+                description: $toml.package.description?
+                plugin: ($toml.dependencies.nu-plugin 
+                    | get self or version)
+                protocol: ($toml.dependencies.nu-protocol 
+                    | get self or version)
+            }
+        } else {
+            return {
+                name: $"issue in config file for \(($repository)\)" 
+                version: "0.0"
+                description: ""
+                plugin: "0.0"
+                protocol: "0.0"
+            }
         }
+        
     }
  
     def "get icon" []: int -> string {
@@ -194,6 +209,9 @@ export module plugin-list {
     ]: record -> record {
         let input = $in
         use version "compare to"
+        if ($input | is-empty) {
+            return $input
+        }
         if ((($input.plugin | compare to $min_plugin) == -1) or ($input.protocol | compare to $min_protocol) == -1) {
             return ($input 
                 | upsert plugin $"⛔($input.plugin)"
