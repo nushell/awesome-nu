@@ -44,6 +44,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack): Nushell plugin for converting to and from msgpack.
 - [nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env): A Bash environment plugin for nushell.
 - [nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units): A Nushell plugin for easily converting between common units.
+- [nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image): A nushell plugin to open png images in the shell and save ansi string as images.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your current version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
