@@ -209,20 +209,25 @@ export module plugin-list {
     ]: record -> record {
         let input = $in
         use version "compare to"
-        if ($input | is-empty) {
-            return $input
-        }
-        if ((($input.plugin | compare to $min_plugin) == -1) or ($input.protocol | compare to $min_protocol) == -1) {
-            return ($input 
-                | upsert plugin $"⛔($input.plugin)"
-                | upsert protocol $"⛔($input.protocol)"
-                )
+        match [$input.plugin?, $input.protocol?,] {
+            [$plugin_version,$protocol_version] if ($plugin_version != null and $protocol_version != null) => {
+                if ((($plugin_version | compare to $min_plugin) == -1) or ($protocol_version | compare to $min_protocol) == -1) {
+                    return ($input 
+                        | upsert plugin $"⛔($plugin_version)"
+                        | upsert protocol $"⛔($protocol_version)"
+                        )
+                }
+
+                return ($input 
+                    | upsert plugin $"($plugin_version | compare to $plugin | get icon)($plugin_version)"
+                    | upsert protocol $"($protocol_version | compare to $protocol | get icon)($protocol_version)"
+                    )
+            }
+            _ => {
+                return $input
+            }
         }
         
-        return ($input 
-            | upsert plugin $"($input.plugin | compare to $plugin | get icon)($input.plugin)"
-            | upsert protocol $"($input.protocol | compare to $protocol | get icon)($input.protocol)"
-            )
     }
 
     # crete a table entry from given plugin record
@@ -241,8 +246,16 @@ export module plugin-list {
     # creates a table of plugins from given plugin list yaml file
     export def create-table [] : record -> table {
         let config: record = $in
-        let plugin_version = ($config.core.plugin_repository | get-toml main | get package.version | get self or version)
-        let protocol_version = ($config.core.protocol_repository | get-toml main | get package.version | get self or version)
+        let plugin_version = ($config.core.plugin_repository
+            | get-toml main
+            | get package.version
+            | get self or version)
+
+        let protocol_version = ($config.core.protocol_repository
+            | get-toml main
+            | get package.version 
+            | get self or version)
+
         let result = $config.plugins 
             | par-each { |i| $i 
                 | make entry
