@@ -16,6 +16,7 @@ jobs:
             uses: hustcer/setup-nu@v3.8
             with:
               version: 0.87.0
+              token: ${{ secrets.GITHUB_TOKEN }}
         -   uses: actions/checkout@v2
         -   name: Update plugin list
             shell: nu {0}
