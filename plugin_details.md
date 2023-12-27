@@ -38,6 +38,6 @@
 |[nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack)|0.1.0||⚠️0.87.1|⚠️0.87.1|
 |[nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env)|0.0.0|A Bash environment plugin for Nushell.|⚠️0.87|⚠️0.87|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.0|A Nushell plugin for easily converting between common units|⚠️0.86.0|⚠️0.86.0|
-|[nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image)|0.2.1|A nushell plugin to open png images in the shell and save ansi string as images (like tables or ...)|✅0.88.1|✅0.88.1|
+|[nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image)|0.3.0|A nushell plugin to open png images in the shell and save ansi string as images (like tables or ...)|✅0.88.1|✅0.88.1|
 
-last update at `2023-12-20 03:08:10 +00:00`
+last update at `2023-12-27 03:10:04 +00:00`
