@@ -219,6 +219,11 @@ plugins:
     repository:
       url: https://github.com/FMotalleb/nu_plugin_image
       branch: main
+  - name: nu_plugin_semver
+    language: rust
+    repository:
+      url: https://github.com/abusch/nu_plugin_semver
+      branch: main
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
 #    language: python # programming language (mandatory)
