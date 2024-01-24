@@ -13,7 +13,7 @@
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0.2|A `cargo-generate` template for making it easier to create nushell plugins.|⚠️0.80.0|⚠️0.80.0|
 |[nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist)|0.1.6|Plist parsing for nushell|⚠️^0.83|⚠️^0.83|
 |[nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot)|0.76.0|Plot graphs in nushell using numerical lists.|⚠️0.87.1|⚠️0.87.1|
-|[nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5)|0.1.0|A plugin to parse HDF5 files into nushell record.|⚠️0.87|⚠️0.87|
+|[nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5)|0.1.0|A plugin to parse HDF5 files into nushell record.|✅0.89|✅0.89|
 |[nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount)|2.0.0|A nushell extension to load a beancount file into nu structured data|⚠️0.84.0|⚠️0.84.0|
 |[nu_plugin_from_bencode](https://github.com/bluk/nu_plugin_from_bencode)|0.9.0|A Nushell plugin to convert bencode data into Nu structured values.|✅0.89.0|✅0.89.0|
 |[nu_plugin_dialog](https://github.com/Trivernis/nu-plugin-dialog)|0.2.0|A nushell plugin for user interaction|⚠️0.78.0|⚠️0.78.0|
@@ -41,4 +41,4 @@
 |[nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image)|0.3.1|A nushell plugin to open png images in the shell and save ansi string as images (like tables or ...)|✅0.89.0|✅0.89.0|
 |[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.1.0|A nushell plugin for dealing with SemVer versions|✅0.89.0|✅0.89.0|
 
-last update at `2024-01-17 03:10:17 +00:00`
+last update at `2024-01-24 03:10:05 +00:00`
