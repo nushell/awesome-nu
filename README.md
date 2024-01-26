@@ -70,6 +70,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [packer.nu](https://github.com/Jan9103/packer.nu): A packer.nvim inspired package-manager for NuShell.
 - [terraform-importer.nu](https://github.com/Yethal/terraform-importer): Automatically import resources into your Terraform state.
 - [npup.nu](https://github.com/fj0r/npup): Puppet based on nushell.
+- [comma.nu](https://github.com/fj0r/comma.nu): Task and test runner of nu script.
 
 ## Custom Completions
 You can find some examples about how to create and use custom completions in the [Nushell Custom Completions](https://www.nushell.sh/book/custom_completions.html) page.
