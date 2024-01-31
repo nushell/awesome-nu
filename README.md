@@ -46,6 +46,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units): A Nushell plugin for easily converting between common units.
 - [nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image): A nushell plugin to open png images in the shell and save ansi string as images.
 - [nu_plugin_semver](https://github.com/abusch/nu_plugin_semver): A Nushell plugin to manipulate SemVer versions.
+- [nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus): Nushell plugin for interacting with D-Bus.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your current version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
