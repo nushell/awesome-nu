@@ -27,7 +27,7 @@
 |[nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji)|0.1.0|a nushell plugin called emoji|✅0.89.1|✅0.89.1|
 |[nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl)|0.83.2|Add support for the KDL data format to Nushell.|⚠️0.83.2|⚠️0.83.2|
 |[nu_plugin_file](https://github.com/fdncred/nu_plugin_file)|0.2.0|a nushell plugin called file|✅0.89.1|✅0.89.1|
-|[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|1.0.4-alpha.1|A DNS utility for nushell|⚠️0.86.0|⚠️0.86.0|
+|[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|1.0.5-alpha.1|A DNS utility for nushell|✅0.89.0|✅0.89.0|
 |[nu_plugin_port_scan](https://github.com/FMotalleb/nu_plugin_port_scan)|1.0.9|A nushell plugin for scanning ports on a target|✅0.89.0|✅0.89.0|
 |[nu_plugin_port_list](https://github.com/FMotalleb/nu_plugin_port_list)|1.2.9|A nushell plugin to list all active connections|✅0.89.0|✅0.89.0|
 |[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.1.11|A nushell plugin to make and play sounds|✅0.89.0|✅0.89.0|
@@ -41,4 +41,4 @@
 |[nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image)|0.3.1|A nushell plugin to open png images in the shell and save ansi string as images (like tables or ...)|✅0.89.0|✅0.89.0|
 |[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.1.0|A nushell plugin for dealing with SemVer versions|✅0.89.0|✅0.89.0|
 
-last update at `2024-01-24 03:10:05 +00:00`
+last update at `2024-01-31 03:09:11 +00:00`
