@@ -228,7 +228,13 @@ plugins:
     language: rust
     repository:
       url: https://github.com/devyn/nu_plugin_dbus
-      branch: main      
+      branch: main
+  - name: nu_plugin_dpkgtable
+    language: rust
+    repository:
+        url: https://github.com/pdenapo/nu_plugin_dpkgtable.git
+        branch: main
+      
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
 #    language: python # programming language (mandatory)
