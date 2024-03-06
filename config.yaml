@@ -234,6 +234,11 @@ plugins:
     repository:
         url: https://github.com/pdenapo/nu_plugin_dpkgtable.git
         branch: main
+  - name: nu_plugin_from_sse
+    language: rust
+    repository:
+      url: https://github.com/cablehead/nu_plugin_from_sse
+      branch: main
       
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
