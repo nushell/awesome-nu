@@ -103,6 +103,7 @@ Other tools that work with or within the nu language ecosystem.
 - [nu-stats](https://github.com/Nushell101/nu-stats): Nushell history tools.
 - [Direnv](https://github.com/direnv/direnv/blob/master/docs/hook.md#nushell): unclutter your .profile.
 - [nuPHP](https://github.com/mikayla-maki/nuPHP): Nu personal homepage webserver.
+- [broot](https://github.com/Canop/broot): A new way to see and navigate directory trees.
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
