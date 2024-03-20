@@ -10,7 +10,7 @@
 |[nu_plugin_from_parquet](https://github.com/fdncred/nu_plugin_from_parquet)|0.4.0|nu plugin to add parquet support|✅0.91.1|✅0.91.1|
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.85.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.85.0|⚠️0.85.0|
 |[nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex)|0.4.0|nu plugin to search text with regex|✅0.91.1|✅0.91.1|
-|[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0.2|A `cargo-generate` template for making it easier to create nushell plugins.|⚠️0.80.0|⚠️0.80.0|
+|[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist)|0.91.0|Plist parsing for nushell|✅0.91|✅0.91|
 |[nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot)|0.91.1|Plot graphs in nushell using numerical lists.|✅0.91.0|✅0.91.0|
 |[nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5)|0.1.0|A plugin to parse HDF5 files into nushell record.|⚠️0.89|⚠️0.89|
@@ -44,4 +44,4 @@
 |issue in config file for (https://github.com/pdenapo/nu_plugin_dpkgtable.git)|0.0||⛔0.0|⛔0.0|
 |[nu_plugin_from_sse](https://github.com/cablehead/nu_plugin_from_sse)|0.1.0|Nushell plugin to convert a HTTP server sent event stream to structured data|✅0.91|✅0.91|
 
-last update at `2024-03-13 03:10:53 +00:00`
+last update at `2024-03-20 03:10:37 +00:00`
