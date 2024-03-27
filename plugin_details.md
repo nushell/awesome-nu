@@ -29,12 +29,12 @@
 |[nu_plugin_file](https://github.com/fdncred/nu_plugin_file)|0.4.0|a nushell plugin called file|✅0.91.1|✅0.91.1|
 |[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|2.0.1-alpha.1|A DNS utility for nushell|✅0.91.0|✅0.91.0|
 |[nu_plugin_port_scan](https://github.com/FMotalleb/nu_plugin_port_scan)|1.0.11|A nushell plugin for scanning ports on a target|✅0.91.0|✅0.91.0|
-|[nu_plugin_port_list](https://github.com/FMotalleb/nu_plugin_port_list)|1.2.11|A nushell plugin to list all active connections|✅0.91.0|✅0.91.0|
+|[nu_plugin_port_list](https://github.com/FMotalleb/nu_plugin_port_list)|1.2.12|A nushell plugin to list all active connections|✅0.91.0|✅0.91.0|
 |[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.1.12|A nushell plugin to make and play sounds|⚠️0.90.1|⚠️0.90.1|
-|[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|1.0.8|A nushell plugin to send desktop notifications|⚠️0.90.1|⚠️0.90.1|
+|[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|1.0.9|A nushell plugin to send desktop notifications|✅0.91.0|✅0.91.0|
 |[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.91.0|A nushell plugin to copy text into clipboard or get text from it.|✅0.91.0|✅0.91.0|
 |[nu_plugin_explore](https://github.com/amtoine/nu_plugin_explore)|0.2.0|A fast structured data explorer for Nushell.|✅0.91.0|✅0.91.0|
-|[nu_plugin_qr_maker](https://github.com/FMotalleb/nu_plugin_qr_maker)|1.0.3|A nushell plugin to create qr code in terminal|⚠️0.90.1|⚠️0.90.1|
+|[nu_plugin_qr_maker](https://github.com/FMotalleb/nu_plugin_qr_maker)|1.0.4|A nushell plugin to create qr code in terminal|✅0.91.0|✅0.91.0|
 |[nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack)|0.90.1|Commands to convert nushell data to and from MsgPack|⚠️0.90.1|⚠️0.90.1|
 |[nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env)|0.0.0|A Bash environment plugin for Nushell.|⚠️0.87|⚠️0.87|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.0|A Nushell plugin for easily converting between common units|⚠️0.86.0|⚠️0.86.0|
@@ -44,4 +44,4 @@
 |issue in config file for (https://github.com/pdenapo/nu_plugin_dpkgtable.git)|0.0||⛔0.0|⛔0.0|
 |[nu_plugin_from_sse](https://github.com/cablehead/nu_plugin_from_sse)|0.1.0|Nushell plugin to convert a HTTP server sent event stream to structured data|✅0.91|✅0.91|
 
-last update at `2024-03-20 03:10:37 +00:00`
+last update at `2024-03-27 03:09:34 +00:00`
