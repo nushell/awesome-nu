@@ -133,7 +133,8 @@ export module plugin-list {
     def "get-toml" [
         branch: string # branch name (e.g. main)
     ]: string -> record {
-        let git_repo = $in # github repository url (e.g. https://github.com/FMotalleb/nu_plugin_port_scan)
+        let git_repo = ($in | str replace ".git" "") # github repository url (e.g. https://github.com/FMotalleb/nu_plugin_port_scan)
+
         let toml_file_address: string = (get-raw-toml-address $git_repo $branch | url join)
         try {
             return (http get --raw $toml_file_address | from toml) 
@@ -167,7 +168,7 @@ export module plugin-list {
         repository: string
     ]: record -> record {
         let toml: record = $in
-        if ([$toml.package?, $toml.dependencies?] | all {|i| $i != null}  ) {
+        if ([$toml.package?, $toml.dependencies?] | all {|i| $i != null}) {
             return {
                 name: $"[($toml.package.name)]\(($repository)\)" 
                 version: $toml.package.version
