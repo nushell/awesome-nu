@@ -151,8 +151,11 @@ export module plugin-list {
     # TODO handle error
     def "get self or version" []: record -> string , string -> string {
         let input = $in
+        
         if ($input | is-str) {
             return $input;
+        } else if ($input.version? | is-empty) {
+            return "0.0.0"
         } else {
             return $input.version
         }
