@@ -133,8 +133,7 @@ export module plugin-list {
     def "get-toml" [
         branch: string # branch name (e.g. main)
     ]: string -> record {
-        let git_repo = ($in | str replace ".git" "") # github repository url (e.g. https://github.com/FMotalleb/nu_plugin_port_scan)
-
+        let git_repo = ($in |  str replace --regex ".git$" "") # github repository url (e.g. https://github.com/FMotalleb/nu_plugin_port_scan)
         let toml_file_address: string = (get-raw-toml-address $git_repo $branch | url join)
         try {
             return (http get --raw $toml_file_address | from toml) 
