@@ -43,5 +43,6 @@
 |[nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus)|0.6.0|Nushell plugin for communicating with D-Bus|✅0.93.0|✅0.93.0|
 |[nu_plugin_dpkgtable](https://github.com/pdenapo/nu_plugin_dpkgtable)|0.1.0||⚠️0.91.0|⚠️0.91.0|
 |[nu_plugin_from_sse](https://github.com/cablehead/nu_plugin_from_sse)|0.2.0|Nushell plugin to convert a HTTP server sent event stream to structured data|⛔0.0.0|⛔0.0.0|
+|[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.3.0|A nushell plugin that adds various ulid commands|✅0.93.0|✅0.93.0|
 
-last update at `2024-05-15 03:12:28 +00:00`
+last update at `2024-05-16 11:42:54 +00:00`
