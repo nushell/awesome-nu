@@ -239,6 +239,11 @@ plugins:
     repository:
       url: https://github.com/cablehead/nu_plugin_from_sse
       branch: main
+  - name: nu_plugin_ulid
+    language: rust
+    repository:
+      url: https://github.com/lizclipse/nu_plugin_ulid
+      branch: master      
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
 #    language: python # programming language (mandatory)
