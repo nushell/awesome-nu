@@ -244,6 +244,11 @@ plugins:
     repository:
       url: https://github.com/lizclipse/nu_plugin_ulid
       branch: master      
+  - name: nu_plugin_hmac
+    language: rust
+    repository:
+      url: https://github.com/fnuttens/nu_plugin_hmac
+      branch: main
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
 #    language: python # programming language (mandatory)
