@@ -40,9 +40,10 @@
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.0|A Nushell plugin for easily converting between common units|⚠️0.86.0|⚠️0.86.0|
 |[nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image)|0.5.1|A nushell plugin to open png images in the shell and save ansi string as images (like tables or ...)|✅0.93.0|✅0.93.0|
 |[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.3.0|A nushell plugin for dealing with SemVer versions|✅0.93.0|✅0.93.0|
-|[nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus)|0.6.0|Nushell plugin for communicating with D-Bus|✅0.93.0|✅0.93.0|
+|[nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus)|0.6.1|Nushell plugin for communicating with D-Bus|✅0.93.0|✅0.93.0|
 |[nu_plugin_dpkgtable](https://github.com/pdenapo/nu_plugin_dpkgtable)|0.1.0||⚠️0.91.0|⚠️0.91.0|
 |[nu_plugin_from_sse](https://github.com/cablehead/nu_plugin_from_sse)|0.2.0|Nushell plugin to convert a HTTP server sent event stream to structured data|⛔0.0.0|⛔0.0.0|
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.3.0|A nushell plugin that adds various ulid commands|✅0.93.0|✅0.93.0|
+|[nu_plugin_hmac](https://github.com/fnuttens/nu_plugin_hmac)|0.5.0||✅0.93.0|✅0.93.0|
 
-last update at `2024-05-16 11:42:54 +00:00`
+last update at `2024-05-22 03:12:06 +00:00`
