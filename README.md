@@ -109,6 +109,7 @@ Other tools that work with or within the nu language ecosystem.
 - [broot](https://github.com/Canop/broot): A new way to see and navigate directory trees.
 - [nur](https://github.com/ddanier/nur): A taskrunner based on nu shell.
 - [pspg](https://github.com/okbob/pspg): A postgres pager that integrates in nushell.
+- [mise](https://mise.jdx.dev/): A development environment setup tool (dev tools, env vars, task runner) that integrates with Nushell.
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
