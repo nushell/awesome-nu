@@ -269,6 +269,7 @@ export module plugin-list {
                 }
                 | set status $plugin_version $protocol_version $config.core.minimum_plugin $config.core.minimum_protocol
             } 
+            | sort-by name
         return $result
     }
 
