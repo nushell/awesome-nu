@@ -51,6 +51,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_from_sse](https://github.com/cablehead/nu_plugin_from_sse): Nushell plugin to parse a stream of HTTP server sent events.
 - [nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid): A nushell plugin that adds various ulid commands.
 - [nu_plugit_hmac](https://github.com/fnuttens/nu_plugin_hmac): HMAC sealing for nushell.
+- [nu_plugin_prometheus](https://github.com/drbrain/nu_plugin_prometheus): Prometheus querying for nushell.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your current version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
