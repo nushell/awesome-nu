@@ -7,51 +7,51 @@ If you are looking for interesting blog posts, media attention or youtube videos
 
 ## Plugins
 You can find some examples about how to create and use plugins in the [Nushell Plugins](https://www.nushell.sh/book/plugins.html) page.
-- [nu_plugin_periodic_table](https://crates.io/crates/nu_plugin_periodic_table): A periodic table of elements plugin.
-- [nu_plugin_query](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query): Query json, xml and web pages.
-- [nu_plugin_inc](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc): Plugin to increment semantic versioning strings.
-- [nu_plugin_gstat](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_gstat): Show the git working tree status.
-- [nu_plugin_net](https://crates.io/crates/nu_plugin_net): List network interfaces on any platform.
-- [nu_plugin_pnet](https://github.com/fdncred/nu_plugin_pnet): Same as above but named `pnet` as to not conflict with Windows `net` built-in.
+- [nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook): A nushell plugin to make and play sounds.
+- [nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env): A Bash environment plugin for nushell.
+- [nu_plugin_bexpand](https://codeberg.org/Taywee/nu-plugin-bexpand): Bash style brace expansion for nushell.
 - [nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader): A high level, general binary data reader.
-- [nu_plugin_from_parquet](https://github.com/fdncred/nu_plugin_from_parquet): A plugin to parse parquet files into nushell data structures.
 - [nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio): A bioinformatics plugin for nushell.
-- [nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex): A regular expressions plugin for nushell.
-- [nu_plugin_template](https://github.com/fdncred/nu_plugin_template): A `cargo-generate` template for making it easier to create nushell plugins.
-- [nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist): A plist plugin for nushell.
-- [nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot): A terminal plotting plugin for nushell.
-- [nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5): A plugin to parse HDF5 files into nushell record.
+- [nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard): A nushell plugin to copy text into clipboard or get text from it.
+- [nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus): Nushell plugin for interacting with D-Bus.
+- [nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm): A nushell plugin to parse Dicom files.
+- [nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications): A nushell plugin to send desktop notifications.
+- [nu_plugin_dialog](https://github.com/Trivernis/nu-plugin-dialog): A nushell plugin for user interaction.
+- [nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns): DNS utility for nushell.
+- [nu_plugin_dpktable](https://github.com/pdenapo/nu_plugin_dpkgtable.git): Gets a table of all known packages in a Debian GNU/Linux system.
+- [nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji): A nushell plugin that makes finding and printing emojis easy in nushell.
+- [nu_plugin_file](https://github.com/fdncred/nu_plugin_file): A nushell plugin that will inspect a file and return information based on it's magic number.
+- [nu_plugin_formats](https://crates.io/crates/nu_plugin_formats): A nushell plugin for from eml, ics, ini, vcf.
 - [nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount): A nushell extension to load a beancount file into nu structured data.
 - [nu_plugin_from_bencode](https://github.com/bluk/nu_plugin_from_bencode): A converter plugin from the bencode format for Nushell.
-- [nu_plugin_dialog](https://github.com/Trivernis/nu-plugin-dialog): A nushell plugin for user interaction.
-- [nu_plugin_formats](https://crates.io/crates/nu_plugin_formats): A nushell plugin for from eml, ics, ini, vcf.
-- [nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm): A nushell plugin to parse Dicom files.
-- [nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl): A Hashicorp Configuration Language plugin for nushell.
-- [nu_plugin_json_path](https://github.com/fdncred/nu_plugin_json_path): A nushell plugin for parsing json that uses the json path specification.
-- [nu_plugin_str_similarity](https://github.com/fdncred/nu_plugin_str_similarity): A nushell plugin that helps you calculate the edit distance between two strings using a variety of algorithms.
-- [nu_plugin_bexpand](https://codeberg.org/Taywee/nu-plugin-bexpand): Bash style brace expansion for nushell.
-- [nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight): 🌈 A nushell plugin for syntax highlighting.
-- [nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji): A nushell plugin that makes finding and printing emojis easy in nushell.
-- [nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl): A plugin to add KDL support to Nushell.
-- [nu_plugin_file](https://github.com/fdncred/nu_plugin_file): A nushell plugin that will inspect a file and return information based on it's magic number.
-- [nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns): DNS utility for nushell.
-- [nu_plugin_port_scan](https://github.com/FMotalleb/nu_plugin_port_scan): A nushell plugin for scanning ports on a target.
-- [nu_plugin_port_list](https://github.com/FMotalleb/nu_plugin_port_list): A nushell plugin to list all active connections.
-- [nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook): A nushell plugin to make and play sounds.
-- [nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications): A nushell plugin to send desktop notifications.
-- [nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard): A nushell plugin to copy text into clipboard or get text from it.
-- [nu_plugin_qr_maker](https://github.com/FMotalleb/nu_plugin_qr_maker): A nushell plugin to create qr code in terminal.
-- [nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack): Nushell plugin for converting to and from msgpack.
-- [nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env): A Bash environment plugin for nushell.
-- [nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units): A Nushell plugin for easily converting between common units.
-- [nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image): A nushell plugin to open png images in the shell and save ansi string as images.
-- [nu_plugin_semver](https://github.com/abusch/nu_plugin_semver): A Nushell plugin to manipulate SemVer versions.
-- [nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus): Nushell plugin for interacting with D-Bus.
-- [nu_plugin_dpktable](https://github.com/pdenapo/nu_plugin_dpkgtable.git): Gets a table of all known packages in a Debian GNU/Linux system.
+- [nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5): A plugin to parse HDF5 files into nushell record.
+- [nu_plugin_from_parquet](https://github.com/fdncred/nu_plugin_from_parquet): A plugin to parse parquet files into nushell data structures.
 - [nu_plugin_from_sse](https://github.com/cablehead/nu_plugin_from_sse): Nushell plugin to parse a stream of HTTP server sent events.
-- [nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid): A nushell plugin that adds various ulid commands.
+- [nu_plugin_gstat](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_gstat): Show the git working tree status.
+- [nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl): A Hashicorp Configuration Language plugin for nushell.
+- [nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight): 🌈 A nushell plugin for syntax highlighting.
 - [nu_plugin_hmac](https://github.com/fnuttens/nu_plugin_hmac): HMAC sealing for nushell.
+- [nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image): A nushell plugin to open png images in the shell and save ansi string as images.
+- [nu_plugin_inc](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc): Plugin to increment semantic versioning strings.
+- [nu_plugin_json_path](https://github.com/fdncred/nu_plugin_json_path): A nushell plugin for parsing json that uses the json path specification.
+- [nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl): A plugin to add KDL support to Nushell.
+- [nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack): Nushell plugin for converting to and from msgpack.
+- [nu_plugin_net](https://crates.io/crates/nu_plugin_net): List network interfaces on any platform.
+- [nu_plugin_periodic_table](https://crates.io/crates/nu_plugin_periodic_table): A periodic table of elements plugin.
+- [nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist): A plist plugin for nushell.
+- [nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot): A terminal plotting plugin for nushell.
+- [nu_plugin_pnet](https://github.com/fdncred/nu_plugin_pnet): Same as above but named `pnet` as to not conflict with Windows `net` built-in.
+- [nu_plugin_port_list](https://github.com/FMotalleb/nu_plugin_port_list): A nushell plugin to list all active connections.
+- [nu_plugin_port_scan](https://github.com/FMotalleb/nu_plugin_port_scan): A nushell plugin for scanning ports on a target.
 - [nu_plugin_prometheus](https://github.com/drbrain/nu_plugin_prometheus): Prometheus querying for nushell.
+- [nu_plugin_qr_maker](https://github.com/FMotalleb/nu_plugin_qr_maker): A nushell plugin to create qr code in terminal.
+- [nu_plugin_query](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query): Query json, xml and web pages.
+- [nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex): A regular expressions plugin for nushell.
+- [nu_plugin_semver](https://github.com/abusch/nu_plugin_semver): A Nushell plugin to manipulate SemVer versions.
+- [nu_plugin_str_similarity](https://github.com/fdncred/nu_plugin_str_similarity): A nushell plugin that helps you calculate the edit distance between two strings using a variety of algorithms.
+- [nu_plugin_template](https://github.com/fdncred/nu_plugin_template): A `cargo-generate` template for making it easier to create nushell plugins.
+- [nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid): A nushell plugin that adds various ulid commands.
+- [nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units): A Nushell plugin for easily converting between common units.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your current version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
