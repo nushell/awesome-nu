@@ -96,6 +96,8 @@ Other tools that work with or within the nu language ecosystem.
 - [virtualenv](https://github.com/pypa/virtualenv): Provides support for creating lightweight Python "virtual environments".
 - [ansible](https://github.com/Yethal/ansible-role-nushell): Ansible role that installs nushell on your server.
 - [github action](https://github.com/marketplace/actions/setup-nu): A GitHub action that runs nushell in your CI.
+- [setup-mooonbit Action](https://github.com/hustcer/setup-moonbit): A GitHub action that sets up the Moonbit environment powered by Nushell.
+- [setup-bend Action](https://github.com/hustcer/setup-bend): A GitHub action that sets up the Bend environment powered by Nushell and with cache support.
 - [nix flake](https://git.sr.ht/~mangoiv/nu-shell.nix): A [`nix`](https://nixos.org/) flake that outputs `nushell` packages, docs and tests as well as a `devShell` for developing `nushell`.
 - [atuin](https://github.com/ellie/atuin): 🐢 Magical shell history.
 - [jc](https://github.com/kellyjonbrazil/jc): A collection of parsers for common unix tools that outputs JSON for easy import into nushell with `from json`.
