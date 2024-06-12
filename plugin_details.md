@@ -41,10 +41,10 @@
 |[nu_plugin_qr_maker](https://github.com/FMotalleb/nu_plugin_qr_maker)|1.1.0|A nushell plugin to create qr code in terminal|✅0.94.0|✅0.94.0|
 |[nu_plugin_query](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query)|0.94.3|A Nushell plugin to query JSON, XML, and various web data|✅0.94.3|✅0.94.3|
 |[nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex)|0.5.0|nu plugin to search text with regex|⚠️0.93.1|⚠️0.93.1|
-|[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.4.0|A nushell plugin for dealing with SemVer versions|✅0.94.0|✅0.94.0|
+|[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.4.1|A nushell plugin for dealing with SemVer versions|✅0.94.0|✅0.94.0|
 |[nu_plugin_str_similarity](https://github.com/fdncred/nu_plugin_str_similarity)|0.5.0|a nushell plugin called str_similarity|⚠️0.93.1|⚠️0.93.1|
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.4.0|A nushell plugin that adds various ulid commands|✅0.94.0|✅0.94.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.1|A Nushell plugin for easily converting between common units|✅0.94.0|✅0.94.0|
 
-last update at `2024-06-05 03:12:54 +00:00`
+last update at `2024-06-12 03:11:23 +00:00`
