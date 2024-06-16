@@ -254,6 +254,11 @@ plugins:
     repository:
       url: https://github.com/drbrain/nu_plugin_prometheus
       branch: main
+  - name: nu_plugin_skim
+    language: rust
+    repository:
+      url: https://github.com/idanarye/nu_plugin_skim
+      branch: main
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
 #    language: python # programming language (mandatory)
