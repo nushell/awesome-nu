@@ -15,7 +15,7 @@ jobs:
         -   name: Setup Nushell
             uses: hustcer/setup-nu@v3.8
             with:
-              version: 0.87.0
+              version: 0.95.0
               token: ${{ secrets.GITHUB_TOKEN }}
         -   uses: actions/checkout@v2
         -   name: Update plugin list
