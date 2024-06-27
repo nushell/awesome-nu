@@ -2,7 +2,7 @@
 |-|-|-|-|-|
 |[nu-plugin-bexpand](https://codeberg.org/Taywee/nu-plugin-bexpand)|1.3.5|A brace expansion plugin compatible with Bash for nushell|⚠️0.92|⚠️0.92|
 |[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.2.1|A nushell plugin to make and play sounds|✅0.95|✅0.95|
-|[nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env)|0.10.0|A Bash environment plugin for Nushell.|⚠️0.94.1|⚠️0.94.1|
+|[nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env)|0.11.0|A Bash environment plugin for Nushell.|✅0.95.0|✅0.95.0|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.85.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.85.0|⚠️0.85.0|
 |[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.95.0|A nushell plugin to copy text into clipboard or get text from it.|✅0.95.0|✅0.95.0|
@@ -48,4 +48,4 @@
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.4.0|A nushell plugin that adds various ulid commands|⚠️0.94.0|⚠️0.94.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.1|A Nushell plugin for easily converting between common units|⚠️0.94.0|⚠️0.94.0|
 
-last update at `2024-06-27 07:27:13 +00:00`
+last update at `2024-06-27 13:22:44 +00:00`
