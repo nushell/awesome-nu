@@ -259,6 +259,17 @@ plugins:
     repository:
       url: https://github.com/idanarye/nu_plugin_skim
       branch: main
+  - name: nu_plugin_plist
+    language: go
+    repository:
+      url: https://github.com/ainvaltin/nu_plugin_plist
+      branch: main
+    override: # override any field in the result record (do not use unless you have to `like the plugin is written in Python`)
+      name: "[nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist)"
+      version: "0.1.0"
+      description: "Nushell plist and base85 plugin implemented in Go."
+      plugin: "0.94.0"
+      protocol: "0.94.0"
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
 #    language: python # programming language (mandatory)
