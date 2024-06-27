@@ -53,6 +53,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid): A nushell plugin that adds various ulid commands.
 - [nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units): A Nushell plugin for easily converting between common units.
 - [nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim): A Nushell plugin that provides a version of [skim](https://github.com/lotabout/skim) that can handle structured Nushell data for MacOS and Linux.
+- [nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist): Nushell plist and base85 plugin implemented in Go using [nu-plugin](https://github.com/ainvaltin/nu-plugin).
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your current version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
