@@ -49,4 +49,4 @@
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.5.0|A nushell plugin that adds various ulid commands|✅0.95.0|✅0.95.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.1|A Nushell plugin for easily converting between common units|⚠️0.94.0|⚠️0.94.0|
 
-last update at `2024-07-03 03:11:16 +00:00`
+last update at `2024-07-10 03:12:03 +00:00`
