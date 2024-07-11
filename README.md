@@ -128,6 +128,7 @@ Plugins and Extensions that you can use in other text editors
 - [Emacs](https://github.com/mrkkrp/nushell-mode): Emacs major mode for Nushell scripts.
 - [Sublime Text](https://github.com/stevenxxiu/sublime_text_nushell): Sublime Text Nushell Package.
 - [vim plugin](https://github.com/elkasztano/nushell-syntax-vim): Nushell syntax highlighting for Vim.
+- [zed](https://github.com/zed-extensions/nu): Zed support for the Nu language
 - [Nushell LSP](https://github.com/nushell/nushell/tree/main/crates/nu-lsp): The official Nushell LSP.
 
 ## Reedline Integrations
