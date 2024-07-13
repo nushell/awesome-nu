@@ -81,6 +81,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [comma.nu](https://github.com/fj0r/comma.nu): Task and test runner of nu script.
 - [wi](https://github.com/phoenixr-codes/wi): A linguist wrapper for the terminal.
 - [refreshenv](https://github.com/Sanceilaks/nu-refreshenv-win): Refresh PATH on Windows like in chocolatey
+- [nufetch](https://github.com/Sanceilaks/nufetch): neofetch-like script written in Nu🐘
 
 ## Custom Completions
 You can find some examples about how to create and use custom completions in the [Nushell Custom Completions](https://www.nushell.sh/book/custom_completions.html) page.
