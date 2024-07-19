@@ -19,7 +19,6 @@
 |[nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount)|2.0.0|A nushell extension to load a beancount file into nu structured data|⚠️0.84.0|⚠️0.84.0|
 |[nu_plugin_from_bencode](https://github.com/bluk/nu_plugin_from_bencode)|0.11.0|A Nushell plugin to convert bencode data into Nu structured values.|⚠️0.93|⚠️0.93|
 |[nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5)|0.1.0|A plugin to parse HDF5 files into nushell record.|✅0.95|✅0.95|
-|[nu_plugin_from_parquet](https://github.com/fdncred/nu_plugin_from_parquet)|0.5.0|nu plugin to add parquet support|✅0.95.1|✅0.95.1|
 |[nu_plugin_from_sse](https://github.com/cablehead/nu_plugin_from_sse)|0.4.0|Nushell plugin to convert a HTTP server sent event stream to structured data|✅0.95|✅0.95|
 |[nu_plugin_gstat](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_gstat)|0.95.1|A git status plugin for Nushell|✅0.95.1|✅0.95.1|
 |[nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl)|0.95.0|A nushell plugin for parsing Hashicorp Configuration Language file format|✅0.95.0|✅0.95.0|
@@ -31,6 +30,7 @@
 |[nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl)|0.83.2|Add support for the KDL data format to Nushell.|⚠️0.83.2|⚠️0.83.2|
 |[nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack)|0.90.1|Commands to convert nushell data to and from MsgPack|⚠️0.90.1|⚠️0.90.1|
 |[nu_plugin_net](https://github.com/fennewald/nu_plugin_net)|1.5.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.94.2|⚠️0.94.2|
+|[nu_plugin_parquet](https://github.com/fdncred/nu_plugin_parquet)|0.6.0|nu plugin to add parquet support|✅0.95.1|✅0.95.1|
 |[nu_plugin_periodic_table](https://github.com/JosephTLyons/nu_plugin_periodic_table)|0.2.8|A periodic table of elements plugin for Nushell|⚠️0.94.0|⚠️0.94.0|
 |[nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist)|0.1.0|Nushell plist and base85 plugin implemented in Go.|⚠️0.94.0|⚠️0.94.0|
 |[nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist)|0.94.0|Plist parsing for nushell|⚠️0.94|⚠️0.94|
@@ -49,4 +49,4 @@
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.5.0|A nushell plugin that adds various ulid commands|✅0.95.0|✅0.95.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.1|A Nushell plugin for easily converting between common units|⚠️0.94.0|⚠️0.94.0|
 
-last update at `2024-07-17 03:12:32 +00:00`
+last update at `2024-07-19 12:15:12 +00:00`
