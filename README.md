@@ -25,7 +25,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount): A nushell extension to load a beancount file into nu structured data.
 - [nu_plugin_from_bencode](https://github.com/bluk/nu_plugin_from_bencode): A converter plugin from the bencode format for Nushell.
 - [nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5): A plugin to parse HDF5 files into nushell record.
-- [nu_plugin_from_parquet](https://github.com/fdncred/nu_plugin_from_parquet): A plugin to parse parquet files into nushell data structures.
+- [nu_plugin_from_parquet](https://github.com/fdncred/nu_plugin_from_parquet): A nushell plugin to read and write parquet files.
 - [nu_plugin_from_sse](https://github.com/cablehead/nu_plugin_from_sse): Nushell plugin to parse a stream of HTTP server sent events.
 - [nu_plugin_gstat](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_gstat): Show the git working tree status.
 - [nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl): A Hashicorp Configuration Language plugin for nushell.
