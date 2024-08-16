@@ -83,6 +83,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [refreshenv](https://github.com/Sanceilaks/nu-refreshenv-win): Refresh PATH on Windows like in chocolatey
 - [nufetch](https://github.com/Sanceilaks/nufetch): neofetch-like script written in Nu🐘
 - [webserver.nu](https://github.com/Jan9103/webserver.nu): A library for creating webservers.
+- [fsattr.nu](https://github.com/albert-tomanek/my-nu-commands/blob/master/posix/fsattr.nu): Nu commands for filesystem attributes.
 
 ## Custom Completions
 You can find some examples about how to create and use custom completions in the [Nushell Custom Completions](https://www.nushell.sh/book/custom_completions.html) page.
