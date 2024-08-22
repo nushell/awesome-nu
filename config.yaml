@@ -199,16 +199,10 @@ plugins:
       url: https://github.com/hulthe/nu_plugin_msgpack
       branch: master
   - name: nu_plugin_bash_env
-    language: bash
+    language: rust
     repository:
       url: https://github.com/tesujimath/nu_plugin_bash_env
-      branch: master
-    override: # override any field in the result record (do not use unless you have to `like the plugin is written in Python`)
-      name: "[nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env)"
-      version: "0.11.0"
-      description: "A Bash environment plugin for Nushell."
-      plugin: "0.95.0"
-      protocol: "0.95.0"
+      branch: main
   - name: nu_plugin_units
     language: rust
     repository:
