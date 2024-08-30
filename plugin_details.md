@@ -13,6 +13,7 @@
 |[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|3.0.4-alpha.1|A DNS utility for nushell|✅0.97.1|✅0.97.1|
 |[nu_plugin_dpkgtable](https://github.com/pdenapo/nu_plugin_dpkgtable)|0.1.0||⚠️0.91.0|⚠️0.91.0|
 |[nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji)|0.5.0|a nushell plugin called emoji|✅0.97.2|✅0.97.2|
+|[nu_plugin_endecode](https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk/endecode)|0.2.0||✅0.97.1|✅0.97.1|
 |[nu_plugin_explore](https://github.com/amtoine/nu_plugin_explore)|0.96.0|A fast structured data explorer for Nushell.|⚠️0.96.0|⚠️0.96.0|
 |[nu_plugin_file](https://github.com/fdncred/nu_plugin_file)|0.5.0|a nushell plugin called file|✅0.97.2|✅0.97.2|
 |[nu_plugin_formats](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_formats)|0.97.2|An I/O plugin for a set of file formats for Nushell|✅0.97.2|✅0.97.2|
@@ -48,6 +49,5 @@
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.6.0|A nushell plugin that adds various ulid commands|⚠️0.96.0|⚠️0.96.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.2|A Nushell plugin for easily converting between common units|✅0.97.1|✅0.97.1|
-|issue in config file for (https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk)|0.0||⛔0.0|⛔0.0|
 
-last update at `2024-08-30 15:51:52 +00:00`
+last update at `2024-08-30 18:47:19 +00:00`
