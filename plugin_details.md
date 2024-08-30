@@ -48,6 +48,6 @@
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.6.0|A nushell plugin that adds various ulid commands|⚠️0.96.0|⚠️0.96.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.2|A Nushell plugin for easily converting between common units|✅0.97.1|✅0.97.1|
-|issue in config file for (https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk/endecode)|0.0||⛔0.0|⛔0.0|
+|issue in config file for (https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk)|0.0||⛔0.0|⛔0.0|
 
-last update at `2024-08-30 15:47:11 +00:00`
+last update at `2024-08-30 15:51:52 +00:00`
