@@ -44,14 +44,14 @@ export module version {
         let $current = $in
         match ($current | get major | int compare ($other | get major)) {
             0 => {
-               return ($current | get minor | int compare ($other | get minor)) 
+               return ($current | get minor | int compare ($other | get minor))
             }
             $a => {
                 return $a
             }
-        } 
+        }
     }
-    
+
     # get major version from version number
     # 0.90 -> 0
     # 1.90.0 -> 1
@@ -61,7 +61,7 @@ export module version {
         use utils "str explode"
         return ($version | str explode '.' | first | if ($version | str starts-with '^') { $in | str substring 1.. } else { $in } | into int)
     }
-    
+
     # get major version from version number
     # 0.90 -> 90
     # 1.14.4 -> 14
@@ -75,7 +75,7 @@ export module version {
 }
 
 export module plugin-list {
-    
+
     # converts repository url into raw download link for Cargo.toml
     def "get-raw-toml-address" [
         url: string, # github repository url (e.g. https://github.com/FMotalleb/nu_plugin_port_scan)
@@ -83,52 +83,58 @@ export module plugin-list {
     ]: nothing -> record {
         let url: record = ($url | url parse)
         use utils "str explode"
-        match $url.host { 
+        match $url.host {
             'github.com' => {
                 if ( ($url.path | str explode '/' --trim-end | length) > 3 ) {
-                    return ($url 
+                    return ($url
                     | upsert host raw.githubusercontent.com
-                    | upsert path ($url.path 
+                    | upsert path ($url.path
                         | str replace $"tree/($branch)" $branch
-                        | str explode '/' --trim-end 
-                        | append Cargo.toml 
+                        | str explode '/' --trim-end
+                        | append Cargo.toml
                         | str join '/'))
                 }
-                return ($url 
+                return ($url
                     | upsert host raw.githubusercontent.com
-                    | upsert path ($url.path 
-                        | str explode '/' --trim-end 
-                        | append $branch 
-                        | append Cargo.toml 
+                    | upsert path ($url.path
+                        | str explode '/' --trim-end
+                        | append $branch
+                        | append Cargo.toml
                         | str join '/'))
-             }, 
+             },
              'gitlab.com' => {
-                return ($url 
-                    | upsert path ($url.path 
-                    | str explode '/' --trim-end 
-                    | append - 
-                    | append raw 
-                    | append $branch 
-                    | append Cargo.toml 
-                    | str join '/'))
-             }, 
-             'codeberg.org' => {
-                return ($url 
-                    | upsert path ($url.path 
-                    | str explode '/' --trim-end 
-                    | append raw/branch
-                    | append $branch 
+                return ($url
+                    | upsert path ($url.path
+                    | str explode '/' --trim-end
+                    | append -
+                    | append raw
+                    | append $branch
                     | append Cargo.toml
                     | str join '/'))
-             }
+             },
+            'codeberg.org' => {
+                return ($url
+                    | update path {
+                        split row "/"
+                        | skip 1
+                        | if ($in | length) > 2 {
+                            update 2 raw
+                        } else {
+                            append [raw branch $branch]
+                        }
+                        | append Cargo.toml
+                        | str join "/"
+                        | "/" + $in
+                    })
+            }
              _ => {
                 # TODO add error
             }
         }
-        
+
         return $url
     }
-    
+
     # download toml file from repository
     def "get-toml" [
         branch: string # branch name (e.g. main)
@@ -136,7 +142,7 @@ export module plugin-list {
         let git_repo = ($in |  str replace --regex ".git$" "") # github repository url (e.g. https://github.com/FMotalleb/nu_plugin_port_scan)
         let toml_file_address: string = (get-raw-toml-address $git_repo $branch | url join)
         try {
-            return (http get --raw $toml_file_address | from toml) 
+            return (http get --raw $toml_file_address | from toml)
         } catch {
             return {}
         }
@@ -144,14 +150,14 @@ export module plugin-list {
 
     # checks if given input is string or not
     # TODO maybe a better way?
-    def is-str []: any -> bool { 
+    def is-str []: any -> bool {
         return (($in | to json | str trim -c '"') == $in)
     }
     # if input is string will return itself otherwise think its record and will return for $in.version
     # TODO handle error
     def "get self or version" []: record -> string , string -> string {
         let input = $in
-        
+
         if ($input | is-str) {
             return $input;
         } else if ($input.version? | is-empty) {
@@ -169,26 +175,26 @@ export module plugin-list {
         let toml: record = $in
         if ([$toml.package?, $toml.dependencies?] | all {|i| $i != null}) {
             return {
-                name: $"[($toml.package.name)]\(($repository)\)" 
+                name: $"[($toml.package.name)]\(($repository)\)"
                 version: $toml.package.version
                 description: $toml.package.description?
-                plugin: ($toml.dependencies.nu-plugin 
+                plugin: ($toml.dependencies.nu-plugin
                     | get self or version)
-                protocol: ($toml.dependencies.nu-protocol 
+                protocol: ($toml.dependencies.nu-protocol
                     | get self or version)
             }
         } else {
             return {
-                name: $"issue in config file for \(($repository)\)" 
+                name: $"issue in config file for \(($repository)\)"
                 version: "0.0"
                 description: ""
                 plugin: "0.0"
                 protocol: "0.0"
             }
         }
-        
+
     }
- 
+
     def "get icon" []: int -> string {
         match $in {
             -1 => {
@@ -197,7 +203,7 @@ export module plugin-list {
             _ => {
                 return ✅
             }
-        }  
+        }
     }
 
     # adds an icon to version numbers of `plugin` and `protocol` version numbers of the plugin
@@ -215,13 +221,13 @@ export module plugin-list {
         match [$input.plugin?, $input.protocol?,] {
             [$plugin_version,$protocol_version] if ($plugin_version != null and $protocol_version != null) => {
                 if ((($plugin_version | compare to $min_plugin) == -1) or ($protocol_version | compare to $min_protocol) == -1) {
-                    return ($input 
+                    return ($input
                         | upsert plugin $"⛔($plugin_version)"
                         | upsert protocol $"⛔($protocol_version)"
                         )
                 }
 
-                return ($input 
+                return ($input
                     | upsert plugin $"($plugin_version | compare to $plugin | get icon)($plugin_version)"
                     | upsert protocol $"($protocol_version | compare to $protocol | get icon)($protocol_version)"
                     )
@@ -230,7 +236,7 @@ export module plugin-list {
                 return $input
             }
         }
-        
+
     }
 
     # crete a table entry from given plugin record
@@ -256,19 +262,19 @@ export module plugin-list {
 
         let protocol_version = ($config.core.protocol_repository
             | get-toml main
-            | get package.version 
+            | get package.version
             | get self or version)
 
-        let result = $config.plugins 
-            | par-each { |i| $i 
+        let result = $config.plugins
+            | par-each { |i| $i
                 | make entry
                 | if ($i.override? != null) {
                     $in | merge $i.override
-                } else { 
+                } else {
                     $in
                 }
                 | set status $plugin_version $protocol_version $config.core.minimum_plugin $config.core.minimum_protocol
-            } 
+            }
             | sort-by name
         return $result
     }
