@@ -1,16 +1,16 @@
 |name|version|description|plugin|protocol|
 |-|-|-|-|-|
 |[nu-plugin-bexpand](https://codeberg.org/Taywee/nu-plugin-bexpand)|1.3.5|A brace expansion plugin compatible with Bash for nushell|⚠️0.92|⚠️0.92|
-|[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.2.3|A nushell plugin to make and play sounds|✅0.97.1|✅0.97.1|
+|[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.2.4|A nushell plugin to make and play sounds|✅0.97.1|✅0.97.1|
 |[nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env)|0.13.0|Nu plugin bash-env|✅0.97.1|✅0.97.1|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.85.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.85.0|⚠️0.85.0|
 |[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.97.1|A nushell plugin to copy text into clipboard or get text from it.|✅0.97.1|✅0.97.1|
-|[nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus)|0.9.0|Nushell plugin for communicating with D-Bus|⚠️0.96.0|⚠️0.96.0|
+|[nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus)|0.10.0|Nushell plugin for communicating with D-Bus|✅0.97.1|✅0.97.1|
 |[nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm)|0.1.8|A nushell plugin to parse Dicom files|⚠️0.68|⚠️0.68|
 |[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|1.2.3|A nushell plugin to send desktop notifications|✅0.97.1|✅0.97.1|
 |[nu_plugin_dialog](https://github.com/Trivernis/nu-plugin-dialog)|0.2.0|A nushell plugin for user interaction|⚠️0.86.1|⚠️0.86.1|
-|[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|3.0.3-alpha.1|A DNS utility for nushell|⚠️0.96.0|⚠️0.96.0|
+|[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|3.0.4-alpha.1|A DNS utility for nushell|✅0.97.1|✅0.97.1|
 |[nu_plugin_dpkgtable](https://github.com/pdenapo/nu_plugin_dpkgtable)|0.1.0||⚠️0.91.0|⚠️0.91.0|
 |[nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji)|0.5.0|a nushell plugin called emoji|✅0.97.2|✅0.97.2|
 |[nu_plugin_explore](https://github.com/amtoine/nu_plugin_explore)|0.96.0|A fast structured data explorer for Nushell.|⚠️0.96.0|⚠️0.96.0|
@@ -23,7 +23,7 @@
 |[nu_plugin_gstat](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_gstat)|0.97.2|A git status plugin for Nushell|✅0.97.2|✅0.97.2|
 |[nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl)|0.97.1|A nushell plugin for parsing Hashicorp Configuration Language file format|✅0.97.1|✅0.97.1|
 |[nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight)|1.2.2+0.97.1|A nushell plugin for syntax highlighting|✅0.97.1|✅0.97.1|
-|[nu_plugin_hmac](https://github.com/fnuttens/nu_plugin_hmac)|0.8.1|A HMAC sealing plugin for Nushell|⚠️0.96.1|⚠️0.96.1|
+|[nu_plugin_hmac](https://github.com/fnuttens/nu_plugin_hmac)|0.9.0|A HMAC sealing plugin for Nushell|✅0.97.1|✅0.97.1|
 |[nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image)|0.5.4|A nushell plugin to open png images in the shell and save ansi string as images (like tables or ...)|✅0.97.1|✅0.97.1|
 |[nu_plugin_inc](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc)|0.97.2|A version incrementer plugin for Nushell|✅0.97.2|✅0.97.2|
 |[nu_plugin_json_path](https://github.com/fdncred/nu_plugin_json_path)|0.5.0|a nushell plugin created to parse json files using jsonpath|✅0.97.2|✅0.97.2|
@@ -48,5 +48,6 @@
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.6.0|A nushell plugin that adds various ulid commands|⚠️0.96.0|⚠️0.96.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.2|A Nushell plugin for easily converting between common units|✅0.97.1|✅0.97.1|
+|issue in config file for (https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk/endecode)|0.0||⛔0.0|⛔0.0|
 
-last update at `2024-08-28 03:12:01 +00:00`
+last update at `2024-08-30 15:47:11 +00:00`
