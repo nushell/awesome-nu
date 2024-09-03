@@ -272,6 +272,14 @@ plugins:
     override:
       plugin: "0.97.1"
       protocol: "0.97.1"
+  - name: nu_plugin_template
+    language: rust
+    repository:
+      url: https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk/template
+      branch: trunk
+    override:
+      plugin: "0.97.1"
+      protocol: "0.97.1"
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
 #    language: python # programming language (mandatory)
