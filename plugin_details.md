@@ -13,9 +13,9 @@
 |[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|3.0.4-alpha.1|A DNS utility for nushell|✅0.97.1|✅0.97.1|
 |[nu_plugin_dpkgtable](https://github.com/pdenapo/nu_plugin_dpkgtable)|0.1.0||⚠️0.91.0|⚠️0.91.0|
 |[nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji)|0.5.0|a nushell plugin called emoji|✅0.97.2|✅0.97.2|
-|[nu_plugin_endecode](https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk/endecode)|0.2.0||✅0.97.1|✅0.97.1|
+|[nu_plugin_endecode](https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk/endecode)|0.2.0|A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.|✅0.97.1|✅0.97.1|
 |[nu_plugin_explore](https://github.com/amtoine/nu_plugin_explore)|0.96.0|A fast structured data explorer for Nushell.|⚠️0.96.0|⚠️0.96.0|
-|[nu_plugin_file](https://github.com/fdncred/nu_plugin_file)|0.5.0|a nushell plugin called file|✅0.97.2|✅0.97.2|
+|[nu_plugin_file](https://github.com/fdncred/nu_plugin_file)|0.6.0|a nushell plugin called file|✅0.97.2|✅0.97.2|
 |[nu_plugin_formats](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_formats)|0.97.2|An I/O plugin for a set of file formats for Nushell|✅0.97.2|✅0.97.2|
 |[nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount)|2.0.0|A nushell extension to load a beancount file into nu structured data|⚠️0.84.0|⚠️0.84.0|
 |[nu_plugin_from_bencode](https://github.com/bluk/nu_plugin_from_bencode)|0.11.0|A Nushell plugin to convert bencode data into Nu structured values.|⚠️0.93|⚠️0.93|
@@ -46,8 +46,9 @@
 |[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.7.0|A nushell plugin for dealing with SemVer versions|✅0.97.1|✅0.97.1|
 |[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.5.0|An `sk` command that can handle Nushell's structured data|✅0.97|✅0.97|
 |[nu_plugin_str_similarity](https://github.com/fdncred/nu_plugin_str_similarity)|0.5.0|a nushell plugin called str_similarity|✅0.97.2|✅0.97.2|
+|[nu_plugin_template](https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk/template)|0.1.0|Templating in Nushell, powered by TinyTemplate|✅0.97.1|✅0.97.1|
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.6.0|A nushell plugin that adds various ulid commands|⚠️0.96.0|⚠️0.96.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.2|A Nushell plugin for easily converting between common units|✅0.97.1|✅0.97.1|
 
-last update at `2024-08-30 18:47:19 +00:00`
+last update at `2024-09-04 03:11:30 +00:00`
