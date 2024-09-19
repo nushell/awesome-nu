@@ -290,6 +290,11 @@ plugins:
     repository:
       url: https://github.com/yybit/nu_plugin_rpm
       branch: main
+  - name: nu_plugin_hashes
+    language: rust
+    repository:
+      url: https://github.com/ArmoredPony/nu_plugin_hashes
+      branch: main
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
 #    language: python # programming language (mandatory)
