@@ -28,7 +28,6 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_parquet](https://github.com/fdncred/nu_plugin_parquet): A nushell plugin to read and write parquet files.
 - [nu_plugin_from_sse](https://github.com/cablehead/nu_plugin_from_sse): Nushell plugin to parse a stream of HTTP server sent events.
 - [nu_plugin_gstat](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_gstat): Show the git working tree status.
-- [nu_plugin_hashes](https://crates.io/crates/nu_plugin_hashes): A plugin that adds hash functions from [hashes](https://github.com/RustCrypto/hashes) project.
 - [nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl): A Hashicorp Configuration Language plugin for nushell.
 - [nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight): 🌈 A nushell plugin for syntax highlighting.
 - [nu_plugin_hmac](https://github.com/fnuttens/nu_plugin_hmac): HMAC sealing for nushell.
@@ -59,6 +58,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_template](https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk/template): String and HTML templating in Nu.
 - [nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime): Nushell plugin for working with mime types without performing disk access
 - [nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm): A nushell plugin for reading rpm package.
+- [nu_plugin_hashes](https://crates.io/crates/nu_plugin_hashes): A plugin that adds hash functions from [hashes](https://github.com/RustCrypto/hashes) project.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your current version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
