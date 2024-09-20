@@ -59,6 +59,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime): Nushell plugin for working with mime types without performing disk access
 - [nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm): A nushell plugin for reading rpm package.
 - [nu_plugin_hashes](https://crates.io/crates/nu_plugin_hashes): A plugin that adds hash functions from [hashes](https://github.com/RustCrypto/hashes) project.
+- [nu_plugin_plotters](https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters): A nushell plugin for plotting charts.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your current version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
@@ -124,6 +125,7 @@ Other tools that work with or within the nu language ecosystem.
 - [nur](https://github.com/ddanier/nur): A taskrunner based on nu shell.
 - [pspg](https://github.com/okbob/pspg): A postgres pager that integrates in nushell.
 - [mise](https://mise.jdx.dev/): A development environment setup tool (dev tools, env vars, task runner) that integrates with Nushell.
+- [nu-jupyter-kernel](https://github.com/cptpiepmatz/nu-jupyter-kernel): A jupyter raw kernel for nu.
 
 ## Editor Extensions
 Plugins and Extensions that you can use in other text editors
