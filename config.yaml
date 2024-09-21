@@ -300,6 +300,11 @@ plugins:
     repository:
       url: https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters
       branch: main
+  - name: nu_plugin_compress
+    language: rust
+    repository:
+      url: https://github.com/yybit/nu_plugin_compress
+      branch: main
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
 #    language: python # programming language (mandatory)

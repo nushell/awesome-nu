@@ -60,6 +60,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm): A nushell plugin for reading rpm package.
 - [nu_plugin_hashes](https://crates.io/crates/nu_plugin_hashes): A plugin that adds hash functions from [hashes](https://github.com/RustCrypto/hashes) project.
 - [nu_plugin_plotters](https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters): A nushell plugin for plotting charts.
+- [nu_plugin_compress](https://github.com/yybit/nu_plugin_compress): A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your current version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
