@@ -80,7 +80,6 @@ You can find some examples about how to create and use scripts in the [Nushell S
 
 - [cargo_search](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/cargo_search.nu): Perform a cargo search.
 - [comma.nu](https://github.com/fj0r/comma.nu): Task and test runner of nu script.
-- [conda](https://github.com/nushell/nu_scripts/blob/main/modules/virtual_environments/conda.nu): Activate/deactivate conda virtual environments.
 - [fsattr.nu](https://github.com/albert-tomanek/my-nu-commands/blob/master/posix/fsattr.nu): Nu commands for filesystem attributes.
 - [get-weather](https://github.com/nushell/nu_scripts/blob/main/modules/weather/get-weather.nu): Get weather forecast for your location.
 - [git_gone](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/git_gone.nu): Gently try to delete merged branches, excluding the checked out one.
@@ -115,6 +114,7 @@ Other tools that work with or within the nu language ecosystem.
 - [broot](https://github.com/Canop/broot): A new way to see and navigate directory trees.
 - [bru](https://github.com/selfagency/bru): A Nushell wrapper for Homebrew.
 - [clap_complete_nushell](https://github.com/clap-rs/clap/tree/master/clap_complete_nushell): A way to generate completions for clap based CLIs.
+- [conda](https://github.com/nushell/nu_scripts/blob/main/modules/virtual_environments/conda.nu): Activate/deactivate conda virtual environments.
 - [couchbase-shell](https://github.com/couchbaselabs/couchbase-shell): A modern, productive and fun shell for Couchbase Server and Cloud.
 - [Direnv](https://github.com/direnv/direnv/blob/master/docs/hook.md#nushell): unclutter your .profile.
 - [Dorothy](https://github.com/bevry/dorothy): 🧙‍♀️ Bring your dotfile commands and configuration to any shell, including Nu, Fish, Zsh, Bash.
