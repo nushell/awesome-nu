@@ -1,4 +1,5 @@
 # awesome-nu
+
 A curated list of awesome tools that work within the nu language ecosystem e.g. nushell, scripts, nana, etc. Feel free to raise a PR with your very cool script, plugin or custom completion 🚀.
 
 If you are looking for interesting blog posts, media attention or youtube videos on nushell please checkout our [Showcase](https://github.com/nushell/showcase) !
@@ -6,7 +7,9 @@ If you are looking for interesting blog posts, media attention or youtube videos
 ---
 
 ## Plugins
+
 You can find some examples about how to create and use plugins in the [Nushell Plugins](https://www.nushell.sh/book/plugins.html) page.
+
 - [nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook): A nushell plugin to make and play sounds.
 - [nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env): A Bash environment plugin for nushell.
 - [nu_plugin_bexpand](https://codeberg.org/Taywee/nu-plugin-bexpand): Bash style brace expansion for nushell.
@@ -72,6 +75,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 > In order to add your own plugin please fork this repository and add it to the list above and the list of plugins in [config.yaml](https://github.com/nushell/awesome-nu/blob/main/config.yaml) and then send a Pull Request.
 
 ## Scripts
+
 You can find some examples about how to create and use scripts in the [Nushell Scripts](https://www.nushell.sh/book/scripts.html) page.
 
 - [cargo_search](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/cargo_search.nu): Perform a cargo search.
@@ -93,7 +97,9 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [wolframalpha](https://github.com/nushell/nu_scripts/blob/main/sourced/api_wrappers/wolframalpha.nu): WolframAlpha API wrapper.
 
 ## Custom Completions
+
 You can find some examples about how to create and use custom completions in the [Nushell Custom Completions](https://www.nushell.sh/book/custom_completions.html) page.
+
 - [git](https://github.com/nushell/nu_scripts/blob/main/custom-completions/git/git-completions.nu): Completions for `git` commands.
 - [make](https://github.com/nushell/nu_scripts/blob/main/custom-completions/make/make-completions.nu): Completions for `make` commands.
 - [npm](https://github.com/nushell/nu_scripts/blob/main/custom-completions/npm/npm-completions.nu): Completions for `npm` commands.
@@ -101,7 +107,9 @@ You can find some examples about how to create and use custom completions in the
 - [winget](https://github.com/nushell/nu_scripts/blob/main/custom-completions/winget/winget-completions.nu): Completions for `winget` package manager.
 
 ## Integrations
+
 Other tools that work with or within the nu language ecosystem.
+
 - [ansible](https://github.com/Yethal/ansible-role-nushell): Ansible role that installs nushell on your server.
 - [atuin](https://github.com/ellie/atuin): 🐢 Magical shell history.
 - [broot](https://github.com/Canop/broot): A new way to see and navigate directory trees.
@@ -129,7 +137,9 @@ Other tools that work with or within the nu language ecosystem.
 - [zoxide](https://github.com/ajeetdsouza/zoxide): A smarter cd command, inspired by z and autojump.
 
 ## Editor Extensions
+
 Plugins and Extensions that you can use in other text editors
+
 - [Official Tree-sitter](https://github.com/nushell/tree-sitter-nu): A tree-sitter grammar for nu-lang, the language of nushell.
 - [Alternate Tree-sitter](https://github.com/LhKipp/tree-sitter-nu): A Tree-sitter project for nushell.
 - [nvim plugin](https://github.com/LhKipp/nvim-nu): A nvim pluging for nushell.
@@ -143,5 +153,7 @@ Plugins and Extensions that you can use in other text editors
 - [Nushell LSP](https://github.com/nushell/nushell/tree/main/crates/nu-lsp): The official Nushell LSP.
 
 ## Reedline Integrations
+
 Applications that have done a nice job using [reedline](https://github.com/nushell/reedline)
+
 - [Glaredb](https://github.com/GlareDB/glaredb): An analytics DBMS for distributed data.
