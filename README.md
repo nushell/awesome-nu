@@ -80,12 +80,17 @@ You can find some examples about how to create and use scripts in the [Nushell S
 
 - [cargo_search](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/cargo_search.nu): Perform a cargo search.
 - [comma.nu](https://github.com/fj0r/comma.nu): Task and test runner of nu script.
+- [dotnu](https://github.com/nushell-prophet/dotnu): tools for Nushell module developers.
 - [fsattr.nu](https://github.com/albert-tomanek/my-nu-commands/blob/master/posix/fsattr.nu): Nu commands for filesystem attributes.
 - [get-weather](https://github.com/nushell/nu_scripts/blob/main/modules/weather/get-weather.nu): Get weather forecast for your location.
 - [git_gone](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/git_gone.nu): Gently try to delete merged branches, excluding the checked out one.
 - [math_functions](https://github.com/nushell/nu_scripts/blob/main/modules/maths/math_functions.nu): Math functions for doing things like `factorial`, `root`.
 - [npup.nu](https://github.com/fj0r/npup): Puppet based on nushell.
+- [nu-cmd-stack](https://github.com/nushell-prophet/nu-cmd-stack): scroll through the list of Nushell commands using `ctrl+alt+j/k` shortcuts.
+- [nu-history-tools](https://github.com/nushell-prophet/nu-history-tools): analyze the command frequencies in Nushell history, generate cool graphs, benchmark statistics with other users.
+- [nu-telegram-bot](https://github.com/nushell-prophet/nu-telegram-bot): Interacting with telegram's bot api
 - [nufetch](https://github.com/Sanceilaks/nufetch): neofetch-like script written in Nu🐘
+- [numd](https://github.com/nushell-prophet/numd): reproducible Nushell Markdown documents.
 - [nuschiit](https://github.com/nushell/nu_scripts/blob/main/sourced/webscraping/nuschiit.nu): Web scraping example for the schiit.co.uk website.
 - [packer.nu](https://github.com/Jan9103/packer.nu): A packer.nvim inspired package-manager for NuShell.
 - [refreshenv](https://github.com/Sanceilaks/nu-refreshenv-win): Refresh PATH on Windows like in chocolatey.
@@ -123,7 +128,6 @@ Other tools that work with or within the nu language ecosystem.
 - [mise](https://mise.jdx.dev/): A development environment setup tool (dev tools, env vars, task runner) that integrates with Nushell.
 - [nix flake](https://git.sr.ht/~mangoiv/nu-shell.nix): A [`nix`](https://nixos.org/) flake that outputs `nushell` packages, docs and tests as well as a `devShell` for developing `nushell`.
 - [nu-jupyter-kernel](https://github.com/cptpiepmatz/nu-jupyter-kernel): A jupyter raw kernel for nu.
-- [nu-stats](https://github.com/Nushell101/nu-stats): Nushell history tools.
 - [Nuenv](https://determinate.systems/posts/nuenv): An experimental Nushell environment for Nix.
 - [nunvm](https://github.com/Yakiyo/nunvm): A cross-platform nvm clone written in nushell.
 - [nuPHP](https://github.com/mikayla-maki/nuPHP): Nu personal homepage webserver.
