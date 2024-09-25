@@ -99,6 +99,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [webserver.nu](https://github.com/Jan9103/webserver.nu): A library for creating webservers.
 - [wi](https://github.com/phoenixr-codes/wi): A linguist wrapper for the terminal.
 - [wolframalpha](https://github.com/nushell/nu_scripts/blob/main/sourced/api_wrappers/wolframalpha.nu): WolframAlpha API wrapper.
+- [digital-rain](https://github.com/ArmoredPony/nu-digital-rain): Digital rain effect implementation for Nushell.
 
 ## Custom Completions
 
