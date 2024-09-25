@@ -126,12 +126,13 @@ Other tools that work with or within the nu language ecosystem.
 - [GitHub Action](https://github.com/marketplace/actions/setup-nu): A GitHub action that runs nushell in your CI.
 - [jc](https://github.com/kellyjonbrazil/jc): A collection of parsers for common unix tools that outputs JSON for easy import into nushell with `from json`.
 - [mise](https://mise.jdx.dev/): A development environment setup tool (dev tools, env vars, task runner) that integrates with Nushell.
-- [nix flake](https://git.sr.ht/~mangoiv/nu-shell.nix): A [`nix`](https://nixos.org/) flake that outputs `nushell` packages, docs and tests as well as a `devShell` for developing `nushell`.
+- [nu-shell.nix](https://git.sr.ht/~mangoiv/nu-shell.nix): A [`nix`](https://nixos.org/) flake that outputs `nushell` packages, docs and tests as well as a `devShell` for developing `nushell`.
 - [nu-jupyter-kernel](https://github.com/cptpiepmatz/nu-jupyter-kernel): A jupyter raw kernel for nu.
 - [Nuenv](https://determinate.systems/posts/nuenv): An experimental Nushell environment for Nix.
 - [nunvm](https://github.com/Yakiyo/nunvm): A cross-platform nvm clone written in nushell.
 - [nuPHP](https://github.com/mikayla-maki/nuPHP): Nu personal homepage webserver.
 - [nur](https://github.com/ddanier/nur): A taskrunner based on nu shell.
+- [nushellWith](https://github.com/YPares/nushellWith): Generate isolated nushell environments (with custom libraries and plugins), with Nix
 - [oh-my-posh](https://ohmyposh.dev/docs/installation/prompt): A prompt theme engine for any shell.
 - [pspg](https://github.com/okbob/pspg): A postgres pager that integrates in nushell.
 - [setup-bend Action](https://github.com/hustcer/setup-bend): A GitHub action that sets up the Bend environment powered by Nushell and with cache support.
