@@ -48,7 +48,7 @@
 |[nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex)|0.7.0|nu plugin to search text with regex|✅0.98.0|✅0.98.0|
 |[nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm)|0.2.0|A nushell plugin for reading rpm package.|✅0.98.0|✅0.98.0|
 |[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.8.0|A nushell plugin for dealing with SemVer versions|✅0.98.0|✅0.98.0|
-|[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.6.0|An `sk` command that can handle Nushell's structured data|✅0.98|✅0.98|
+|[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.7.0|An `sk` command that can handle Nushell's structured data|✅0.98|✅0.98|
 |[nu_plugin_str_similarity](https://github.com/fdncred/nu_plugin_str_similarity)|0.7.0|a nushell plugin called str_similarity|✅0.98.0|✅0.98.0|
 |[nu_plugin_template](https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk/template)|0.3.0|Templating in Nushell, powered by TinyTemplate|✅0.98.0|✅0.98.0|
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
@@ -56,4 +56,4 @@
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.2|A Nushell plugin for easily converting between common units|⚠️0.97.1|⚠️0.97.1|
 |issue in config file for (https://github.com/ArmoredPony/nu_plugin_hashes)|0.0||⛔0.0|⛔0.0|
 
-last update at `2024-09-25 03:18:59 +00:00`
+last update at `2024-10-02 03:16:17 +00:00`
