@@ -24,7 +24,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns): DNS utility for nushell.
 - [nu_plugin_dpktable](https://github.com/pdenapo/nu_plugin_dpkgtable): Gets a table of all known packages in a Debian GNU/Linux system.
 - [nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji): A nushell plugin that makes finding and printing emojis easy in nushell.
-- [nu_plugin_endecode](https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk/endecode): A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.
+- [nu_plugin_endecode](https://codeberg.org/kaathewise/nugins/src/branch/trunk/endecode): A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.
 - [nu_plugin_file](https://github.com/fdncred/nu_plugin_file): A nushell plugin that will inspect a file and return information based on its magic number.
 - [nu_plugin_formats](https://crates.io/crates/nu_plugin_formats): A nushell plugin for parsing eml, ics, ini, vcf files.
 - [nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount): A nushell extension to load a beancount file into nu structured data.
@@ -60,7 +60,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_semver](https://github.com/abusch/nu_plugin_semver): A Nushell plugin to manipulate SemVer versions.
 - [nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim): A Nushell plugin that provides a version of [skim](https://github.com/lotabout/skim) that can handle structured Nushell data for macOS and Linux.
 - [nu_plugin_str_similarity](https://github.com/fdncred/nu_plugin_str_similarity): A nushell plugin that helps you calculate the edit distance between two strings using a variety of algorithms.
-- [nu_plugin_template (String and HTML templating)](https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk/template): String and HTML templating in Nu.
+- [nu_plugin_template (String and HTML templating)](https://codeberg.org/kaathewise/nugins/src/branch/trunk/template): String and HTML templating in Nu.
 - [nu_plugin_template (cargo-generate template)](https://github.com/fdncred/nu_plugin_template): A `cargo-generate` template for making it easier to create nushell plugins.
 - [nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid): A nushell plugin that adds various ulid commands.
 - [nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units): A Nushell plugin for easily converting between common units.
