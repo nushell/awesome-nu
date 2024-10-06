@@ -294,7 +294,7 @@ plugins:
     language: rust
     repository:
       url: https://github.com/ArmoredPony/nu_plugin_hashes
-      branch: main
+      branch: master
   - name: nu_plugin_plotters
     language: rust
     repository:
