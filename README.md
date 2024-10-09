@@ -78,12 +78,15 @@ You can find some examples about how to create and use plugins in the [Nushell P
 
 You can find some examples about how to create and use scripts in the [Nushell Scripts](https://www.nushell.sh/book/scripts.html) page.
 
+- [ai.nu](https://github.com/fj0r/ai.nu): OpenAI and Ollama Clients.
 - [cargo_search](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/cargo_search.nu): Perform a cargo search.
-- [comma.nu](https://github.com/fj0r/comma.nu): Task and test runner of nu script.
+- [docker.nu](https://github.com/fj0r/docker.nu): Docker client toolset.
 - [dotnu](https://github.com/nushell-prophet/dotnu): tools for Nushell module developers.
 - [fsattr.nu](https://github.com/albert-tomanek/my-nu-commands/blob/master/posix/fsattr.nu): Nu commands for filesystem attributes.
 - [get-weather](https://github.com/nushell/nu_scripts/blob/main/modules/weather/get-weather.nu): Get weather forecast for your location.
+- [git.nu](https://github.com/fj0r/git.nu): Git toolset.
 - [git_gone](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/git_gone.nu): Gently try to delete merged branches, excluding the checked out one.
+- [kubernetes.nu](https://github.com/fj0r/kubernetes.nu): Kubernetes client toolset.
 - [math_functions](https://github.com/nushell/nu_scripts/blob/main/modules/maths/math_functions.nu): Math functions for doing things like `factorial`, `root`.
 - [npup.nu](https://github.com/fj0r/npup): Puppet based on nushell.
 - [nu-cmd-stack](https://github.com/nushell-prophet/nu-cmd-stack): scroll through the list of Nushell commands using `ctrl+alt+j/k` shortcuts.
@@ -93,8 +96,10 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [numd](https://github.com/nushell-prophet/numd): reproducible Nushell Markdown documents.
 - [nuschiit](https://github.com/nushell/nu_scripts/blob/main/sourced/webscraping/nuschiit.nu): Web scraping example for the schiit.co.uk website.
 - [packer.nu](https://github.com/Jan9103/packer.nu): A packer.nvim inspired package-manager for NuShell.
+- [powerline.nu](https://github.com/fj0r/powerline.nu): Powerline prompt for nushell.
 - [refreshenv](https://github.com/Sanceilaks/nu-refreshenv-win): Refresh PATH on Windows like in chocolatey.
 - [terraform-importer.nu](https://github.com/Yethal/terraform-importer): Automatically import resources into your Terraform state.
+- [todo.nu](https://github.com/fj0r/todo.nu): Yet another TODO, but nu.
 - [ultimate_extractor](https://github.com/nushell/nu_scripts/blob/main/modules/data_extraction/ultimate_extractor.nu): Function to extract archives with different extensions.
 - [webserver.nu](https://github.com/Jan9103/webserver.nu): A library for creating webservers.
 - [wi](https://github.com/phoenixr-codes/wi): A linguist wrapper for the terminal.
