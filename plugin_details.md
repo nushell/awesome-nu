@@ -14,7 +14,7 @@
 |[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|3.0.5-alpha.1|A DNS utility for nushell|✅0.98.0|✅0.98.0|
 |[nu_plugin_dpkgtable](https://github.com/pdenapo/nu_plugin_dpkgtable)|0.1.0||⚠️0.91.0|⚠️0.91.0|
 |[nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji)|0.6.0|a nushell plugin called emoji|✅0.98.0|✅0.98.0|
-|[nu_plugin_endecode](https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk/endecode)|0.3.0|A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.|✅0.98.0|✅0.98.0|
+|[nu_plugin_endecode](https://codeberg.org/kaathewise/nugins/src/branch/trunk/endecode)|0.3.0|A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.|✅0.98.0|✅0.98.0|
 |[nu_plugin_explore](https://github.com/amtoine/nu_plugin_explore)|0.98.0|A fast structured data explorer for Nushell.|✅0.98.0|✅0.98.0|
 |[nu_plugin_file](https://github.com/fdncred/nu_plugin_file)|0.8.0|a nushell plugin called file|✅0.98.0|✅0.98.0|
 |[nu_plugin_formats](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_formats)|0.98.1|An I/O plugin for a set of file formats for Nushell|✅0.98.1|✅0.98.1|
@@ -23,6 +23,7 @@
 |[nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5)|0.1.0|A plugin to parse HDF5 files into nushell record.|✅0.98|✅0.98|
 |[nu_plugin_from_sse](https://github.com/cablehead/nu_plugin_from_sse)|0.4.0|Nushell plugin to convert a HTTP server sent event stream to structured data|⚠️0.95|⚠️0.95|
 |[nu_plugin_gstat](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_gstat)|0.98.1|A git status plugin for Nushell|✅0.98.1|✅0.98.1|
+|[nu_plugin_hashes](https://github.com/ArmoredPony/nu_plugin_hashes)|0.1.1|A Nushell plugin that adds 61 cryptographic hash functions from Hashes project|✅0.98.0|✅0.98.0|
 |[nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl)|0.97.1|A nushell plugin for parsing Hashicorp Configuration Language file format|⚠️0.97.1|⚠️0.97.1|
 |[nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight)|1.3.1+0.98.0|A nushell plugin for syntax highlighting|✅0.98.0|✅0.98.0|
 |[nu_plugin_hmac](https://github.com/fnuttens/nu_plugin_hmac)|0.10.0|A HMAC sealing plugin for Nushell|✅0.98.0|✅0.98.0|
@@ -32,7 +33,7 @@
 |[nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl)|0.83.2|Add support for the KDL data format to Nushell.|⚠️0.83.2|⚠️0.83.2|
 |[nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime)|0.97.1|A simple plugin for working with mime types without performing disk access|⚠️0.97.1|⚠️0.97.1|
 |[nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack)|0.90.1|Commands to convert nushell data to and from MsgPack|⚠️0.90.1|⚠️0.90.1|
-|[nu_plugin_net](https://github.com/fennewald/nu_plugin_net)|1.7.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.97.1|⚠️0.97.1|
+|[nu_plugin_net](https://github.com/fennewald/nu_plugin_net)|1.8.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|✅0.98|✅0.98|
 |[nu_plugin_parquet](https://github.com/fdncred/nu_plugin_parquet)|0.8.0|nu plugin to add parquet support|✅0.98.0|✅0.98.0|
 |[nu_plugin_periodic_table](https://github.com/JosephTLyons/nu_plugin_periodic_table)|0.2.9|A periodic table of elements plugin for Nushell|⚠️0.97.1|⚠️0.97.1|
 |[nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist)|0.1.0|Nushell plist and base85 plugin implemented in Go.|⚠️0.94.0|⚠️0.94.0|
@@ -50,10 +51,9 @@
 |[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.8.0|A nushell plugin for dealing with SemVer versions|✅0.98.0|✅0.98.0|
 |[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.7.0|An `sk` command that can handle Nushell's structured data|✅0.98|✅0.98|
 |[nu_plugin_str_similarity](https://github.com/fdncred/nu_plugin_str_similarity)|0.7.0|a nushell plugin called str_similarity|✅0.98.0|✅0.98.0|
-|[nu_plugin_template](https://codeberg.org/kaathewise/nu-plugin/src/branch/trunk/template)|0.3.0|Templating in Nushell, powered by TinyTemplate|✅0.98.0|✅0.98.0|
+|[nu_plugin_template](https://codeberg.org/kaathewise/nugins/src/branch/trunk/template)|0.3.0|Templating in Nushell, powered by TinyTemplate|✅0.98.0|✅0.98.0|
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.7.0|A nushell plugin that adds various ulid commands|✅0.98.0|✅0.98.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.2|A Nushell plugin for easily converting between common units|⚠️0.97.1|⚠️0.97.1|
-|issue in config file for (https://github.com/ArmoredPony/nu_plugin_hashes)|0.0||⛔0.0|⛔0.0|
 
-last update at `2024-10-02 03:16:17 +00:00`
+last update at `2024-10-09 03:17:09 +00:00`
