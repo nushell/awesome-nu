@@ -305,6 +305,11 @@ plugins:
     repository:
       url: https://github.com/yybit/nu_plugin_compress
       branch: main
+  - name: nu_plugin_vec
+    language: rust
+    repository:
+      url: https://github.com/PhotonBursted/nu_plugin_vec
+      branch: main
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
 #    language: python # programming language (mandatory)
