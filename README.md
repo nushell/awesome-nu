@@ -15,6 +15,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_bexpand](https://codeberg.org/Taywee/nu-plugin-bexpand): Bash style brace expansion for nushell.
 - [nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader): A high level, general binary data reader.
 - [nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio): A bioinformatics plugin for nushell.
+- [nu_plugin_cassandra_query](https://github.com/devyn/nu_plugin_cassandra_query): Query plugin for the Cassandra database for Nushell.
 - [nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard): A nushell plugin to copy text into clipboard or get text from it.
 - [nu_plugin_compress](https://github.com/yybit/nu_plugin_compress): A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.
 - [nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus): Nushell plugin for interacting with D-Bus.
