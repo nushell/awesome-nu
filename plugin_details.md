@@ -5,6 +5,7 @@
 |[nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env)|0.14.2|Nu plugin bash-env|⚠️0.98.0|⚠️0.98.0|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.85.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.85.0|⚠️0.85.0|
+|[nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo)|0.1.0|A nushell plugin to interactive with mongodb.|✅0.99.0|✅0.99.0|
 |[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.98.0|A nushell plugin to copy text into clipboard or get text from it.|⚠️0.98.0|⚠️0.98.0|
 |[nu_plugin_compress](https://github.com/yybit/nu_plugin_compress)|0.1.0|A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.|⚠️0.98.0|⚠️0.98.0|
 |[nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus)|0.11.0|Nushell plugin for communicating with D-Bus|⚠️0.98.0|⚠️0.98.0|
