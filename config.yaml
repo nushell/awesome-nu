@@ -56,6 +56,11 @@ plugins:
     repository:
       url: https://github.com/Euphrasiologist/nu_plugin_bio
       branch: main
+  - name: nu_plugin_mongo
+    language: rust
+    repository:
+      url: https://github.com/WindSoilder/nu_plugin_mongo
+      branch: main
   - name: nu_plugin_regex
     language: rust
     repository:
