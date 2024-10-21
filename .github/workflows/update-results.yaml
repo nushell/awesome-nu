@@ -13,10 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         -   name: Setup Nushell
-            uses: hustcer/setup-nu@v3.8
+            uses: hustcer/setup-nu@v3
             with:
               version: 0.95.0
-              token: ${{ secrets.GITHUB_TOKEN }}
+            env:
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         -   uses: actions/checkout@v2
         -   name: Update plugin list
             shell: nu {0}
