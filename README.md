@@ -41,6 +41,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_json_path](https://github.com/fdncred/nu_plugin_json_path): A nushell plugin for parsing json that uses the json path specification.
 - [nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl): A plugin to add KDL support to Nushell.
 - [nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime): Nushell plugin for working with mime types without performing disk access.
+- [nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo): A nushell plugin to interactive with mongodb.
 - [nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack): Nushell plugin for converting to and from msgpack.
 - [nu_plugin_net](https://crates.io/crates/nu_plugin_net): List network interfaces on any platform.
 - [nu_plugin_pnet](https://github.com/fdncred/nu_plugin_pnet): Same as `nu_plugin_net` but named `pnet` to avoid conflict with Windows `net` built-in.
