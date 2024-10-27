@@ -11,7 +11,7 @@ If you are looking for interesting blog posts, media attention or youtube videos
 You can find some examples about how to create and use plugins in the [Nushell Plugins](https://www.nushell.sh/book/plugins.html) page.
 
 - [nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook): A nushell plugin to make and play sounds.
-- [nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env): A Bash environment plugin for nushell.
+- [nu_plugin_bash_env](https://github.com/tesujimath/bash-env-nushell): The Bash environment plugin for nushell is **deprecated** in favour of the bash-env-nushell module (below)
 - [nu_plugin_bexpand](https://codeberg.org/Taywee/nu-plugin-bexpand): Bash style brace expansion for nushell.
 - [nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader): A high level, general binary data reader.
 - [nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio): A bioinformatics plugin for nushell.
@@ -81,6 +81,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 You can find some examples about how to create and use scripts in the [Nushell Scripts](https://www.nushell.sh/book/scripts.html) page.
 
 - [ai.nu](https://github.com/fj0r/ai.nu): OpenAI and Ollama Clients.
+- [bash-env-nushell](https://github.com/tesujimath/bash-env-nushell): Bash environment for Nushell.
 - [cargo_search](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/cargo_search.nu): Perform a cargo search.
 - [docker.nu](https://github.com/fj0r/docker.nu): Docker client toolset.
 - [dotnu](https://github.com/nushell-prophet/dotnu): tools for Nushell module developers.
