@@ -127,6 +127,7 @@ Other tools that work with or within the nu language ecosystem.
 - [atuin](https://github.com/ellie/atuin): 🐢 Magical shell history.
 - [broot](https://github.com/Canop/broot): A new way to see and navigate directory trees.
 - [bru](https://github.com/selfagency/bru): A Nushell wrapper for Homebrew.
+- [carapace-bin](https://github.com/carapace-sh/carapace-bin): multi-shell multi-command argument completer
 - [clap_complete_nushell](https://github.com/clap-rs/clap/tree/master/clap_complete_nushell): A way to generate completions for clap based CLIs.
 - [conda](https://github.com/nushell/nu_scripts/blob/main/modules/virtual_environments/conda.nu): Activate/deactivate conda virtual environments.
 - [couchbase-shell](https://github.com/couchbaselabs/couchbase-shell): A modern, productive and fun shell for Couchbase Server and Cloud.
