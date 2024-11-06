@@ -19,7 +19,7 @@
 |[nu_plugin_formats](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_formats)|0.99.2|An I/O plugin for a set of file formats for Nushell|✅0.99.2|✅0.99.2|
 |[nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount)|2.0.0|A nushell extension to load a beancount file into nu structured data|⚠️0.84.0|⚠️0.84.0|
 |[nu_plugin_from_bencode](https://github.com/bluk/nu_plugin_from_bencode)|0.11.0|A Nushell plugin to convert bencode data into Nu structured values.|⚠️0.93|⚠️0.93|
-|[nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5)|0.1.0|A plugin to parse HDF5 files into nushell record.|⚠️0.98|⚠️0.98|
+|[nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5)|0.1.0|A plugin to parse HDF5 files into nushell record.|✅0.99|✅0.99|
 |[nu_plugin_from_sse](https://github.com/cablehead/nu_plugin_from_sse)|0.4.0|Nushell plugin to convert a HTTP server sent event stream to structured data|⚠️0.95|⚠️0.95|
 |[nu_plugin_gstat](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_gstat)|0.99.2|A git status plugin for Nushell|✅0.99.2|✅0.99.2|
 |[nu_plugin_hashes](https://github.com/ArmoredPony/nu_plugin_hashes)|0.1.2|A Nushell plugin that adds 61 cryptographic hash functions from Hashes project|✅0.99.0|✅0.99.0|
@@ -35,7 +35,7 @@
 |[nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack)|0.90.1|Commands to convert nushell data to and from MsgPack|⚠️0.90.1|⚠️0.90.1|
 |[nu_plugin_net](https://github.com/fennewald/nu_plugin_net)|1.8.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.98|⚠️0.98|
 |[nu_plugin_parquet](https://github.com/fdncred/nu_plugin_parquet)|0.9.0|nu plugin to add parquet support|✅0.99.1|✅0.99.1|
-|[nu_plugin_periodic_table](https://github.com/JosephTLyons/nu_plugin_periodic_table)|0.2.9|A periodic table of elements plugin for Nushell|⚠️0.97.1|⚠️0.97.1|
+|[nu_plugin_periodic_table](https://github.com/JosephTLyons/nu_plugin_periodic_table)|0.2.10|A periodic table of elements plugin for Nushell|✅0.99.1|✅0.99.1|
 |[nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist)|0.1.0|Nushell plist and base85 plugin implemented in Go.|⚠️0.94.0|⚠️0.94.0|
 |[nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist)|0.96.0|Plist parsing for nushell|⚠️0.96|⚠️0.96|
 |[nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot)|0.91.1|Plot graphs in nushell using numerical lists.|✅0.99.1|✅0.99.1|
@@ -54,7 +54,7 @@
 |[nu_plugin_template](https://codeberg.org/kaathewise/nugins/src/branch/trunk/template)|0.99.0|Templating in Nushell, powered by TinyTemplate|✅0.99.0|✅0.99.0|
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.8.0|A nushell plugin that adds various ulid commands|✅0.99.0|✅0.99.0|
-|[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.2|A Nushell plugin for easily converting between common units|⚠️0.97.1|⚠️0.97.1|
+|[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.3|A Nushell plugin for easily converting between common units|✅0.99.1|✅0.99.1|
 |[nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec)|1.1.1|A Nushell plugin implementing vector operations|✅0.99.1|✅0.99.1|
 
-last update at `2024-10-30 03:18:35 +00:00`
+last update at `2024-11-06 03:14:28 +00:00`
