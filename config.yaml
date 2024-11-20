@@ -310,6 +310,11 @@ plugins:
     repository:
       url: https://github.com/PhotonBursted/nu_plugin_vec
       branch: main
+  - name: nu_plugin_sled
+    language: rust
+    repository:
+      url: https://github.com/mrxiaozhuox/nu_plugin_sled
+      branch: main
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
 #    language: python # programming language (mandatory)
