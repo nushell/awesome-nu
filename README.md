@@ -59,6 +59,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex): A regular expressions plugin for nushell.
 - [nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm): A nushell plugin for reading rpm packages.
 - [nu_plugin_semver](https://github.com/abusch/nu_plugin_semver): A Nushell plugin to manipulate SemVer versions.
+- [nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled): A Nushell plugin for managing sled databases.
 - [nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim): A Nushell plugin that provides a version of [skim](https://github.com/lotabout/skim) that can handle structured Nushell data for macOS and Linux.
 - [nu_plugin_str_similarity](https://github.com/fdncred/nu_plugin_str_similarity): A nushell plugin that helps you calculate the edit distance between two strings using a variety of algorithms.
 - [nu_plugin_template (String and HTML templating)](https://codeberg.org/kaathewise/nugins/src/branch/trunk/template): String and HTML templating in Nu.
@@ -66,7 +67,6 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid): A nushell plugin that adds various ulid commands.
 - [nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units): A Nushell plugin for easily converting between common units.
 - [nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec): A Nushell plugin adding support for vector operations.
-- [nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled): A Nushell plugin for managing sled databases.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your current version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
