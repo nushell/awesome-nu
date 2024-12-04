@@ -24,7 +24,7 @@
 |[nu_plugin_gstat](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_gstat)|0.100.1|A git status plugin for Nushell|✅0.100.1|✅0.100.1|
 |[nu_plugin_hashes](https://github.com/ArmoredPony/nu_plugin_hashes)|0.1.3|A Nushell plugin that adds 61 cryptographic hash functions from Hashes project|✅0.100.0|✅0.100.0|
 |[nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl)|0.100.0|A nushell plugin for parsing Hashicorp Configuration Language file format|✅0.100.0|✅0.100.0|
-|[nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight)|1.3.3+0.100.0|A nushell plugin for syntax highlighting|✅0.100.0|✅0.100.0|
+|[nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight)|1.4.1+0.100.0|A nushell plugin for syntax highlighting|✅0.100.0|✅0.100.0|
 |[nu_plugin_hmac](https://github.com/fnuttens/nu_plugin_hmac)|0.12.0|A HMAC sealing plugin for Nushell|✅0.100.0|✅0.100.0|
 |[nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image)|0.5.6|A nushell plugin to open png images in the shell and save ansi string as images (like tables or ...)|⚠️0.99.0|⚠️0.99.0|
 |[nu_plugin_inc](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc)|0.100.1|A version incrementer plugin for Nushell|✅0.100.1|✅0.100.1|
@@ -39,7 +39,7 @@
 |[nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist)|0.1.0|Nushell plist and base85 plugin implemented in Go.|⚠️0.94.0|⚠️0.94.0|
 |[nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist)|0.96.0|Plist parsing for nushell|⚠️0.96|⚠️0.96|
 |[nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot)|0.91.1|Plot graphs in nushell using numerical lists.|✅0.100.0|✅0.100.0|
-|[nu_plugin_plotters](https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters)|0.1.1+0.99.0|A nushell plugin for for plotting charts|⛔0.0.0|⛔0.0.0|
+|[nu_plugin_plotters](https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters)|0.1.2+0.100.0|A nushell plugin for for plotting charts|⛔0.0.0|⛔0.0.0|
 |[nu_plugin_pnet](https://github.com/fdncred/nu_plugin_pnet)|1.7.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.97.2|⚠️0.97.2|
 |[nu_plugin_port_list](https://github.com/FMotalleb/nu_plugin_port_list)|1.4.5|A nushell plugin to list all active connections|✅0.100.0|✅0.100.0|
 |[nu_plugin_port_scan](https://github.com/FMotalleb/nu_plugin_port_scan)|1.2.6|A nushell plugin for scanning ports on a target|✅0.100.0|✅0.100.0|
@@ -58,4 +58,4 @@
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.3|A Nushell plugin for easily converting between common units|⚠️0.99.1|⚠️0.99.1|
 |[nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec)|1.1.2|A Nushell plugin implementing vector operations|✅0.100.0|✅0.100.0|
 
-last update at `2024-11-27 03:27:57 +00:00`
+last update at `2024-12-04 03:30:01 +00:00`
