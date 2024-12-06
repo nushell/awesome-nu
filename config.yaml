@@ -310,6 +310,11 @@ plugins:
     repository:
       url: https://github.com/PhotonBursted/nu_plugin_vec
       branch: main
+  - name: nu_plugin_ws
+    language: rust
+    repository:
+      url: https://github.com/alex-kattathra-johnson/nu_plugin_ws
+      branch: main
   - name: nu_plugin_sled
     language: rust
     repository:
