@@ -4,7 +4,7 @@
 |[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.2.7|A nushell plugin to make and play sounds|✅0.100.0|✅0.100.0|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.85.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.85.0|⚠️0.85.0|
-|[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.100.0|A nushell plugin to copy text into clipboard or get text from it.|✅0.100.0|✅0.100.0|
+|[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.100.1|A nushell plugin to copy text into clipboard or get text from it.|✅0.100.0|✅0.100.0|
 |[nu_plugin_compress](https://github.com/yybit/nu_plugin_compress)|0.1.0|A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.|⚠️0.98.0|⚠️0.98.0|
 |[nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus)|0.13.0|Nushell plugin for communicating with D-Bus|✅0.100.0|✅0.100.0|
 |[nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm)|0.1.8|A nushell plugin to parse Dicom files|⚠️0.68|⚠️0.68|
@@ -59,4 +59,4 @@
 |[nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec)|1.1.2|A Nushell plugin implementing vector operations|✅0.100.0|✅0.100.0|
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.2.2|A Nushell plugin for easily streaming output from websocket endpoints|✅0.100.0|✅0.100.0|
 
-last update at `2024-12-11 03:29:29 +00:00`
+last update at `2024-12-18 03:23:14 +00:00`
