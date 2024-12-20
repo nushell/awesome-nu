@@ -61,6 +61,11 @@ plugins:
     repository:
       url: https://github.com/WindSoilder/nu_plugin_mongo
       branch: main
+  - name: nu_plugin_nupsql
+    language: rust
+    repository:
+      url: https://gitlab.com/HertelP/nu_plugin_nupsql
+      branch: main
   - name: nu_plugin_regex
     language: rust
     repository:
