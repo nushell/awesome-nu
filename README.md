@@ -86,6 +86,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [ai.nu](https://github.com/fj0r/ai.nu): OpenAI and Ollama Clients.
 - [bash-env-nushell](https://github.com/tesujimath/bash-env-nushell): Bash environment for Nushell.
 - [cargo_search](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/cargo_search.nu): Perform a cargo search.
+- [discord.nu](https://github.com/cablehead/discord.nu): Nushell wrapper for the Discord REST API
 - [docker.nu](https://github.com/fj0r/docker.nu): Docker client toolset.
 - [dotnu](https://github.com/nushell-prophet/dotnu): tools for Nushell module developers.
 - [fsattr.nu](https://github.com/albert-tomanek/my-nu-commands/blob/master/posix/fsattr.nu): Nu commands for filesystem attributes.
