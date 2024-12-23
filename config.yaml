@@ -272,19 +272,19 @@ plugins:
   - name: nu_plugin_endecode
     language: rust
     repository:
-      url: https://codeberg.org/kaathewise/nugins/src/branch/trunk/endecode
+      url: https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode
       branch: trunk
     override:
-      plugin: "0.99.0"
-      protocol: "0.99.0"
+      plugin: "0.101.0"
+      protocol: "0.101.0"
   - name: nu_plugin_template
     language: rust
     repository:
-      url: https://codeberg.org/kaathewise/nugins/src/branch/trunk/template
+      url: https://github.com/KAAtheWiseGit/nugins/tree/trunk/template
       branch: trunk
     override:
-      plugin: "0.99.0"
-      protocol: "0.99.0"
+      plugin: "0.101.0"
+      protocol: "0.101.0"
   - name: nu_plugin_mime
     language: rust
     repository:
