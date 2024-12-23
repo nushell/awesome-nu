@@ -139,7 +139,7 @@ plugins:
   - name: nu_plugin_bexpand
     language: rust
     repository:
-      url: https://codeberg.org/Taywee/nu-plugin-bexpand
+      url: https://forge.axfive.net/Taylor/nu-plugin-bexpand
       branch: main
   - name: nu_plugin_highlight
     language: rust
