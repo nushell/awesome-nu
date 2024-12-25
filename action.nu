@@ -79,12 +79,21 @@ export module plugin-list {
     # converts repository url into raw download link for Cargo.toml
     def "get-raw-toml-address" [
         url: string, # github repository url (e.g. https://github.com/FMotalleb/nu_plugin_port_scan)
-        branch: string # branch name (e.g. main)
+        branch: string, # branch name (e.g. main)
+        software?: string
     ]: nothing -> record {
         let url: record = ($url | url parse)
+
+        # Unspecified forge software is determined from the host.
+        let software = match $url.host {
+            'github.com' => 'github',
+            'gitlab.com' => 'gitlab',
+            'codeberg.org' => 'forgejo',
+            _ => $software
+        }
         use utils "str explode"
-        match $url.host {
-            'github.com' => {
+        match $software {
+            'github' => {
                 if ( ($url.path | str explode '/' --trim-end | length) > 3 ) {
                     return ($url
                     | upsert host raw.githubusercontent.com
@@ -102,7 +111,7 @@ export module plugin-list {
                         | append Cargo.toml
                         | str join '/'))
              },
-             'gitlab.com' => {
+             'gitlab' => {
                 return ($url
                     | upsert path ($url.path
                     | str explode '/' --trim-end
@@ -112,7 +121,7 @@ export module plugin-list {
                     | append Cargo.toml
                     | str join '/'))
              },
-            'codeberg.org' => {
+            'forgejo' => {
                 return ($url
                     | update path {
                         split row "/"
@@ -137,10 +146,11 @@ export module plugin-list {
 
     # download toml file from repository
     def "get-toml" [
-        branch: string # branch name (e.g. main)
+        branch: string, # branch name (e.g. main)
+        software?: string
     ]: string -> record {
         let git_repo = ($in |  str replace --regex ".git$" "") # github repository url (e.g. https://github.com/FMotalleb/nu_plugin_port_scan)
-        let toml_file_address: string = (get-raw-toml-address $git_repo $branch | url join)
+        let toml_file_address: string = (get-raw-toml-address $git_repo $branch $software | url join)
         try {
             return (http get --raw $toml_file_address | from toml)
         } catch {
@@ -244,7 +254,7 @@ export module plugin-list {
         let item = $in
         match $item.language {
             "rust" => {
-                return ($item.repository.url | get-toml $item.repository.branch| map-toml-to-entry $item.repository.url)
+                return ($item.repository.url | get-toml $item.repository.branch ($item | get -i $.repository.software) | map-toml-to-entry $item.repository.url)
             }
             _ => {
                 return {}
