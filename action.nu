@@ -80,20 +80,16 @@ export module plugin-list {
     def "get-raw-toml-address" [
         url: string, # github repository url (e.g. https://github.com/FMotalleb/nu_plugin_port_scan)
         branch: string, # branch name (e.g. main)
-        software?: string,
+        software?: string
     ]: nothing -> record {
         let url: record = ($url | url parse)
 
         # Unspecified forge software is determined from the host.
-        let software = if $software == null {
-            let foo = match $url.host {
-                'github.com' => 'github',
-                'gitlab.com' => 'gitlab',
-                'codeberg.org' => 'forgejo',
-            }
-            $foo
-        } else {
-            $software
+        let software = match $url.host {
+            'github.com' => 'github',
+            'gitlab.com' => 'gitlab',
+            'codeberg.org' => 'forgejo',
+            _ => $software
         }
         use utils "str explode"
         match $software {
@@ -150,8 +146,8 @@ export module plugin-list {
 
     # download toml file from repository
     def "get-toml" [
-        branch: string # branch name (e.g. main)
-        software?: string,
+        branch: string, # branch name (e.g. main)
+        software?: string
     ]: string -> record {
         let git_repo = ($in |  str replace --regex ".git$" "") # github repository url (e.g. https://github.com/FMotalleb/nu_plugin_port_scan)
         let toml_file_address: string = (get-raw-toml-address $git_repo $branch $software | url join)
@@ -184,7 +180,7 @@ export module plugin-list {
 
     # map `Cargo.toml` file to a plugin entry record
     def "map-toml-to-entry" [
-        repository: string,
+        repository: string
     ]: record -> record {
         let toml: record = $in
         if ([$toml.package?, $toml.dependencies?] | all {|i| $i != null}) {
