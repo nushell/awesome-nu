@@ -141,6 +141,7 @@ plugins:
     repository:
       url: https://forge.axfive.net/Taylor/nu-plugin-bexpand
       branch: main
+      software: forgejo
   - name: nu_plugin_highlight
     language: rust
     repository:
