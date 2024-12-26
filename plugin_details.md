@@ -25,13 +25,14 @@
 |[nu_plugin_hashes](https://github.com/ArmoredPony/nu_plugin_hashes)|0.1.3|A Nushell plugin that adds 61 cryptographic hash functions from Hashes project|⚠️0.100.0|⚠️0.100.0|
 |[nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl)|0.100.0|A nushell plugin for parsing Hashicorp Configuration Language file format|⚠️0.100.0|⚠️0.100.0|
 |[nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight)|1.4.2+0.101.0|A nushell plugin for syntax highlighting|✅0.101.0|✅0.101.0|
-|[nu_plugin_hmac](https://github.com/fnuttens/nu_plugin_hmac)|0.12.0|A HMAC sealing plugin for Nushell|⚠️0.100.0|⚠️0.100.0|
+|[nu_plugin_hmac](https://github.com/fnuttens/nu_plugin_hmac)|0.13.0|A HMAC sealing plugin for Nushell|✅0.101.0|✅0.101.0|
 |[nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image)|0.5.8|A nushell plugin to open png images in the shell and save ansi string as images (like tables or ...)|✅0.101.0|✅0.101.0|
 |[nu_plugin_inc](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc)|0.101.1|A version incrementer plugin for Nushell|✅0.101.1|✅0.101.1|
 |[nu_plugin_json_path](https://github.com/fdncred/nu_plugin_json_path)|0.11.0|a nushell plugin created to parse json files using jsonpath|✅0.101.0|✅0.101.0|
 |[nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl)|0.83.2|Add support for the KDL data format to Nushell.|⚠️0.83.2|⚠️0.83.2|
+|[nu_plugin_logfmt](https://github.com/oderwat/nu_plugin_logfmt)|0.0.1|Nushell plugin that allows conversion between logfmt and Nushell values.|⚠️0.100.0|⚠️0.100.0|
 |[nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime)|0.100.0|A simple plugin for working with mime types without performing disk access|⚠️0.100.0|⚠️0.100.0|
-|[nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo)|0.1.1|A nushell plugin to interactive with mongodb|⚠️0.100|⚠️0.100|
+|[nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo)|0.1.2|A nushell plugin to interactive with mongodb|✅0.101|✅0.101|
 |[nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack)|0.90.1|Commands to convert nushell data to and from MsgPack|⚠️0.90.1|⚠️0.90.1|
 |[nu_plugin_net](https://github.com/fennewald/nu_plugin_net)|1.8.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.98|⚠️0.98|
 |[nu_plugin_nupsql](https://gitlab.com/HertelP/nu_plugin_nupsql)|0.1.0|A nushell plugin to query postgres databases|✅0.101.0|✅0.101.0|
@@ -60,4 +61,4 @@
 |[nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec)|1.1.3|A Nushell plugin implementing vector operations|✅0.101.0|✅0.101.0|
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.2.2|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.100.0|⚠️0.100.0|
 
-last update at `2024-12-25 20:54:15 +00:00`
+last update at `2024-12-26 14:02:24 +00:00`
