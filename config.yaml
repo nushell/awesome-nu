@@ -270,6 +270,17 @@ plugins:
       description: "Nushell plist and base85 plugin implemented in Go."
       plugin: "0.94.0"
       protocol: "0.94.0"
+  - name: nu_plugin_logfmt
+    language: go
+    repository:
+      url: https://github.com/oderwat/nu_plugin_logfmt
+      branch: main
+    override: # override fields because it is written in go using github.com/ainvaltin/nu-plugin
+      name: "[nu_plugin_logfmt](https://github.com/oderwat/nu_plugin_logfmt)"
+      version: "0.0.1"
+      description: "Nushell plugin that allows conversion between logfmt and Nushell values."
+      plugin: "0.100.0"
+      protocol: "0.100.0"
   - name: nu_plugin_endecode
     language: rust
     repository:
