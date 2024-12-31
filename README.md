@@ -98,6 +98,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [math_functions](https://github.com/nushell/nu_scripts/blob/main/modules/maths/math_functions.nu): Math functions for doing things like `factorial`, `root`.
 - [npup.nu](https://github.com/fj0r/npup): Puppet based on nushell.
 - [nu-cmd-stack](https://github.com/nushell-prophet/nu-cmd-stack): scroll through the list of Nushell commands using `ctrl+alt+j/k` shortcuts.
+- [nu-dir-bookmark](https://github.com/yh17549/nu-dir-bookmark/blob/main/bookmark_for_dir.nu): Bookmark for directory and auto jump.
 - [nu-history-tools](https://github.com/nushell-prophet/nu-history-tools): analyze the command frequencies in Nushell history, generate cool graphs, benchmark statistics with other users.
 - [nu-telegram-bot](https://github.com/nushell-prophet/nu-telegram-bot): Interacting with telegram's bot api
 - [nufetch](https://github.com/Sanceilaks/nufetch): neofetch-like script written in Nu🐘
