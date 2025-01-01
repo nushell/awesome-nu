@@ -61,5 +61,6 @@
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.4|A Nushell plugin for easily converting between common units|✅0.101.0|✅0.101.0|
 |[nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec)|1.1.3|A Nushell plugin implementing vector operations|✅0.101.0|✅0.101.0|
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.2.2|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.100.0|⚠️0.100.0|
+|[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.0|A nushell plugin for working with x509 certificates.|✅0.101.0|✅0.101.0|
 
-last update at `2025-01-01 03:23:12 +00:00`
+last update at `2025-01-01 14:17:23 +00:00`
