@@ -24,7 +24,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns): DNS utility for nushell.
 - [nu_plugin_dpktable](https://github.com/pdenapo/nu_plugin_dpkgtable): Gets a table of all known packages in a Debian GNU/Linux system.
 - [nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji): A nushell plugin that makes finding and printing emojis easy in nushell.
-- [nu_plugin_endecode](https://codeberg.org/kaathewise/nugins/src/branch/trunk/endecode): A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.
+- [nu_plugin_endecode](https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode): A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.
 - [nu_plugin_file](https://github.com/fdncred/nu_plugin_file): A nushell plugin that will inspect a file and return information based on its magic number.
 - [nu_plugin_formats](https://crates.io/crates/nu_plugin_formats): A nushell plugin for parsing eml, ics, ini, vcf files.
 - [nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount): A nushell extension to load a beancount file into nu structured data.
