@@ -6,7 +6,7 @@
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.85.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.85.0|⚠️0.85.0|
 |[nu_plugin_cassandra_query](https://github.com/devyn/nu_plugin_cassandra_query)|0.2.0|Query plugin for the Cassandra database for Nushell|⚠️0.100.0|⚠️0.100.0|
 |[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.101.0|A nushell plugin to copy text into clipboard or get text from it.|✅0.101.0|✅0.101.0|
-|[nu_plugin_compress](https://github.com/yybit/nu_plugin_compress)|0.2.1|A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.|✅0.101.0|✅0.101.0|
+|[nu_plugin_compress](https://github.com/yybit/nu_plugin_compress)|0.2.2|A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.|✅0.101.0|✅0.101.0|
 |[nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus)|0.13.0|Nushell plugin for communicating with D-Bus|⚠️0.100.0|⚠️0.100.0|
 |[nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm)|0.1.8|A nushell plugin to parse Dicom files|⚠️0.68|⚠️0.68|
 |[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|1.2.7|A nushell plugin to send desktop notifications|✅0.101.0|✅0.101.0|
@@ -31,8 +31,8 @@
 |[nu_plugin_inc](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc)|0.101.1|A version incrementer plugin for Nushell|✅0.101.1|✅0.101.1|
 |[nu_plugin_json_path](https://github.com/fdncred/nu_plugin_json_path)|0.11.0|a nushell plugin created to parse json files using jsonpath|✅0.101.0|✅0.101.0|
 |[nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl)|0.83.2|Add support for the KDL data format to Nushell.|⚠️0.83.2|⚠️0.83.2|
-|[nu_plugin_logfmt](https://github.com/oderwat/nu_plugin_logfmt)|0.0.1|Nushell plugin that allows conversion between logfmt and Nushell values.|⚠️0.100.0|⚠️0.100.0|
-|[nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime)|0.100.0|A simple plugin for working with mime types without performing disk access|⚠️0.100.0|⚠️0.100.0|
+|[nu_plugin_logfmt](https://github.com/oderwat/nu_plugin_logfmt)|0.1.0|Nushell plugin that allows conversion between logfmt and Nushell values.|✅0.101.0|✅0.101.0|
+|[nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime)|0.100.0|A simple plugin for working with mime types without performing disk access|✅0.101.0|✅0.101.0|
 |[nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo)|0.1.2|A nushell plugin to interactive with mongodb|✅0.101|✅0.101|
 |[nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack)|0.90.1|Commands to convert nushell data to and from MsgPack|⚠️0.90.1|⚠️0.90.1|
 |[nu_plugin_net](https://github.com/fennewald/nu_plugin_net)|1.8.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.98|⚠️0.98|
@@ -63,4 +63,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.2.2|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.100.0|⚠️0.100.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.0|A nushell plugin for working with x509 certificates.|✅0.101.0|✅0.101.0|
 
-last update at `2025-01-01 14:17:23 +00:00`
+last update at `2025-01-08 03:15:57 +00:00`
