@@ -56,6 +56,16 @@ plugins:
     repository:
       url: https://github.com/Euphrasiologist/nu_plugin_bio
       branch: main
+  - name: nu_plugin_mongo
+    language: rust
+    repository:
+      url: https://github.com/WindSoilder/nu_plugin_mongo
+      branch: main
+  - name: nu_plugin_nupsql
+    language: rust
+    repository:
+      url: https://gitlab.com/HertelP/nu_plugin_nupsql
+      branch: main
   - name: nu_plugin_regex
     language: rust
     repository:
@@ -129,8 +139,9 @@ plugins:
   - name: nu_plugin_bexpand
     language: rust
     repository:
-      url: https://codeberg.org/Taywee/nu-plugin-bexpand
+      url: https://forge.axfive.net/Taylor/nu-plugin-bexpand
       branch: main
+      software: forgejo
   - name: nu_plugin_highlight
     language: rust
     repository:
@@ -198,11 +209,6 @@ plugins:
     repository:
       url: https://github.com/hulthe/nu_plugin_msgpack
       branch: master
-  - name: nu_plugin_bash_env
-    language: rust
-    repository:
-      url: https://github.com/tesujimath/nu_plugin_bash_env
-      branch: main
   - name: nu_plugin_units
     language: rust
     repository:
@@ -264,22 +270,33 @@ plugins:
       description: "Nushell plist and base85 plugin implemented in Go."
       plugin: "0.94.0"
       protocol: "0.94.0"
+  - name: nu_plugin_logfmt
+    language: go
+    repository:
+      url: https://github.com/oderwat/nu_plugin_logfmt
+      branch: main
+    override: # override fields because it is written in go using github.com/ainvaltin/nu-plugin
+      name: "[nu_plugin_logfmt](https://github.com/oderwat/nu_plugin_logfmt)"
+      version: "0.1.0"
+      description: "Nushell plugin that allows conversion between logfmt and Nushell values."
+      plugin: "0.101.0"
+      protocol: "0.101.0"
   - name: nu_plugin_endecode
     language: rust
     repository:
-      url: https://codeberg.org/kaathewise/nugins/src/branch/trunk/endecode
+      url: https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode
       branch: trunk
     override:
-      plugin: "0.98.0"
-      protocol: "0.98.0"
+      plugin: "0.101.0"
+      protocol: "0.101.0"
   - name: nu_plugin_template
     language: rust
     repository:
-      url: https://codeberg.org/kaathewise/nugins/src/branch/trunk/template
+      url: https://github.com/KAAtheWiseGit/nugins/tree/trunk/template
       branch: trunk
     override:
-      plugin: "0.98.0"
-      protocol: "0.98.0"
+      plugin: "0.101.0"
+      protocol: "0.101.0"
   - name: nu_plugin_mime
     language: rust
     repository:
@@ -310,6 +327,27 @@ plugins:
     repository:
       url: https://github.com/PhotonBursted/nu_plugin_vec
       branch: main
+  - name: nu_plugin_ws
+    language: rust
+    repository:
+      url: https://github.com/alex-kattathra-johnson/nu_plugin_ws
+      branch: main
+  - name: nu_plugin_sled
+    language: rust
+    repository:
+      url: https://github.com/mrxiaozhuox/nu_plugin_sled
+      branch: main
+  - name: nu_plugin_cassandra_query
+    language: rust
+    repository:
+      url: https://github.com/devyn/nu_plugin_cassandra_query
+      branch: main
+  - name: nu_plugin_x509
+    language: rust
+    repository:
+      url: https://github.com/yybit/nu_plugin_x509
+      branch: main
+
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
 #    language: python # programming language (mandatory)

@@ -11,7 +11,7 @@ If you are looking for interesting blog posts, media attention or youtube videos
 You can find some examples about how to create and use plugins in the [Nushell Plugins](https://www.nushell.sh/book/plugins.html) page.
 
 - [nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook): A nushell plugin to make and play sounds.
-- [nu_plugin_bash_env](https://github.com/tesujimath/nu_plugin_bash_env): A Bash environment plugin for nushell.
+- [nu_plugin_bash_env](https://github.com/tesujimath/bash-env-nushell): The Bash environment plugin for nushell is **deprecated** in favour of the bash-env-nushell module (below)
 - [nu_plugin_bexpand](https://codeberg.org/Taywee/nu-plugin-bexpand): Bash style brace expansion for nushell.
 - [nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader): A high level, general binary data reader.
 - [nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio): A bioinformatics plugin for nushell.
@@ -25,7 +25,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns): DNS utility for nushell.
 - [nu_plugin_dpktable](https://github.com/pdenapo/nu_plugin_dpkgtable): Gets a table of all known packages in a Debian GNU/Linux system.
 - [nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji): A nushell plugin that makes finding and printing emojis easy in nushell.
-- [nu_plugin_endecode](https://codeberg.org/kaathewise/nugins/src/branch/trunk/endecode): A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.
+- [nu_plugin_endecode](https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode): A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.
 - [nu_plugin_file](https://github.com/fdncred/nu_plugin_file): A nushell plugin that will inspect a file and return information based on its magic number.
 - [nu_plugin_formats](https://crates.io/crates/nu_plugin_formats): A nushell plugin for parsing eml, ics, ini, vcf files.
 - [nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount): A nushell extension to load a beancount file into nu structured data.
@@ -41,9 +41,12 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_inc](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc): Plugin to increment semantic versioning strings.
 - [nu_plugin_json_path](https://github.com/fdncred/nu_plugin_json_path): A nushell plugin for parsing json that uses the json path specification.
 - [nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl): A plugin to add KDL support to Nushell.
+- [nu_plugin_logfmt](https://github.com/oderwat/nu_plugin_logfmt): Nushell plugin that allows conversion between logfmt and Nushell values.
 - [nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime): Nushell plugin for working with mime types without performing disk access.
+- [nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo): A nushell plugin to interactive with mongodb.
 - [nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack): Nushell plugin for converting to and from msgpack.
 - [nu_plugin_net](https://crates.io/crates/nu_plugin_net): List network interfaces on any platform.
+- [nu_plugin_nupsql](https://gitlab.com/HertelP/nu_plugin_nupsql): A nushell plugin to query postgres databases.
 - [nu_plugin_pnet](https://github.com/fdncred/nu_plugin_pnet): Same as `nu_plugin_net` but named `pnet` to avoid conflict with Windows `net` built-in.
 - [nu_plugin_parquet](https://github.com/fdncred/nu_plugin_parquet): A nushell plugin to read and write parquet files.
 - [nu_plugin_periodic_table](https://crates.io/crates/nu_plugin_periodic_table): A periodic table of elements plugin.
@@ -59,6 +62,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex): A regular expressions plugin for nushell.
 - [nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm): A nushell plugin for reading rpm packages.
 - [nu_plugin_semver](https://github.com/abusch/nu_plugin_semver): A Nushell plugin to manipulate SemVer versions.
+- [nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled): A Nushell plugin for managing sled databases.
 - [nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim): A Nushell plugin that provides a version of [skim](https://github.com/lotabout/skim) that can handle structured Nushell data for macOS and Linux.
 - [nu_plugin_str_similarity](https://github.com/fdncred/nu_plugin_str_similarity): A nushell plugin that helps you calculate the edit distance between two strings using a variety of algorithms.
 - [nu_plugin_template (String and HTML templating)](https://codeberg.org/kaathewise/nugins/src/branch/trunk/template): String and HTML templating in Nu.
@@ -66,6 +70,8 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid): A nushell plugin that adds various ulid commands.
 - [nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units): A Nushell plugin for easily converting between common units.
 - [nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec): A Nushell plugin adding support for vector operations.
+- [nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws): A Nushell plugin for easily streaming output from websocket endpoints
+- [nu_plugin_x509](https://github.com/yybit/nu_plugin_x509): A Nushell plugin for parsing and generating x509 certificates.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your current version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
@@ -81,7 +87,9 @@ You can find some examples about how to create and use plugins in the [Nushell P
 You can find some examples about how to create and use scripts in the [Nushell Scripts](https://www.nushell.sh/book/scripts.html) page.
 
 - [ai.nu](https://github.com/fj0r/ai.nu): OpenAI and Ollama Clients.
+- [bash-env-nushell](https://github.com/tesujimath/bash-env-nushell): Bash environment for Nushell.
 - [cargo_search](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/cargo_search.nu): Perform a cargo search.
+- [discord.nu](https://github.com/cablehead/discord.nu): Nushell wrapper for the Discord REST API
 - [docker.nu](https://github.com/fj0r/docker.nu): Docker client toolset.
 - [dotnu](https://github.com/nushell-prophet/dotnu): tools for Nushell module developers.
 - [fsattr.nu](https://github.com/albert-tomanek/my-nu-commands/blob/master/posix/fsattr.nu): Nu commands for filesystem attributes.
@@ -92,6 +100,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [math_functions](https://github.com/nushell/nu_scripts/blob/main/modules/maths/math_functions.nu): Math functions for doing things like `factorial`, `root`.
 - [npup.nu](https://github.com/fj0r/npup): Puppet based on nushell.
 - [nu-cmd-stack](https://github.com/nushell-prophet/nu-cmd-stack): scroll through the list of Nushell commands using `ctrl+alt+j/k` shortcuts.
+- [nu-dir-bookmark](https://github.com/yh17549/nu-dir-bookmark): Bookmark for directory and auto jump.
 - [nu-history-tools](https://github.com/nushell-prophet/nu-history-tools): analyze the command frequencies in Nushell history, generate cool graphs, benchmark statistics with other users.
 - [nu-telegram-bot](https://github.com/nushell-prophet/nu-telegram-bot): Interacting with telegram's bot api
 - [nufetch](https://github.com/Sanceilaks/nufetch): neofetch-like script written in Nu🐘
@@ -126,12 +135,14 @@ Other tools that work with or within the nu language ecosystem.
 - [atuin](https://github.com/ellie/atuin): 🐢 Magical shell history.
 - [broot](https://github.com/Canop/broot): A new way to see and navigate directory trees.
 - [bru](https://github.com/selfagency/bru): A Nushell wrapper for Homebrew.
+- [carapace-bin](https://github.com/carapace-sh/carapace-bin): multi-shell multi-command argument completer
 - [clap_complete_nushell](https://github.com/clap-rs/clap/tree/master/clap_complete_nushell): A way to generate completions for clap based CLIs.
 - [conda](https://github.com/nushell/nu_scripts/blob/main/modules/virtual_environments/conda.nu): Activate/deactivate conda virtual environments.
 - [couchbase-shell](https://github.com/couchbaselabs/couchbase-shell): A modern, productive and fun shell for Couchbase Server and Cloud.
 - [Direnv](https://github.com/direnv/direnv/blob/master/docs/hook.md#nushell): unclutter your .profile.
 - [Dorothy](https://github.com/bevry/dorothy): 🧙‍♀️ Bring your dotfile commands and configuration to any shell, including Nu, Fish, Zsh, Bash.
 - [GitHub Action](https://github.com/marketplace/actions/setup-nu): A GitHub action that runs nushell in your CI.
+- [Milestone Action](https://github.com/hustcer/milestone-action): A Github action powered by Nushell to create, close, delete milestones and set milestone to merged PRs or closed issues.
 - [jc](https://github.com/kellyjonbrazil/jc): A collection of parsers for common unix tools that outputs JSON for easy import into nushell with `from json`.
 - [mise](https://mise.jdx.dev/): A development environment setup tool (dev tools, env vars, task runner) that integrates with Nushell.
 - [nu-shell.nix](https://git.sr.ht/~mangoiv/nu-shell.nix): A [`nix`](https://nixos.org/) flake that outputs `nushell` packages, docs and tests as well as a `devShell` for developing `nushell`.
