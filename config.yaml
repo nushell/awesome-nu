@@ -116,6 +116,11 @@ plugins:
     repository:
       url: https://github.com/nushell/nushell/tree/main/crates/nu_plugin_formats
       branch: main
+  - name: nu_plugin_format_pcap
+    language: rust
+    repository:
+      url: https://github.com/b4nst/nu_plugin_format_pcap
+      branch: main
   - name: nu_plugin_dcm
     language: rust
     repository:

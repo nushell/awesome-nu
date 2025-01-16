@@ -28,6 +28,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_endecode](https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode): A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.
 - [nu_plugin_file](https://github.com/fdncred/nu_plugin_file): A nushell plugin that will inspect a file and return information based on its magic number.
 - [nu_plugin_formats](https://crates.io/crates/nu_plugin_formats): A nushell plugin for parsing eml, ics, ini, vcf files.
+- [nu_plugin_format_pcap](https://github.com/b4nst/nu_plugin_format_pcap): A nushell plugin for parsing pcap (packet data) files.
 - [nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount): A nushell extension to load a beancount file into nu structured data.
 - [nu_plugin_from_bencode](https://github.com/bluk/nu_plugin_from_bencode): A converter plugin from the bencode format for Nushell.
 - [nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5): A plugin to parse HDF5 files into nushell record.
