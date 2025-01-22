@@ -107,6 +107,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [nufetch](https://github.com/Sanceilaks/nufetch): neofetch-like script written in Nu🐘
 - [numd](https://github.com/nushell-prophet/numd): reproducible Nushell Markdown documents.
 - [nuschiit](https://github.com/nushell/nu_scripts/blob/main/sourced/webscraping/nuschiit.nu): Web scraping example for the schiit.co.uk website.
+- [nutest](https://github.com/vyadh/nutest): A Nushell test framework.
 - [packer.nu](https://github.com/Jan9103/packer.nu): A packer.nvim inspired package-manager for NuShell.
 - [powerline.nu](https://github.com/fj0r/powerline.nu): Powerline prompt for nushell.
 - [refreshenv](https://github.com/Sanceilaks/nu-refreshenv-win): Refresh PATH on Windows like in chocolatey.
