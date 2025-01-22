@@ -18,6 +18,7 @@
 |[nu_plugin_endecode](https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode)|0.101.0|A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.|✅0.101.0|✅0.101.0|
 |[nu_plugin_explore](https://github.com/amtoine/nu_plugin_explore)|0.100.0|A fast structured data explorer for Nushell.|⚠️0.100.0|⚠️0.100.0|
 |[nu_plugin_file](https://github.com/fdncred/nu_plugin_file)|0.12.0|a nushell plugin called file|✅0.101.0|✅0.101.0|
+|[nu_plugin_format_pcap](https://github.com/b4nst/nu_plugin_format_pcap)|0.1.0||✅0.101.0|✅0.101.0|
 |[nu_plugin_formats](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_formats)|0.101.1|An I/O plugin for a set of file formats for Nushell|✅0.101.1|✅0.101.1|
 |[nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount)|2.0.0|A nushell extension to load a beancount file into nu structured data|⚠️0.84.0|⚠️0.84.0|
 |[nu_plugin_from_bencode](https://github.com/bluk/nu_plugin_from_bencode)|0.11.0|A Nushell plugin to convert bencode data into Nu structured values.|⚠️0.93|⚠️0.93|
@@ -64,4 +65,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.2.2|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.100.0|⚠️0.100.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.0|A nushell plugin for working with x509 certificates.|✅0.101.0|✅0.101.0|
 
-last update at `2025-01-15 03:12:43 +00:00`
+last update at `2025-01-22 03:14:37 +00:00`
