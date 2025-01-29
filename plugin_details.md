@@ -55,14 +55,14 @@
 |[nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm)|0.3.1|A nushell plugin for reading rpm package.|✅0.101.0|✅0.101.0|
 |[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.11.1|A nushell plugin for dealing with SemVer versions|✅0.101.0|✅0.101.0|
 |[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.11.1|An `sk` command that can handle Nushell's structured data|✅0.101|✅0.101|
-|[nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled)|0.1.0|Manage sled db in nushell|⚠️0.100|⚠️0.100|
+|[nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled)|0.1.0|Manage sled db in nushell|✅0.101|✅0.101|
 |[nu_plugin_str_similarity](https://github.com/fdncred/nu_plugin_str_similarity)|0.7.0|a nushell plugin called str_similarity|⚠️0.98.0|⚠️0.98.0|
 |[nu_plugin_template](https://github.com/KAAtheWiseGit/nugins/tree/trunk/template)|0.101.0|Templating in Nushell, powered by TinyTemplate|✅0.101.0|✅0.101.0|
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.10.0|A nushell plugin that adds various ulid commands|✅0.101.0|✅0.101.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.4|A Nushell plugin for easily converting between common units|✅0.101.0|✅0.101.0|
 |[nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec)|1.1.3|A Nushell plugin implementing vector operations|✅0.101.0|✅0.101.0|
-|[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.2.2|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.100.0|⚠️0.100.0|
+|[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.3.0|A Nushell plugin for easily streaming output from websocket endpoints|✅0.101.0|✅0.101.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.0|A nushell plugin for working with x509 certificates.|✅0.101.0|✅0.101.0|
 
-last update at `2025-01-22 03:14:37 +00:00`
+last update at `2025-01-29 03:13:08 +00:00`
