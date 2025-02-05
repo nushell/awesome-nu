@@ -239,11 +239,6 @@ plugins:
     repository:
       url: https://github.com/pdenapo/nu_plugin_dpkgtable
       branch: main
-  - name: nu_plugin_from_sse
-    language: rust
-    repository:
-      url: https://github.com/cablehead/nu_plugin_from_sse
-      branch: main
   - name: nu_plugin_ulid
     language: rust
     repository:
