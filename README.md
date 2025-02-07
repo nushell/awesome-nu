@@ -94,7 +94,8 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [dotnu](https://github.com/nushell-prophet/dotnu): tools for Nushell module developers.
 - [fsattr.nu](https://github.com/albert-tomanek/my-nu-commands/blob/master/posix/fsattr.nu): Nu commands for filesystem attributes.
 - [get-weather](https://github.com/nushell/nu_scripts/blob/main/modules/weather/get-weather.nu): Get weather forecast for your location.
-- [git.nu](https://github.com/fj0r/git.nu): Git toolset.
+- [git.nu](https://github.com/fj0r/git.nu): Git toolset
+- [git-aliases.nu](https://github.com/KamilKleina/git-aliases.nu): A collection of convenient Git aliases for Nushell.
 - [git_gone](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/git_gone.nu): Gently try to delete merged branches, excluding the checked out one.
 - [kubernetes.nu](https://github.com/fj0r/kubernetes.nu): Kubernetes client toolset.
 - [math_functions](https://github.com/nushell/nu_scripts/blob/main/modules/maths/math_functions.nu): Math functions for doing things like `factorial`, `root`.
