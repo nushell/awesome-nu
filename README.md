@@ -54,8 +54,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_plist by ayax79](https://github.com/ayax79/nu_plugin_plist): A plist plugin for nushell.
 - [nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot): A terminal plotting plugin for nushell.
 - [nu_plugin_plotters](https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters): A nushell plugin for plotting charts.
-- [nu_plugin_port_list](https://github.com/FMotalleb/nu_plugin_port_list): A nushell plugin to list all active connections.
-- [nu_plugin_port_scan](https://github.com/FMotalleb/nu_plugin_port_scan): A nushell plugin for scanning ports on a target.
+- [nu_plugin_port_extension](https://github.com/FMotalleb/nu_plugin_port_extension): A nushell plugin to list all active connections and scanning ports on a target address (replacement of both nu_plugin_port_scan and nu_plugin_port_list since 0.102).
 - [nu_plugin_prometheus](https://github.com/drbrain/nu_plugin_prometheus): Prometheus querying for nushell.
 - [nu_plugin_qr_maker](https://github.com/FMotalleb/nu_plugin_qr_maker): A nushell plugin to create QR codes in terminal.
 - [nu_plugin_query](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query): Query json, xml and web pages.
