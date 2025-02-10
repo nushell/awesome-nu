@@ -172,16 +172,6 @@ plugins:
     repository:
       url: https://github.com/dead10ck/nu_plugin_dns
       branch: main
-  # - name: nu_plugin_port_scan
-  #   language: rust
-  #   repository:
-  #     url: https://github.com/FMotalleb/nu_plugin_port_scan
-  #     branch: main
-  # - name: nu_plugin_port_list
-  #   language: rust
-  #   repository:
-  #     url: https://github.com/FMotalleb/nu_plugin_port_list
-  #     branch: main
   - name: nu_plugin_audio_hook
     language: rust
     repository:
