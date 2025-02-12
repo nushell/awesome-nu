@@ -45,7 +45,7 @@
 |[nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot)|0.91.1|Plot graphs in nushell using numerical lists.|⚠️0.100.0|⚠️0.100.0|
 |[nu_plugin_plotters](https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters)|0.1.3+0.101.0|A nushell plugin for for plotting charts|⛔0.0.0|⛔0.0.0|
 |[nu_plugin_pnet](https://github.com/fdncred/nu_plugin_pnet)|1.7.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.97.2|⚠️0.97.2|
-|[nu_plugin_port_extension](https://github.com/FMotalleb/nu_plugin_port_extension)|0.102.1|A nushell plugin to list all active connections|✅0.102.0|✅0.102.0|
+|[nu_plugin_port_extension](https://github.com/FMotalleb/nu_plugin_port_extension)|0.102.1|A nushell plugin to list all active connections and scanning ports on a target address|✅0.102.0|✅0.102.0|
 |[nu_plugin_prometheus](https://github.com/drbrain/nu_plugin_prometheus)|0.7.0|A nushell plugin for querying prometheus|⚠️0.100.0|⚠️0.100.0|
 |[nu_plugin_qr_maker](https://github.com/FMotalleb/nu_plugin_qr_maker)|1.1.0|A nushell plugin to create qr code in terminal|⚠️0.94.0|⚠️0.94.0|
 |[nu_plugin_query](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query)|0.102.1|A Nushell plugin to query JSON, XML, and various web data|✅0.102.1|✅0.102.1|
@@ -63,4 +63,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.3.0|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.0|A nushell plugin for working with x509 certificates.|⚠️0.101.0|⚠️0.101.0|
 
-last update at `2025-02-10 18:13:00 +00:00`
+last update at `2025-02-12 03:14:46 +00:00`
