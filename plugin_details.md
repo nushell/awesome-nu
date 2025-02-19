@@ -10,9 +10,9 @@
 |[nu_plugin_compress](https://github.com/yybit/nu_plugin_compress)|0.2.3|A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus)|0.14.0|Nushell plugin for communicating with D-Bus|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm)|0.1.8|A nushell plugin to parse Dicom files|⚠️0.68|⚠️0.68|
-|[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|1.2.8|A nushell plugin to send desktop notifications|✅0.102.0|✅0.102.0|
+|[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|1.2.9|A nushell plugin to send desktop notifications|✅0.102.0|✅0.102.0|
 |[nu_plugin_dialog](https://github.com/Trivernis/nu-plugin-dialog)|0.2.0|A nushell plugin for user interaction|⚠️0.86.1|⚠️0.86.1|
-|[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|3.0.7-alpha.1|A DNS utility for nushell|⚠️0.100.0|⚠️0.100.0|
+|[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|3.0.8-alpha.1|A DNS utility for nushell|✅0.102.0|✅0.102.0|
 |[nu_plugin_dpkgtable](https://github.com/pdenapo/nu_plugin_dpkgtable)|0.1.0||⚠️0.91.0|⚠️0.91.0|
 |[nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji)|0.11.0|a nushell plugin called emoji|✅0.102.0|✅0.102.0|
 |[nu_plugin_endecode](https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode)|0.101.0|A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.|⚠️0.101.0|⚠️0.101.0|
@@ -46,7 +46,7 @@
 |[nu_plugin_plotters](https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters)|0.1.3+0.101.0|A nushell plugin for for plotting charts|⛔0.0.0|⛔0.0.0|
 |[nu_plugin_pnet](https://github.com/fdncred/nu_plugin_pnet)|1.7.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.97.2|⚠️0.97.2|
 |[nu_plugin_port_extension](https://github.com/FMotalleb/nu_plugin_port_extension)|0.102.1|A nushell plugin to list all active connections and scanning ports on a target address|✅0.102.0|✅0.102.0|
-|[nu_plugin_prometheus](https://github.com/drbrain/nu_plugin_prometheus)|0.7.0|A nushell plugin for querying prometheus|⚠️0.100.0|⚠️0.100.0|
+|[nu_plugin_prometheus](https://github.com/drbrain/nu_plugin_prometheus)|0.8.0|A nushell plugin for querying prometheus|✅0.102.0|✅0.102.0|
 |[nu_plugin_qr_maker](https://github.com/FMotalleb/nu_plugin_qr_maker)|1.1.0|A nushell plugin to create qr code in terminal|⚠️0.94.0|⚠️0.94.0|
 |[nu_plugin_query](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query)|0.102.1|A Nushell plugin to query JSON, XML, and various web data|✅0.102.1|✅0.102.1|
 |[nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex)|0.11.0|nu plugin to search text with regex|✅0.102.0|✅0.102.0|
@@ -63,4 +63,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.3.0|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.0|A nushell plugin for working with x509 certificates.|⚠️0.101.0|⚠️0.101.0|
 
-last update at `2025-02-12 03:14:46 +00:00`
+last update at `2025-02-19 03:16:34 +00:00`
