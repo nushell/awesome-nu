@@ -37,7 +37,7 @@
 |[nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo)|0.1.3|A nushell plugin to interactive with mongodb|✅0.102|✅0.102|
 |[nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack)|0.90.1|Commands to convert nushell data to and from MsgPack|⚠️0.90.1|⚠️0.90.1|
 |[nu_plugin_net](https://github.com/fennewald/nu_plugin_net)|1.8.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.98|⚠️0.98|
-|[nu_plugin_nupsql](https://gitlab.com/HertelP/nu_plugin_nupsql)|0.1.0|A nushell plugin to query postgres databases|⚠️0.101.0|⚠️0.101.0|
+|[nu_plugin_nupsql](https://gitlab.com/HertelP/nu_plugin_nupsql)|0.1.0|A nushell plugin to query postgres databases|✅0.102.0|✅0.102.0|
 |[nu_plugin_parquet](https://github.com/fdncred/nu_plugin_parquet)|0.12.0|nu plugin to add parquet support|✅0.102.0|✅0.102.0|
 |[nu_plugin_periodic_table](https://github.com/JosephTLyons/nu_plugin_periodic_table)|0.2.10|A periodic table of elements plugin for Nushell|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist)|0.1.0|Nushell plist and base85 plugin implemented in Go.|⚠️0.94.0|⚠️0.94.0|
@@ -63,4 +63,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.3.0|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.0|A nushell plugin for working with x509 certificates.|⚠️0.101.0|⚠️0.101.0|
 
-last update at `2025-02-19 03:16:34 +00:00`
+last update at `2025-02-26 03:18:44 +00:00`
