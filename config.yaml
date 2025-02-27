@@ -277,16 +277,16 @@ plugins:
       url: https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode
       branch: trunk
     override:
-      plugin: "0.101.0"
-      protocol: "0.101.0"
+      plugin: "0.102.0"
+      protocol: "0.102.0"
   - name: nu_plugin_template
     language: rust
     repository:
       url: https://github.com/KAAtheWiseGit/nugins/tree/trunk/template
       branch: trunk
     override:
-      plugin: "0.101.0"
-      protocol: "0.101.0"
+      plugin: "0.102.0"
+      protocol: "0.102.0"
   - name: nu_plugin_mime
     language: rust
     repository:
@@ -347,7 +347,7 @@ plugins:
     repository:
       url: https://github.com/FMotalleb/nu_plugin_port_extension
       branch: main
-  
+
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
 #    language: python # programming language (mandatory)
