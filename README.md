@@ -119,6 +119,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [wi](https://github.com/phoenixr-codes/wi): A linguist wrapper for the terminal.
 - [wolframalpha](https://github.com/nushell/nu_scripts/blob/main/sourced/api_wrappers/wolframalpha.nu): WolframAlpha API wrapper.
 - [digital-rain](https://github.com/ArmoredPony/nu-digital-rain): Digital rain effect implementation for Nushell.
+- [libvirt-hooks-nushell](https://github.com/atahabaki/libvirt-hooks-nushell): Feature-packed libvirt hooks scripts for Nushell.
 
 ## Custom Completions
 
