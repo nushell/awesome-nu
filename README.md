@@ -75,9 +75,10 @@ You can find some examples about how to create and use plugins in the [Nushell P
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your current version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
 > To check the Nushell compatibility of each plugin you can check the [plugin_details.md](https://github.com/nushell/awesome-nu/blob/main/plugin_details.md)
->>  * ✅ it uses the latest version
->>  * ⚠️ it does not use the latest version but it may work
->>  * ⛔ plugin uses a deprecated API (cannot be compiled) or deprecated signature (Nushell cannot interact with them)
+>>
+>> - ✅ it uses the latest version
+>> - ⚠️ it does not use the latest version but it may work
+>> - ⛔ plugin uses a deprecated API (cannot be compiled) or deprecated signature (Nushell cannot interact with them)
 
 > In order to add your own plugin please fork this repository and add it to the list above and the list of plugins in [config.yaml](https://github.com/nushell/awesome-nu/blob/main/config.yaml) and then send a Pull Request.
 
@@ -86,6 +87,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 You can find some examples about how to create and use scripts in the [Nushell Scripts](https://www.nushell.sh/book/scripts.html) page.
 
 - [ai.nu](https://github.com/fj0r/ai.nu): OpenAI and Ollama Clients.
+- [alias-finder.nu](https://github.com/KamilKleina/alias-finder.nu): Alias finder for Nushell.
 - [bash-env-nushell](https://github.com/tesujimath/bash-env-nushell): Bash environment for Nushell.
 - [cargo_search](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/cargo_search.nu): Perform a cargo search.
 - [discord.nu](https://github.com/cablehead/discord.nu): Nushell wrapper for the Discord REST API
