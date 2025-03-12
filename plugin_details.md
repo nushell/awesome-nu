@@ -63,4 +63,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.3.0|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.1|A nushell plugin for working with x509 certificates.|✅0.102.0|✅0.102.0|
 
-last update at `2025-03-05 03:20:45 +00:00`
+last update at `2025-03-12 03:21:32 +00:00`
