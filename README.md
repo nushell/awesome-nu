@@ -101,6 +101,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [kubernetes.nu](https://github.com/fj0r/kubernetes.nu): Kubernetes client toolset.
 - [math_functions](https://github.com/nushell/nu_scripts/blob/main/modules/maths/math_functions.nu): Math functions for doing things like `factorial`, `root`.
 - [npup.nu](https://github.com/fj0r/npup): Puppet based on nushell.
+- [nu-aws-service-reference](https://github.com/a-slice-of-py/nu-aws-service-reference): browse and discover AWS Service Authorization Reference interactively in Nushell.
 - [nu-cmd-stack](https://github.com/nushell-prophet/nu-cmd-stack): scroll through the list of Nushell commands using `ctrl+alt+j/k` shortcuts.
 - [nu-dir-bookmark](https://github.com/yh17549/nu-dir-bookmark): Bookmark for directory and auto jump.
 - [nu-history-tools](https://github.com/nushell-prophet/nu-history-tools): analyze the command frequencies in Nushell history, generate cool graphs, benchmark statistics with other users.
