@@ -337,11 +337,6 @@ plugins:
     repository:
       url: https://github.com/yybit/nu_plugin_x509
       branch: main
-  - name: nu_plugin_cassandra_query
-    language: rust
-    repository:
-      url: https://github.com/devyn/nu_plugin_cassandra_query
-      branch: main
   - name: nu_plugin_port_extension
     language: rust
     repository:
