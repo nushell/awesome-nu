@@ -6,7 +6,7 @@
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.85.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.85.0|⚠️0.85.0|
 |[nu_plugin_cassandra_query](https://github.com/devyn/nu_plugin_cassandra_query)|0.3.0|Query plugin for the Cassandra database for Nushell|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.103.0|A nushell plugin to copy text into clipboard or get text from it.|✅0.103.0|✅0.103.0|
-|[nu_plugin_compress](https://github.com/yybit/nu_plugin_compress)|0.2.4|A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.|⚠️0.102.0|⚠️0.102.0|
+|[nu_plugin_compress](https://github.com/yybit/nu_plugin_compress)|0.2.5|A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.|✅0.103.0|✅0.103.0|
 |[nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus)|0.14.0|Nushell plugin for communicating with D-Bus|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm)|0.1.8|A nushell plugin to parse Dicom files|⚠️0.68|⚠️0.68|
 |[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|1.2.10|A nushell plugin to send desktop notifications|✅0.103.0|✅0.103.0|
@@ -14,7 +14,7 @@
 |[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|3.0.8-alpha.1|A DNS utility for nushell|⚠️0.102.0|⚠️0.102.0|
 |[nu_plugin_dpkgtable](https://github.com/pdenapo/nu_plugin_dpkgtable)|0.1.0||⚠️0.91.0|⚠️0.91.0|
 |[nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji)|0.12.0|a nushell plugin called emoji|✅0.103.0|✅0.103.0|
-|[nu_plugin_endecode](https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode)|0.102.0|A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.|⚠️0.102.0|⚠️0.102.0|
+|[nu_plugin_endecode](https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode)|0.103.0|A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.|⚠️0.102.0|⚠️0.102.0|
 |[nu_plugin_explore](https://github.com/amtoine/nu_plugin_explore)|0.102.0|A fast structured data explorer for Nushell.|⚠️0.102.0|⚠️0.102.0|
 |[nu_plugin_file](https://github.com/fdncred/nu_plugin_file)|0.14.0|a nushell plugin called file|✅0.103.0|✅0.103.0|
 |[nu_plugin_format_pcap](https://github.com/b4nst/nu_plugin_format_pcap)|0.1.0||⚠️0.101.0|⚠️0.101.0|
@@ -27,14 +27,13 @@
 |[nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl)|0.100.0|A nushell plugin for parsing Hashicorp Configuration Language file format|⚠️0.100.0|⚠️0.100.0|
 |[nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight)|1.4.4+0.103.0|A nushell plugin for syntax highlighting|✅0.103.0|✅0.103.0|
 |[nu_plugin_hmac](https://github.com/fnuttens/nu_plugin_hmac)|0.16.0|A HMAC sealing plugin for Nushell|✅0.103.0|✅0.103.0|
-|[nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image)|0.102.0|A nushell plugin to open png images in the shell and save ansi string as images (like tables or ...)|⚠️0.102.0|⚠️0.102.0|
+|[nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image)|0.103.0|A nushell plugin to open png images in the shell and save ansi string as images (like tables or ...)|✅0.103.0|✅0.103.0|
 |[nu_plugin_inc](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc)|0.103.1|A version incrementer plugin for Nushell|✅0.103.1|✅0.103.1|
 |[nu_plugin_json_path](https://github.com/fdncred/nu_plugin_json_path)|0.13.0|a nushell plugin created to parse json files using jsonpath|✅0.103.0|✅0.103.0|
 |[nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl)|0.83.2|Add support for the KDL data format to Nushell.|⚠️0.83.2|⚠️0.83.2|
 |[nu_plugin_logfmt](https://github.com/oderwat/nu_plugin_logfmt)|0.1.0|Nushell plugin that allows conversion between logfmt and Nushell values.|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime)|0.103.0|A simple plugin for working with mime types without performing disk access|✅0.103.0|✅0.103.0|
 |[nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo)|0.1.4|A nushell plugin to interactive with mongodb|✅0.103|✅0.103|
-|[nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack)|0.90.1|Commands to convert nushell data to and from MsgPack|⚠️0.90.1|⚠️0.90.1|
 |[nu_plugin_net](https://github.com/fennewald/nu_plugin_net)|1.9.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|✅0.103.0|✅0.103.0|
 |[nu_plugin_nupsql](https://gitlab.com/HertelP/nu_plugin_nupsql)|1.0.0|A nushell plugin to query postgres databases|✅0.103.0|✅0.103.0|
 |[nu_plugin_parquet](https://github.com/fdncred/nu_plugin_parquet)|0.13.0|nu plugin to add parquet support|✅0.103.0|✅0.103.0|
@@ -49,17 +48,18 @@
 |[nu_plugin_qr_maker](https://github.com/FMotalleb/nu_plugin_qr_maker)|1.1.0|A nushell plugin to create qr code in terminal|⚠️0.94.0|⚠️0.94.0|
 |[nu_plugin_query](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query)|0.103.1|A Nushell plugin to query JSON, XML, and various web data|✅0.103.1|✅0.103.1|
 |[nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex)|0.12.0|nu plugin to search text with regex|✅0.103.0|✅0.103.0|
-|[nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm)|0.3.2|A nushell plugin for reading rpm package.|⚠️0.102.0|⚠️0.102.0|
+|[nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm)|0.3.3|A nushell plugin for reading rpm package.|✅0.103.0|✅0.103.0|
 |[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.11.3|A nushell plugin for dealing with SemVer versions|✅0.103.0|✅0.103.0|
 |[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.13.0|An `sk` command that can handle Nushell's structured data|✅0.103|✅0.103|
 |[nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled)|0.1.2|Manage sled db in nushell|⚠️0.102.0|⚠️0.102.0|
 |[nu_plugin_str_similarity](https://github.com/fdncred/nu_plugin_str_similarity)|0.7.0|a nushell plugin called str_similarity|⚠️0.98.0|⚠️0.98.0|
-|[nu_plugin_template](https://github.com/KAAtheWiseGit/nugins/tree/trunk/template)|0.102.0|Templating in Nushell, powered by TinyTemplate|⚠️0.102.0|⚠️0.102.0|
+|[nu_plugin_template](https://github.com/KAAtheWiseGit/nugins/tree/trunk/template)|0.103.0|Templating in Nushell, powered by TinyTemplate|⚠️0.102.0|⚠️0.102.0|
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.12.0|A nushell plugin that adds various ulid commands|✅0.103.0|✅0.103.0|
-|[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.4|A Nushell plugin for easily converting between common units|⚠️0.101.0|⚠️0.101.0|
+|[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.5|A Nushell plugin for easily converting between common units|✅0.103.0|✅0.103.0|
 |[nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec)|1.1.5|A Nushell plugin implementing vector operations|✅0.103.0|✅0.103.0|
-|[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.3.0|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.101.0|⚠️0.101.0|
-|[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.3|A nushell plugin for working with x509 certificates.|⚠️0.102.0|⚠️0.102.0|
+|[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.4|A nushell plugin for working with x509 certificates.|✅0.103.0|✅0.103.0|
+|issue in config file for (https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.0||⛔0.0|⛔0.0|
+|issue in config file for (https://github.com/hulthe/nu_plugin_msgpack)|0.0||⛔0.0|⛔0.0|
 
-last update at `2025-04-02 11:42:43 +00:00`
+last update at `2025-04-09 03:28:46 +00:00`
