@@ -144,9 +144,11 @@ Other tools that work with or within the nu language ecosystem.
 - [clap_complete_nushell](https://github.com/clap-rs/clap/tree/master/clap_complete_nushell): A way to generate completions for clap based CLIs.
 - [conda](https://github.com/nushell/nu_scripts/blob/main/modules/virtual_environments/conda.nu): Activate/deactivate conda virtual environments.
 - [couchbase-shell](https://github.com/couchbaselabs/couchbase-shell): A modern, productive and fun shell for Couchbase Server and Cloud.
+- [cross-stream](https://github.com/cablehead/xs.git): An event stream store for personal, local-first use. Think of it like sqlite, but specializing in event sourcing. Embeds the nushell engine to enable generators, handlers, and commands expressed in Nu syntax for powerful stream manipulation.
 - [Direnv](https://github.com/direnv/direnv/blob/master/docs/hook.md#nushell): unclutter your .profile.
 - [Dorothy](https://github.com/bevry/dorothy): 🧙‍♀️ Bring your dotfile commands and configuration to any shell, including Nu, Fish, Zsh, Bash.
 - [GitHub Action](https://github.com/marketplace/actions/setup-nu): A GitHub action that runs nushell in your CI.
+- [http-nu](https://github.com/cablehead/http-nu): A lightweight HTTP server that runs embedded Nushell closures. Built on the high-performance hyper crate, it enables creating web endpoints with Nu syntax for request handling, static file serving, and streaming responses - all in a single binary.
 - [Milestone Action](https://github.com/hustcer/milestone-action): A Github action powered by Nushell to create, close, delete milestones and set milestone to merged PRs or closed issues.
 - [Deepseek Code Review](https://github.com/hustcer/deepseek-review): Transform your code review workflow with this Nushell-driven GitHub Action, harnessing Deepseek's power for both CI and local use.
 - [jc](https://github.com/kellyjonbrazil/jc): A collection of parsers for common unix tools that outputs JSON for easy import into nushell with `from json`.
