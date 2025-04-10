@@ -64,7 +64,8 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled): A Nushell plugin for managing sled databases.
 - [nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim): A Nushell plugin that provides a version of [skim](https://github.com/lotabout/skim) that can handle structured Nushell data for macOS and Linux.
 - [nu_plugin_str_similarity](https://github.com/fdncred/nu_plugin_str_similarity): A nushell plugin that helps you calculate the edit distance between two strings using a variety of algorithms.
-- [nu_plugin_template (cargo-generate template)](https://github.com/fdncred/nu_plugin_template): A `cargo-generate` template for making it easier to create nushell plugins.
+- [nu_plugin_template (String and HTML templating)](https://codeberg.org/kaathewise/nugins/src/branch/trunk/template): String and HTML templating in Nu.
+- [nu_plugin_template (cargo-generate template)](https://github.com/nushell/nu_plugin_template): A `cargo-generate` template for making it easier to create nushell plugins.
 - [nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid): A nushell plugin that adds various ulid commands.
 - [nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units): A Nushell plugin for easily converting between common units.
 - [nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec): A Nushell plugin adding support for vector operations.
