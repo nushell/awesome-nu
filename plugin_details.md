@@ -34,6 +34,7 @@
 |[nu_plugin_logfmt](https://github.com/oderwat/nu_plugin_logfmt)|0.1.0|Nushell plugin that allows conversion between logfmt and Nushell values.|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime)|0.103.0|A simple plugin for working with mime types without performing disk access|✅0.103.0|✅0.103.0|
 |[nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo)|0.1.4|A nushell plugin to interactive with mongodb|✅0.103|✅0.103|
+|[nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack)|0.90.1|Commands to convert nushell data to and from MsgPack|⚠️0.90.1|⚠️0.90.1|
 |[nu_plugin_net](https://github.com/fennewald/nu_plugin_net)|1.9.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|✅0.103.0|✅0.103.0|
 |[nu_plugin_nupsql](https://gitlab.com/HertelP/nu_plugin_nupsql)|1.0.0|A nushell plugin to query postgres databases|✅0.103.0|✅0.103.0|
 |[nu_plugin_parquet](https://github.com/fdncred/nu_plugin_parquet)|0.13.0|nu plugin to add parquet support|✅0.103.0|✅0.103.0|
@@ -58,8 +59,7 @@
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.12.0|A nushell plugin that adds various ulid commands|✅0.103.0|✅0.103.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.5|A Nushell plugin for easily converting between common units|✅0.103.0|✅0.103.0|
 |[nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec)|1.1.5|A Nushell plugin implementing vector operations|✅0.103.0|✅0.103.0|
+|[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.3.0|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.4|A nushell plugin for working with x509 certificates.|✅0.103.0|✅0.103.0|
-|issue in config file for (https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.0||⛔0.0|⛔0.0|
-|issue in config file for (https://github.com/hulthe/nu_plugin_msgpack)|0.0||⛔0.0|⛔0.0|
 
-last update at `2025-04-09 03:28:46 +00:00`
+last update at `2025-04-16 03:32:16 +00:00`
