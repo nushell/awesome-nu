@@ -166,6 +166,7 @@ Other tools that work with or within the nu language ecosystem.
 - [setup-bend Action](https://github.com/hustcer/setup-bend): A GitHub action that sets up the Bend environment powered by Nushell and with cache support.
 - [setup-moonbit Action](https://github.com/hustcer/setup-moonbit): A GitHub action that sets up the Moonbit environment powered by Nushell.
 - [starship](https://starship.rs/#nushell): The minimal, blazing-fast, and infinitely customizable prompt for any shell.
+- [uv](https://docs.astral.sh/uv/): An extremely fast Python package and project manager, written in Rust.
 - [virtualenv](https://github.com/pypa/virtualenv): Provides support for creating lightweight Python "virtual environments".
 - [zoxide](https://github.com/ajeetdsouza/zoxide): A smarter cd command, inspired by z and autojump.
 
