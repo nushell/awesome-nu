@@ -23,7 +23,7 @@
 |[nu_plugin_from_bencode](https://github.com/bluk/nu_plugin_from_bencode)|0.11.0|A Nushell plugin to convert bencode data into Nu structured values.|⚠️0.93|⚠️0.93|
 |[nu_plugin_from_hdf5](https://github.com/Berrysoft/nu_plugin_from_hdf5)|0.1.0|A plugin to parse HDF5 files into nushell record.|⚠️0.100|⚠️0.100|
 |[nu_plugin_gstat](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_gstat)|0.103.1|A git status plugin for Nushell|✅0.103.1|✅0.103.1|
-|[nu_plugin_hashes](https://github.com/ArmoredPony/nu_plugin_hashes)|0.1.6|A Nushell plugin that adds 61 cryptographic hash functions from Hashes project|⚠️0.102.0|⚠️0.102.0|
+|[nu_plugin_hashes](https://github.com/ArmoredPony/nu_plugin_hashes)|0.1.7|A Nushell plugin that adds 63 cryptographic hash functions from Hashes project|✅0.103.0|✅0.103.0|
 |[nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl)|0.100.0|A nushell plugin for parsing Hashicorp Configuration Language file format|⚠️0.100.0|⚠️0.100.0|
 |[nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight)|1.4.4+0.103.0|A nushell plugin for syntax highlighting|✅0.103.0|✅0.103.0|
 |[nu_plugin_hmac](https://github.com/fnuttens/nu_plugin_hmac)|0.16.0|A HMAC sealing plugin for Nushell|✅0.103.0|✅0.103.0|
@@ -62,4 +62,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.3.0|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.4|A nushell plugin for working with x509 certificates.|✅0.103.0|✅0.103.0|
 
-last update at `2025-04-16 03:32:16 +00:00`
+last update at `2025-04-23 03:31:57 +00:00`
