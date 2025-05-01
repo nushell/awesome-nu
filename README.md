@@ -8,7 +8,7 @@ If you are looking for interesting blog posts, media attention or youtube videos
 
 ## Plugins
 
-You can find some examples about how to create and use plugins in the [Nushell Plugins](https://www.nushell.sh/book/plugins.html) page.
+You can find some examples about how to create and use plugins in the [Nushell Plugins](https://www.nushell.sh/book/plugins.html) page and in the [`plugin-examples` repository](https://github.com/nushell/plugin-examples).
 
 - [nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook): A nushell plugin to make and play sounds.
 - [nu_plugin_bash_env](https://github.com/tesujimath/bash-env-nushell): The Bash environment plugin for nushell is **deprecated** in favour of the bash-env-nushell module (below)
