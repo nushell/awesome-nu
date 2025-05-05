@@ -342,6 +342,11 @@ plugins:
     repository:
       url: https://github.com/FMotalleb/nu_plugin_port_extension
       branch: main
+  - name: nu_plugin_nuts
+    language: rust
+    repository:
+      url: https://github.com/dam4rus/nu_plugin_nuts
+      branch: main
 
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
