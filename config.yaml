@@ -136,11 +136,6 @@ plugins:
     repository:
       url: https://github.com/fdncred/nu_plugin_json_path
       branch: main
-  - name: nu_plugin_str_similarity
-    language: rust
-    repository:
-      url: https://github.com/fdncred/nu_plugin_str_similarity
-      branch: main
   - name: nu_plugin_bexpand
     language: rust
     repository:
