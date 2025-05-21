@@ -101,11 +101,11 @@ plugins:
     repository:
       url: https://github.com/jcornaz/nu_plugin_from_beancount
       branch: main
-  - name: nu_plugin_from_bencode
-    language: rust
-    repository:
-      url: https://github.com/bluk/nu_plugin_from_bencode
-      branch: trunk
+#  - name: nu_plugin_from_bencode
+#    language: rust
+#    repository:
+#      url: https://github.com/bluk/nu_plugin_from_bencode
+#      branch: trunk
   - name: nu_plugin_dialog
     language: rust
     repository:
