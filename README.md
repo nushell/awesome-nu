@@ -163,6 +163,7 @@ Other tools that work with or within the nu language ecosystem.
 - [nushellWith](https://github.com/YPares/nushellWith): Generate isolated nushell environments (with custom libraries and plugins), with Nix
 - [oh-my-posh](https://ohmyposh.dev/docs/installation/prompt): A prompt theme engine for any shell.
 - [pspg](https://github.com/okbob/pspg): A postgres pager that integrates in nushell.
+- [rattler-build](https://rattler.build): A [`conda-build`](https://docs.conda.io/projects/conda-build/en/latest/) alternative that supports build scripts in nushell.
 - [setup-bend Action](https://github.com/hustcer/setup-bend): A GitHub action that sets up the Bend environment powered by Nushell and with cache support.
 - [setup-moonbit Action](https://github.com/hustcer/setup-moonbit): A GitHub action that sets up the Moonbit environment powered by Nushell.
 - [starship](https://starship.rs/#nushell): The minimal, blazing-fast, and infinitely customizable prompt for any shell.
