@@ -169,6 +169,7 @@ Other tools that work with or within the nu language ecosystem.
 - [starship](https://starship.rs/#nushell): The minimal, blazing-fast, and infinitely customizable prompt for any shell.
 - [uv](https://docs.astral.sh/uv/): An extremely fast Python package and project manager, written in Rust.
 - [virtualenv](https://github.com/pypa/virtualenv): Provides support for creating lightweight Python "virtual environments".
+- [Windmill](https://www.windmill.dev/): Turn scripts into webhooks, workflows and UIs. Open-source alternative to Retool and Temporal.
 - [zoxide](https://github.com/ajeetdsouza/zoxide): A smarter cd command, inspired by z and autojump.
 
 ## Editor Extensions
