@@ -1,6 +1,5 @@
 #!/usr/bin/nu
 
-
 export module utils {
     # split string with given seperator
     export def "str explode" [
@@ -75,7 +74,6 @@ export module version {
 }
 
 export module plugin-list {
-
     # converts repository url into raw download link for Cargo.toml
     def "get-raw-toml-address" [
         url: string, # github repository url (e.g. https://github.com/FMotalleb/nu_plugin_port_scan)
