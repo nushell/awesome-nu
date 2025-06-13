@@ -23,7 +23,7 @@ jobs:
             env:
               OUTPUT: plugin_details.md
               CONFIG_FILE: config.yaml
-            run: nu bin\update-plugins.nu
+            run: nu bin/update-plugins.nu
                 
         -   uses: EndBug/add-and-commit@v9 
             with:
