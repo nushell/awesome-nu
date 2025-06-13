@@ -15,22 +15,16 @@ jobs:
         -   name: Setup Nushell
             uses: hustcer/setup-nu@v3
             with:
-              version: 0.102.0
+              version: 0.105.1
             env:
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         -   uses: actions/checkout@v2
         -   name: Update plugin list
             shell: nu {0}
-            run: |
-                nu -c '
-                let output = "plugin_details.md";
-                let config = "config.yaml";
-
-                use action.nu plugin-list create-table;
-                
-                open $config | create-table | to md | save $output -f;
-                $"\n\nlast update at `(date now | format date `%Y-%m-%d %H:%M:%S %Z`)`\n" | save --append $output;
-                '
+            env:
+              OUTPUT: plugin_details.md
+              CONFIG_FILE: config.yaml
+            run: bin\update-plugins.nu
                 
         -   uses: EndBug/add-and-commit@v9 
             with:

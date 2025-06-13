@@ -1,6 +1,6 @@
 #!/usr/bin/nu
 
-export module utils {
+module utils {
     # split string with given seperator
     export def "str explode" [
         separator: string, # `character`
@@ -15,7 +15,7 @@ export module utils {
     }
 }
 
-export module version {
+module version {
     # compares input with an other integer
     # if input > other => 1
     # if input < other => -1
@@ -74,6 +74,7 @@ export module version {
 }
 
 export module plugin-list {
+
     # converts repository url into raw download link for Cargo.toml
     def "get-raw-toml-address" [
         url: string, # github repository url (e.g. https://github.com/FMotalleb/nu_plugin_port_scan)
@@ -287,4 +288,19 @@ export module plugin-list {
         return $result
     }
 
+}
+
+export def "main" [] {
+  let output = $env.OUTPUT? | default plugin_details.md
+  let config = $env.CONFIG_FILE? | default config.yaml
+  
+  use plugin-list create-table
+
+  open $config 
+    | create-table 
+    | to md 
+    | save $output -f
+
+  $"\n\nlast update at `(date now | format date `%Y-%m-%d %H:%M:%S %Z`)`\n" 
+    | save --append $output;
 }
