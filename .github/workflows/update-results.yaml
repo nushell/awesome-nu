@@ -20,11 +20,10 @@ jobs:
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         -   uses: actions/checkout@v2
         -   name: Update plugin list
-            shell: nu {0}
             env:
               OUTPUT: plugin_details.md
               CONFIG_FILE: config.yaml
-            run: bin\update-plugins.nu
+            run: nu bin\update-plugins.nu
                 
         -   uses: EndBug/add-and-commit@v9 
             with:
