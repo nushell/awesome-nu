@@ -4,13 +4,13 @@
 |[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.105.1|A nushell plugin to make and play sounds|✅0.105.1|✅0.105.1|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.85.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.85.0|⚠️0.85.0|
-|[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|0.1.0||⚠️0.103.0|⚠️0.103.0|
+|[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|25.1051.1|Nushell plugin for BSON format (Binary JSON)|✅0.105.1|✅0.105.1|
 |[nu_plugin_cassandra_query](https://github.com/devyn/nu_plugin_cassandra_query)|0.3.0|Query plugin for the Cassandra database for Nushell|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.105.2|A nushell plugin to copy text into clipboard or get text from it.|✅0.105.1|✅0.105.1|
 |[nu_plugin_compress](https://github.com/yybit/nu_plugin_compress)|0.2.7|A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.|✅0.105.1|✅0.105.1|
 |[nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus)|0.14.0|Nushell plugin for communicating with D-Bus|⚠️0.101.0|⚠️0.101.0|
-|[nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm)|0.2.2|A nushell plugin to parse Dicom files|✅0.105.1|✅0.105.1|
-|[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|1.2.12|A nushell plugin to send desktop notifications|✅0.105.1|✅0.105.1|
+|[nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm)|0.3.2|A nushell plugin to parse Dicom files and DICOMweb records|✅0.105.1|✅0.105.1|
+|[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|0.105.1|A nushell plugin to send desktop notifications|✅0.105.1|✅0.105.1|
 |[nu_plugin_dialog](https://github.com/Trivernis/nu-plugin-dialog)|0.2.0|A nushell plugin for user interaction|⚠️0.86.1|⚠️0.86.1|
 |[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|4.0.3-alpha.1|A DNS utility for nushell|✅0.105.1|✅0.105.1|
 |[nu_plugin_dpkgtable](https://github.com/pdenapo/nu_plugin_dpkgtable)|0.1.0||⚠️0.91.0|⚠️0.91.0|
@@ -62,4 +62,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.3.2|A Nushell plugin for easily streaming output from websocket endpoints|✅0.105.1|✅0.105.1|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.6|A nushell plugin for working with x509 certificates.|✅0.105.1|✅0.105.1|
 
-last update at `2025-06-25 03:46:59 +00:00`
+last update at `2025-07-02 03:46:55 +00:00`
