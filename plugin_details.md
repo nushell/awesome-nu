@@ -4,7 +4,7 @@
 |[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.105.1|A nushell plugin to make and play sounds|✅0.105.1|✅0.105.1|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.85.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.85.0|⚠️0.85.0|
-|[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|25.1051.1|Nushell plugin for BSON format (Binary JSON)|✅0.105.1|✅0.105.1|
+|[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|25.1051.2|Nushell plugin for BSON format (Binary JSON)|✅0.105.1|✅0.105.1|
 |[nu_plugin_cassandra_query](https://github.com/devyn/nu_plugin_cassandra_query)|0.3.0|Query plugin for the Cassandra database for Nushell|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.105.2|A nushell plugin to copy text into clipboard or get text from it.|✅0.105.1|✅0.105.1|
 |[nu_plugin_compress](https://github.com/yybit/nu_plugin_compress)|0.2.7|A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.|✅0.105.1|✅0.105.1|
@@ -43,7 +43,7 @@
 |[nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist)|0.1.0|Nushell plist and base85 plugin implemented in Go.|⚠️0.94.0|⚠️0.94.0|
 |[nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist)|0.96.0|Plist parsing for nushell|⚠️0.96|⚠️0.96|
 |[nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot)|0.103.0|Plot graphs in nushell using numerical lists.|✅0.105.0|✅0.105.0|
-|[nu_plugin_plotters](https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters)|0.1.7+0.105.1|A nushell plugin for for plotting charts|⛔0.0.0|⛔0.0.0|
+|[nu_plugin_plotters](https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters)|0.2.1+0.105.1|A nushell plugin for for plotting charts|⛔0.0.0|⛔0.0.0|
 |[nu_plugin_pnet](https://github.com/fdncred/nu_plugin_pnet)|1.7.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.97.2|⚠️0.97.2|
 |[nu_plugin_port_extension](https://github.com/FMotalleb/nu_plugin_port_extension)|0.105.1|A nushell plugin to list all active connections and scanning ports on a target address|✅0.105.1|✅0.105.1|
 |[nu_plugin_prometheus](https://github.com/drbrain/nu_plugin_prometheus)|0.9.0|A nushell plugin for querying prometheus|⚠️0.104.0|⚠️0.104.0|
@@ -62,4 +62,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.3.2|A Nushell plugin for easily streaming output from websocket endpoints|✅0.105.1|✅0.105.1|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.6|A nushell plugin for working with x509 certificates.|✅0.105.1|✅0.105.1|
 
-last update at `2025-07-02 03:46:55 +00:00`
+last update at `2025-07-09 03:50:14 +00:00`
