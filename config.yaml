@@ -352,7 +352,6 @@ plugins:
     repository:
       url: https://github.com/termplot/termplot
       branch: main
-  
 
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
