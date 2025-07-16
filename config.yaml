@@ -347,11 +347,6 @@ plugins:
     repository:
       url: https://github.com/Kissaki/nu_plugin_bson
       branch: main
-  - name: nu_plugin_termplot
-    language: typescript
-    repository:
-      url: https://github.com/termplot/termplot
-      branch: main
 
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
