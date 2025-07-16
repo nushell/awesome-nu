@@ -352,6 +352,13 @@ plugins:
     repository:
       url: https://github.com/termplot/termplot
       branch: main
+    override: # override fields because the plugin is written in typescript, and has no cargo.toml
+      name: "[nu_plugin_termplot](https://github.com/termplot/termplot)"
+      version: "0.1.21"
+      description: "Beautiful plots in your terminal."
+      plugin: "0.105.1"
+      protocol: "0.105.1"
+
 
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
