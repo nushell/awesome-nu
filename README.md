@@ -64,6 +64,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_semver](https://github.com/abusch/nu_plugin_semver): A Nushell plugin to manipulate SemVer versions.
 - [nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled): A Nushell plugin for managing sled databases.
 - [nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim): A Nushell plugin that provides a version of [skim](https://github.com/lotabout/skim) that can handle structured Nushell data for macOS and Linux.
+- [nu_plugin_termplot](https://github.com/termplot/termplot): Beautiful plots in your terminal.
 - [nu_plugin_template (String and HTML templating)](https://codeberg.org/kaathewise/nugins/src/branch/trunk/template): String and HTML templating in Nu.
 - [nu_plugin_template (cargo-generate template)](https://github.com/nushell/nu_plugin_template): A `cargo-generate` template for making it easier to create nushell plugins.
 - [nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid): A nushell plugin that adds various ulid commands.
