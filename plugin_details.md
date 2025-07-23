@@ -3,7 +3,7 @@
 |[nu-plugin-bexpand](https://forge.axfive.net/Taylor/nu-plugin-bexpand)|1.3.10501|A brace expansion plugin compatible with Bash for nushell|✅0.105.1|✅0.105.1|
 |[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.105.1|A nushell plugin to make and play sounds|✅0.105.1|✅0.105.1|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
-|[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.85.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.85.0|⚠️0.85.0|
+|[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.104.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.104.0|⚠️0.104.0|
 |[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|25.1051.2|Nushell plugin for BSON format (Binary JSON)|✅0.105.1|✅0.105.1|
 |[nu_plugin_cassandra_query](https://github.com/devyn/nu_plugin_cassandra_query)|0.3.0|Query plugin for the Cassandra database for Nushell|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.105.2|A nushell plugin to copy text into clipboard or get text from it.|✅0.105.1|✅0.105.1|
@@ -63,4 +63,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|0.3.2|A Nushell plugin for easily streaming output from websocket endpoints|✅0.105.1|✅0.105.1|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.6|A nushell plugin for working with x509 certificates.|✅0.105.1|✅0.105.1|
 
-last update at `2025-07-16 21:28:21 +00:00`
+last update at `2025-07-23 03:57:47 +00:00`
