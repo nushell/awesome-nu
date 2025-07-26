@@ -108,6 +108,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [nu-dir-bookmark](https://github.com/yh17549/nu-dir-bookmark): Bookmark for directory and auto jump.
 - [nu-history-tools](https://github.com/nushell-prophet/nu-history-tools): analyze the command frequencies in Nushell history, generate cool graphs, benchmark statistics with other users.
 - [nu-telegram-bot](https://github.com/nushell-prophet/nu-telegram-bot): Interacting with telegram's bot api
+- [nupk](https://github.com/mokeyish/nupk): Simplifying package installation, updates, and uninstallation from GitHub Releases
 - [nufetch](https://github.com/Sanceilaks/nufetch): neofetch-like script written in Nu🐘
 - [numd](https://github.com/nushell-prophet/numd): reproducible Nushell Markdown documents.
 - [nuschiit](https://github.com/nushell/nu_scripts/blob/main/sourced/webscraping/nuschiit.nu): Web scraping example for the schiit.co.uk website.
