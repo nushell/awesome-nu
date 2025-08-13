@@ -15,7 +15,7 @@
 |[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|4.0.4-alpha.1|A DNS utility for nushell|✅0.106.0|✅0.106.0|
 |[nu_plugin_dpkgtable](https://github.com/pdenapo/nu_plugin_dpkgtable)|0.1.0||⚠️0.91.0|⚠️0.91.0|
 |[nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji)|0.15.0|a nushell plugin called emoji|✅0.106.0|✅0.106.0|
-|[nu_plugin_endecode](https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode)|0.105.1|A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.|⚠️0.102.0|⚠️0.102.0|
+|[nu_plugin_endecode](https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode)|0.106.1|A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.|⚠️0.102.0|⚠️0.102.0|
 |[nu_plugin_explore](https://github.com/amtoine/nu_plugin_explore)|0.102.0|A fast structured data explorer for Nushell.|⚠️0.102.0|⚠️0.102.0|
 |[nu_plugin_file](https://github.com/fdncred/nu_plugin_file)|0.17.0|a nushell plugin called file|✅0.106.0|✅0.106.0|
 |[nu_plugin_format_pcap](https://github.com/b4nst/nu_plugin_format_pcap)|0.1.0||⚠️0.101.0|⚠️0.101.0|
@@ -54,13 +54,13 @@
 |[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.11.6|A nushell plugin for dealing with SemVer versions|✅0.106.0|✅0.106.0|
 |[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.16.0|An `sk` command that can handle Nushell's structured data|✅0.106|✅0.106|
 |[nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled)|0.1.3|Manage sled db in nushell|⚠️0.104.0|⚠️0.104.0|
-|[nu_plugin_template](https://github.com/KAAtheWiseGit/nugins/tree/trunk/template)|0.105.1|Templating in Nushell, powered by TinyTemplate|⚠️0.102.0|⚠️0.102.0|
+|[nu_plugin_template](https://github.com/KAAtheWiseGit/nugins/tree/trunk/template)|0.106.1|Templating in Nushell, powered by TinyTemplate|⚠️0.102.0|⚠️0.102.0|
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_termplot](https://github.com/termplot/termplot)|0.1.21|Beautiful plots in your terminal.|⚠️0.105.1|⚠️0.105.1|
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.15.0|A nushell plugin that adds various ulid commands|✅0.106.0|✅0.106.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.7|A Nushell plugin for easily converting between common units|⚠️0.105.1|⚠️0.105.1|
 |[nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec)|1.1.6|A Nushell plugin implementing vector operations|⚠️0.105.1|⚠️0.105.1|
-|[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.3|A Nushell plugin for easily streaming output from websocket endpoints|✅0.106.1|✅0.106.1|
+|[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.5|A Nushell plugin for easily streaming output from websocket endpoints|✅0.106.1|✅0.106.1|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.6|A nushell plugin for working with x509 certificates.|⚠️0.105.1|⚠️0.105.1|
 
-last update at `2025-08-06 04:01:50 +00:00`
+last update at `2025-08-13 03:47:11 +00:00`
