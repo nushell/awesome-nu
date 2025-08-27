@@ -39,7 +39,7 @@
 |[nu_plugin_nupsql](https://gitlab.com/HertelP/nu_plugin_nupsql)|1.0.0|A nushell plugin to query postgres databases|✅^0.106.0|✅^0.106.0|
 |[nu_plugin_nuts](https://github.com/dam4rus/nu_plugin_nuts)|0.1.1|Blazingly fast Nats client as a nushell plugin|⚠️0.104.0|⚠️0.104.0|
 |[nu_plugin_parquet](https://github.com/fdncred/nu_plugin_parquet)|0.16.0|nu plugin to add parquet support|✅0.106.0|✅0.106.0|
-|[nu_plugin_periodic_table](https://github.com/JosephTLyons/nu_plugin_periodic_table)|0.2.11|A periodic table of elements plugin for Nushell|⚠️0.105.1|⚠️0.105.1|
+|[nu_plugin_periodic_table](https://github.com/JosephTLyons/nu_plugin_periodic_table)|0.2.12|A periodic table of elements plugin for Nushell|✅0.106.1|✅0.106.1|
 |[nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist)|0.1.0|Nushell plist and base85 plugin implemented in Go.|⚠️0.94.0|⚠️0.94.0|
 |[nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist)|0.96.0|Plist parsing for nushell|⚠️0.96|⚠️0.96|
 |[nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot)|0.103.0|Plot graphs in nushell using numerical lists.|⚠️0.105.0|⚠️0.105.0|
@@ -52,15 +52,15 @@
 |[nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex)|0.15.0|nu plugin to search text with regex|✅0.106.0|✅0.106.0|
 |[nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm)|0.3.5|A nushell plugin for reading rpm package.|⚠️0.105.1|⚠️0.105.1|
 |[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.11.6|A nushell plugin for dealing with SemVer versions|✅0.106.0|✅0.106.0|
-|[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.16.0|An `sk` command that can handle Nushell's structured data|✅0.106|✅0.106|
+|[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.17.0|An `sk` command that can handle Nushell's structured data|✅0.106|✅0.106|
 |[nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled)|0.1.3|Manage sled db in nushell|⚠️0.104.0|⚠️0.104.0|
 |[nu_plugin_template](https://github.com/KAAtheWiseGit/nugins/tree/trunk/template)|0.106.1|Templating in Nushell, powered by TinyTemplate|⚠️0.102.0|⚠️0.102.0|
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_termplot](https://github.com/termplot/termplot)|0.1.21|Beautiful plots in your terminal.|⚠️0.105.1|⚠️0.105.1|
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.15.0|A nushell plugin that adds various ulid commands|✅0.106.0|✅0.106.0|
-|[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.7|A Nushell plugin for easily converting between common units|⚠️0.105.1|⚠️0.105.1|
+|[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.8|A Nushell plugin for easily converting between common units|✅0.106.1|✅0.106.1|
 |[nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec)|1.1.6|A Nushell plugin implementing vector operations|⚠️0.105.1|⚠️0.105.1|
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.5|A Nushell plugin for easily streaming output from websocket endpoints|✅0.106.1|✅0.106.1|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.6|A nushell plugin for working with x509 certificates.|⚠️0.105.1|⚠️0.105.1|
 
-last update at `2025-08-20 03:36:41 +00:00`
+last update at `2025-08-27 03:30:32 +00:00`
