@@ -154,6 +154,7 @@ Other tools that work with or within the nu language ecosystem.
 - [Dorothy](https://github.com/bevry/dorothy): 🧙‍♀️ Bring your dotfile commands and configuration to any shell, including Nu, Fish, Zsh, Bash.
 - [GitHub Action](https://github.com/marketplace/actions/setup-nu): A GitHub action that runs nushell in your CI.
 - [http-nu](https://github.com/cablehead/http-nu): A lightweight HTTP server that runs embedded Nushell closures. Built on the high-performance hyper crate, it enables creating web endpoints with Nu syntax for request handling, static file serving, and streaming responses - all in a single binary.
+- [intelli-shell](https://github.com/lasantosr/intelli-shell) - Manage command templates/snippets with dynamic completions and AI integration.
 - [Milestone Action](https://github.com/hustcer/milestone-action): A Github action powered by Nushell to create, close, delete milestones and set milestone to merged PRs or closed issues.
 - [Deepseek Code Review](https://github.com/hustcer/deepseek-review): Transform your code review workflow with this Nushell-driven GitHub Action, harnessing Deepseek's power for both CI and local use.
 - [jc](https://github.com/kellyjonbrazil/jc): A collection of parsers for common unix tools that outputs JSON for easy import into nushell with `from json`.
