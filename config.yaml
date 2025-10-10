@@ -358,7 +358,11 @@ plugins:
       description: "Beautiful plots in your terminal."
       plugin: "0.105.1"
       protocol: "0.105.1"
-
+  - name: nu_plugin_ls_colorize
+    language: rust
+    repository:
+      url: https://github.com/brendon-felix/nu_plugin_ls_colorize
+      branch: main
 
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
