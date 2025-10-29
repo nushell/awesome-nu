@@ -7,7 +7,7 @@
 |[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|25.1080.0|Nushell plugin for BSON format (Binary JSON)|✅0.108.0|✅0.108.0|
 |[nu_plugin_cassandra_query](https://github.com/devyn/nu_plugin_cassandra_query)|0.3.0|Query plugin for the Cassandra database for Nushell|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.108.0|A nushell plugin to copy text into clipboard or get text from it.|✅0.108.0|✅0.108.0|
-|[nu_plugin_compress](https://github.com/yybit/nu_plugin_compress)|0.2.8|A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.|⚠️0.106.0|⚠️0.106.0|
+|[nu_plugin_compress](https://github.com/yybit/nu_plugin_compress)|0.2.9|A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.|✅0.108.0|✅0.108.0|
 |[nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus)|0.14.0|Nushell plugin for communicating with D-Bus|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm)|0.5.0|A nushell plugin to parse Dicom files and DICOMweb records|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|0.108.0|A nushell plugin to send desktop notifications|✅0.108.0|✅0.108.0|
@@ -51,7 +51,7 @@
 |[nu_plugin_qr_maker](https://github.com/FMotalleb/nu_plugin_qr_maker)|1.1.0|A nushell plugin to create qr code in terminal|⚠️0.94.0|⚠️0.94.0|
 |[nu_plugin_query](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query)|0.108.1|A Nushell plugin to query JSON, XML, and various web data|✅0.108.1|✅0.108.1|
 |[nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex)|0.17.0|nu plugin to search text with regex|✅0.108.0|✅0.108.0|
-|[nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm)|0.3.5|A nushell plugin for reading rpm package.|⚠️0.105.1|⚠️0.105.1|
+|[nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm)|0.3.6|A nushell plugin for reading rpm package.|✅0.108.0|✅0.108.0|
 |[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.11.8|A nushell plugin for dealing with SemVer versions|✅0.108.0|✅0.108.0|
 |[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.20.1|An `sk` command that can handle Nushell's structured data|✅0.108|✅0.108|
 |[nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled)|0.1.3|Manage sled db in nushell|⚠️0.104.0|⚠️0.104.0|
@@ -62,6 +62,6 @@
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.8|A Nushell plugin for easily converting between common units|⚠️0.106.1|⚠️0.106.1|
 |[nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec)|1.1.6|A Nushell plugin implementing vector operations|⚠️0.105.1|⚠️0.105.1|
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.6|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.107.0|⚠️0.107.0|
-|[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.6|A nushell plugin for working with x509 certificates.|⚠️0.105.1|⚠️0.105.1|
+|[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.7|A nushell plugin for working with x509 certificates.|✅0.108.0|✅0.108.0|
 
-last update at `2025-10-22 03:40:02 +00:00`
+last update at `2025-10-29 03:43:44 +00:00`
