@@ -44,7 +44,7 @@
 |[nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist)|0.1.0|Nushell plist and base85 plugin implemented in Go.|⚠️0.94.0|⚠️0.94.0|
 |[nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist)|0.96.0|Plist parsing for nushell|⚠️0.96|⚠️0.96|
 |[nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot)|0.103.0|Plot graphs in nushell using numerical lists.|⚠️0.105.0|⚠️0.105.0|
-|[nu_plugin_plotters](https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters)|0.2.2+0.107.0|A nushell plugin for for plotting charts|⛔0.0.0|⛔0.0.0|
+|[nu_plugin_plotters](https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters)|0.2.3+0.108.0|A nushell plugin for for plotting charts|⛔0.0.0|⛔0.0.0|
 |[nu_plugin_pnet](https://github.com/fdncred/nu_plugin_pnet)|1.7.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.97.2|⚠️0.97.2|
 |[nu_plugin_port_extension](https://github.com/FMotalleb/nu_plugin_port_extension)|0.108.0|A nushell plugin to list all active connections and scanning ports on a target address|✅0.108.0|✅0.108.0|
 |[nu_plugin_prometheus](https://github.com/drbrain/nu_plugin_prometheus)|0.9.0|A nushell plugin for querying prometheus|⚠️0.104.0|⚠️0.104.0|
@@ -54,7 +54,7 @@
 |[nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm)|0.3.6|A nushell plugin for reading rpm package.|✅0.108.0|✅0.108.0|
 |[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.11.8|A nushell plugin for dealing with SemVer versions|✅0.108.0|✅0.108.0|
 |[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.20.1|An `sk` command that can handle Nushell's structured data|✅0.108|✅0.108|
-|[nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled)|0.1.3|Manage sled db in nushell|⚠️0.104.0|⚠️0.104.0|
+|[nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled)|0.1.3|Manage sled db in nushell|✅0.108.0|✅0.108.0|
 |[nu_plugin_template](https://github.com/KAAtheWiseGit/nugins/tree/trunk/template)|0.108.0|Templating in Nushell, powered by TinyTemplate|⚠️0.102.0|⚠️0.102.0|
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_termplot](https://github.com/termplot/termplot)|0.1.21|Beautiful plots in your terminal.|⚠️0.105.1|⚠️0.105.1|
@@ -64,4 +64,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.6|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.7|A nushell plugin for working with x509 certificates.|✅0.108.0|✅0.108.0|
 
-last update at `2025-11-05 03:40:21 +00:00`
+last update at `2025-11-12 03:40:49 +00:00`
