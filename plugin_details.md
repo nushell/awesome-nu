@@ -9,7 +9,7 @@
 |[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.108.0|A nushell plugin to copy text into clipboard or get text from it.|✅0.108.0|✅0.108.0|
 |[nu_plugin_compress](https://github.com/yybit/nu_plugin_compress)|0.2.9|A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.|✅0.108.0|✅0.108.0|
 |[nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus)|0.14.0|Nushell plugin for communicating with D-Bus|⚠️0.101.0|⚠️0.101.0|
-|[nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm)|0.5.0|A nushell plugin to parse Dicom files and DICOMweb records|⚠️0.107.0|⚠️0.107.0|
+|[nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm)|0.8.0|A nushell plugin to parse Dicom files and DICOMweb records|✅0.108.0|✅0.108.0|
 |[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|0.108.0|A nushell plugin to send desktop notifications|✅0.108.0|✅0.108.0|
 |[nu_plugin_dialog](https://github.com/Trivernis/nu-plugin-dialog)|0.2.0|A nushell plugin for user interaction|⚠️0.86.1|⚠️0.86.1|
 |[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|4.0.6-alpha.1|A DNS utility for nushell|✅0.108.0|✅0.108.0|
@@ -64,4 +64,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.6|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.7|A nushell plugin for working with x509 certificates.|✅0.108.0|✅0.108.0|
 
-last update at `2025-11-12 03:40:49 +00:00`
+last update at `2025-11-19 03:40:39 +00:00`
