@@ -178,6 +178,7 @@ Other tools that work with or within the nu language ecosystem.
 - [virtualenv](https://github.com/pypa/virtualenv): Provides support for creating lightweight Python "virtual environments".
 - [Windmill](https://www.windmill.dev/): Turn scripts into webhooks, workflows and UIs. Open-source alternative to Retool and Temporal.
 - [zoxide](https://github.com/ajeetdsouza/zoxide): A smarter cd command, inspired by z and autojump.
+- [supac](https://codeberg.org/innocentzer0/supac): A declarative package manager written in Rust, fully scriptable in Nushell.
 
 ## Editor Extensions
 
