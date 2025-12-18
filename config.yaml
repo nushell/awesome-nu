@@ -363,6 +363,17 @@ plugins:
     repository:
       url: https://github.com/brendon-felix/nu_plugin_ls_colorize
       branch: main
+  - name: nu_plugin_caldav
+    language: go
+    repository:
+      url: https://github.com/LQR471814/nu_plugin_caldav
+      branch: main
+    override: # override fields because it is written in go using github.com/ainvaltin/nu-plugin
+      name: "[nu_plugin_caldav](https://github.com/LQR471814/nu_plugin_caldav)"
+      version: "0.1.0"
+      description: "A Nushell plugin for interfacing with CalDAV servers."
+      plugin: "0.109.1"
+      protocol: "0.109.1"
 
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
