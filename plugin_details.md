@@ -5,6 +5,7 @@
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.104.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.104.0|⚠️0.104.0|
 |[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|25.1090.0|Nushell plugin for BSON format (Binary JSON)|✅0.109.0|✅0.109.0|
+|[nu_plugin_caldav](https://github.com/LQR471814/nu_plugin_caldav)|0.1.0|A Nushell plugin for interfacing with CalDAV servers.|✅0.109.1|✅0.109.1|
 |[nu_plugin_cassandra_query](https://github.com/devyn/nu_plugin_cassandra_query)|0.3.0|Query plugin for the Cassandra database for Nushell|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.109.1|A nushell plugin to copy text into clipboard or get text from it.|✅0.109.1|✅0.109.1|
 |[nu_plugin_compress](https://github.com/yybit/nu_plugin_compress)|0.2.10|A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.|✅0.109.0|✅0.109.0|
@@ -64,4 +65,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.6|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.8|A nushell plugin for working with x509 certificates.|✅0.109.0|✅0.109.0|
 
-last update at `2025-12-17 03:51:01 +00:00`
+last update at `2025-12-24 03:54:20 +00:00`
