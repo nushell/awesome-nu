@@ -196,7 +196,7 @@ Plugins and Extensions that you can use in other text editors
 - [vim plugin](https://github.com/elkasztano/nushell-syntax-vim): Nushell syntax highlighting for Vim.
 - [zed](https://github.com/zed-extensions/nu): Zed support for the Nu language.
 - [Nushell LSP](https://github.com/nushell/nushell/tree/main/crates/nu-lsp): The official Nushell LSP.
-- [nu-lint](https://github.com/wvhulle/nu-lint): Command-line linter for Nushell scripts with accompanying VS Code extension [`nu-lint-vscode`](https://marketplace.visualstudio.com/items?itemName=WillemVanhulle.nu-lint).
+- [nu-lint](https://codeberg.org/wvhulle/nu-lint): Command-line linter for Nushell scripts with accompanying VS Code extension [`nu-lint-vscode`](https://marketplace.visualstudio.com/items?itemName=WillemVanhulle.nu-lint).
 
 
 ## Reedline Integrations
