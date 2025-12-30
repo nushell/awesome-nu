@@ -50,6 +50,7 @@
 |[nu_plugin_port_extension](https://github.com/FMotalleb/nu_plugin_port_extension)|0.109.1|A nushell plugin to list all active connections and scanning ports on a target address|✅0.109.1|✅0.109.1|
 |[nu_plugin_prometheus](https://github.com/drbrain/nu_plugin_prometheus)|0.9.0|A nushell plugin for querying prometheus|⚠️0.104.0|⚠️0.104.0|
 |[nu_plugin_qr_maker](https://github.com/FMotalleb/nu_plugin_qr_maker)|1.1.0|A nushell plugin to create qr code in terminal|⚠️0.94.0|⚠️0.94.0|
+|[nu plugin terminal qr](https://github.com/Neuron-Mr-White/nu_plugin_terminal_qr)|1.1.1|A nushell plugin to create QR codes in newer version of nushell (maintained version of qr_maker).|✅0.109.1|✅0.109.1|
 |[nu_plugin_query](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query)|0.109.2|A Nushell plugin to query JSON, XML, and various web data|✅0.109.2|✅0.109.2|
 |[nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex)|0.18.0|nu plugin to search text with regex|✅0.109.0|✅0.109.0|
 |[nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm)|0.3.6|A nushell plugin for reading rpm package.|⚠️0.108.0|⚠️0.108.0|
