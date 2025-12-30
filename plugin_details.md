@@ -1,5 +1,6 @@
 |name|version|description|plugin|protocol|
 |-|-|-|-|-|
+|[nu_plugin_terminal_qr](https://github.com/Neuron-Mr-White/nu_plugin_qr_maker)|1.1.1|A nushell plugin to create qr code in terminal|✅0.109.1|✅0.109.1|
 |[nu-plugin-bexpand](https://forge.axfive.net/Taylor/nu-plugin-bexpand)|1.3.10900|A brace expansion plugin compatible with Bash for nushell|✅0.109.0|✅0.109.0|
 |[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.109.1|A nushell plugin to make and play sounds|✅0.109.1|✅0.109.1|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
