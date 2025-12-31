@@ -194,6 +194,11 @@ plugins:
     repository:
       url: https://github.com/FMotalleb/nu_plugin_qr_maker
       branch: main
+  - name: nu_plugin_terminal_qr
+    language: rust
+    repository:
+      url: https://github.com/Neuron-Mr-White/nu_plugin_terminal_qr
+      branch: main
   - name: nu_plugin_msgpack
     language: rust
     repository:
