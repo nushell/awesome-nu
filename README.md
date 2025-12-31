@@ -59,6 +59,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_port_extension](https://github.com/FMotalleb/nu_plugin_port_extension): A nushell plugin to list all active connections and scanning ports on a target address (replacement of both nu_plugin_port_scan and nu_plugin_port_list since 0.102).
 - [nu_plugin_prometheus](https://github.com/drbrain/nu_plugin_prometheus): Prometheus querying for nushell.
 - [nu_plugin_qr_maker](https://github.com/FMotalleb/nu_plugin_qr_maker): A nushell plugin to create QR codes in terminal.
+- [nu plugin terminal qr](https://github.com/Neuron-Mr-White/nu_plugin_terminal_qr): A nushell plugin to create QR codes in newer version of nushell (maintained version of qr_maker).
 - [nu_plugin_query](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query): Query json, xml and web pages.
 - [nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex): A regular expressions plugin for nushell.
 - [nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm): A nushell plugin for reading rpm packages.
