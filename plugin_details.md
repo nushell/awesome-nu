@@ -58,6 +58,7 @@
 |[nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled)|0.1.3|Manage sled db in nushell|⚠️0.108.0|⚠️0.108.0|
 |[nu_plugin_template](https://github.com/KAAtheWiseGit/nugins/tree/trunk/template)|0.109.0|Templating in Nushell, powered by TinyTemplate|⚠️0.102.0|⚠️0.102.0|
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
+|[nu_plugin_terminal_qr](https://github.com/Neuron-Mr-White/nu_plugin_terminal_qr)|1.1.1|A nushell plugin to create qr code in terminal|✅0.109.1|✅0.109.1|
 |[nu_plugin_termplot](https://github.com/termplot/termplot)|0.1.21|Beautiful plots in your terminal.|⚠️0.105.1|⚠️0.105.1|
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.18.0|A nushell plugin that adds various ulid commands|✅0.109.0|✅0.109.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.8|A Nushell plugin for easily converting between common units|⚠️0.106.1|⚠️0.106.1|
@@ -65,4 +66,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.6|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.8|A nushell plugin for working with x509 certificates.|✅0.109.0|✅0.109.0|
 
-last update at `2025-12-31 03:56:39 +00:00`
+last update at `2025-12-31 15:56:26 +00:00`
