@@ -98,7 +98,9 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [discord.nu](https://github.com/cablehead/discord.nu): Nushell wrapper for the Discord REST API
 - [docker.nu](https://github.com/fj0r/docker.nu): Docker client toolset.
 - [dotnu](https://github.com/nushell-prophet/dotnu): tools for Nushell module developers.
+- [e.nu](https://github.com/abdelkadouss/nushell/blob/fa773a51f1566b899293903402f0476b8a33e89b/lib/scripts/e.nu): Quickly edite files from any where like magic without any cd or full paths.
 - [fsattr.nu](https://github.com/albert-tomanek/my-nu-commands/blob/master/posix/fsattr.nu): Nu commands for filesystem attributes.
+- [jumps.nu](https://github.com/abdelkadouss/nushell/blob/fa773a51f1566b899293903402f0476b8a33e89b/lib/scripts/jumps.nu) Navigate in ur forword and backword using <C-i> <C-o> like vim.
 - [get-weather](https://github.com/nushell/nu_scripts/blob/main/modules/weather/get-weather.nu): Get weather forecast for your location.
 - [git.nu](https://github.com/fj0r/git.nu): Git toolset
 - [git-aliases.nu](https://github.com/KamilKleina/git-aliases.nu): A collection of convenient Git aliases for Nushell.
@@ -106,6 +108,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [kubernetes.nu](https://github.com/fj0r/kubernetes.nu): Kubernetes client toolset.
 - [math_functions](https://github.com/nushell/nu_scripts/blob/main/modules/maths/math_functions.nu): Math functions for doing things like `factorial`, `root`.
 - [npup.nu](https://github.com/fj0r/npup): Puppet based on nushell.
+- [nupm unofficial](https://github.com/abdelkadouss/nushell/tree/fa773a51f1566b899293903402f0476b8a33e89b/lib/modules/nupm) Unofficial version of nupm (write from scratch not fork) that support install from git (nu or rust base plugins), crate.io and u can insha'Allah add other was easly.
 - [nu-aws-service-reference](https://github.com/a-slice-of-py/nu-aws-service-reference): browse and discover AWS Service Authorization Reference interactively in Nushell.
 - [nu-cmd-stack](https://github.com/nushell-prophet/nu-cmd-stack): scroll through the list of Nushell commands using `ctrl+alt+j/k` shortcuts.
 - [nu-dir-bookmark](https://github.com/yh17549/nu-dir-bookmark): Bookmark for directory and auto jump.
@@ -120,6 +123,8 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [powerline.nu](https://github.com/fj0r/powerline.nu): Powerline prompt for nushell.
 - [refreshenv](https://github.com/Sanceilaks/nu-refreshenv-win): Refresh PATH on Windows like in chocolatey.
 - [rust_ast.nu](https://github.com/graves/nu_rust_ast): Harvest symbols from Rust projects into structured Nushell records.
+- [salat.nu](https://github.com/abdelkadouss/nushell/blob/fa773a51f1566b899293903402f0476b8a33e89b/lib/scripts/salat.nu) List prayer times from the [aladhan api](aladhan.com).
+- [self_host.nu](https://github.com/abdelkadouss/nushell/tree/fa773a51f1566b899293903402f0476b8a33e89b/lib/modules/self_host) A tool to manage ur self hosted apps.
 - [terraform-importer.nu](https://github.com/Yethal/terraform-importer): Automatically import resources into your Terraform state.
 - [todo.nu](https://github.com/fj0r/todo.nu): Yet another TODO, but nu.
 - [ultimate_extractor](https://github.com/nushell/nu_scripts/blob/main/modules/data_extraction/ultimate_extractor.nu): Function to extract archives with different extensions.
