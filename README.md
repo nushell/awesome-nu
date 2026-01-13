@@ -171,6 +171,7 @@ Other tools that work with or within the nu language ecosystem.
 - [nushellWith](https://github.com/YPares/nushellWith): Generate isolated nushell environments (with custom libraries and plugins), with Nix
 - [Nuze](https://github.com/ZettaScaleLabs/nu-zenoh): A Nu shell for [Zenoh](https://zenoh.io/): debug systems, write (end-to-end) tests and build powerful CLI tools.
 - [oh-my-posh](https://ohmyposh.dev/docs/installation/prompt): A prompt theme engine for any shell.
+- [opam](https://github.com/RangHo/opam.nu): Automatic environment integration with `opam`, the OCaml package manager.
 - [pspg](https://github.com/okbob/pspg): A postgres pager that integrates in nushell.
 - [rattler-build](https://rattler.build): A [`conda-build`](https://docs.conda.io/projects/conda-build/en/latest/) alternative that supports build scripts in nushell.
 - [setup-bend Action](https://github.com/hustcer/setup-bend): A GitHub action that sets up the Bend environment powered by Nushell and with cache support.
