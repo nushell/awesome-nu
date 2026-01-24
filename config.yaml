@@ -260,6 +260,11 @@ plugins:
       description: "Nushell plist and base85 plugin implemented in Go."
       plugin: "0.94.0"
       protocol: "0.94.0"
+  - name: nu_plugin_ldap
+    language: rust
+    repository:
+      url: https://github.com/adevore/nu_plugin_ldap
+      branch: main
   - name: nu_plugin_logfmt
     language: go
     repository:
