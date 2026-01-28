@@ -4,7 +4,7 @@
 |[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.110.0|A nushell plugin to make and play sounds|✅0.110.0|✅0.110.0|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.104.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.104.0|⚠️0.104.0|
-|[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|25.1090.0|Nushell plugin for BSON format (Binary JSON)|⚠️0.109.0|⚠️0.109.0|
+|[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|26.1100.0|Nushell plugin for BSON format (Binary JSON)|✅0.110.0|✅0.110.0|
 |[nu_plugin_caldav](https://github.com/LQR471814/nu_plugin_caldav)|0.1.0|A Nushell plugin for interfacing with CalDAV servers.|⚠️0.109.1|⚠️0.109.1|
 |[nu_plugin_cassandra_query](https://github.com/devyn/nu_plugin_cassandra_query)|0.3.0|Query plugin for the Cassandra database for Nushell|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard)|0.110.0|A nushell plugin to copy text into clipboard or get text from it.|✅0.110.0|✅0.110.0|
@@ -32,6 +32,7 @@
 |[nu_plugin_inc](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc)|0.110.1|A version incrementer plugin for Nushell|✅0.110.1|✅0.110.1|
 |[nu_plugin_json_path](https://github.com/fdncred/nu_plugin_json_path)|0.20.0|a nushell plugin created to parse json files using jsonpath|✅0.110.0|✅0.110.0|
 |[nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl)|0.83.2|Add support for the KDL data format to Nushell.|⚠️0.83.2|⚠️0.83.2|
+|[nu_plugin_ldap](https://github.com/adevore/nu_plugin_ldap)|0.1.0|Nushell plugin for LDAP queries|✅0.110.0|✅0.110.0|
 |[nu_plugin_logfmt](https://github.com/oderwat/nu_plugin_logfmt)|0.1.0|Nushell plugin that allows conversion between logfmt and Nushell values.|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_ls_colorize](https://github.com/brendon-felix/nu_plugin_ls_colorize)|1.0.1+0.109.1|A plugin for Nushell that colorizes paths using LS_COLORS|⚠️0.109.1|⚠️0.109.1|
 |[nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime)|0.109.1|A simple plugin for working with mime types without performing disk access|⚠️0.109.1|⚠️0.109.1|
@@ -48,12 +49,12 @@
 |[nu_plugin_plotters](https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters)|0.2.3+0.108.0|A nushell plugin for for plotting charts|⛔0.0.0|⛔0.0.0|
 |[nu_plugin_pnet](https://github.com/fdncred/nu_plugin_pnet)|1.7.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.97.2|⚠️0.97.2|
 |[nu_plugin_port_extension](https://github.com/FMotalleb/nu_plugin_port_extension)|0.110.0|A nushell plugin to list all active connections and scanning ports on a target address|✅0.110.0|✅0.110.0|
-|[nu_plugin_prometheus](https://github.com/drbrain/nu_plugin_prometheus)|0.10.0|A nushell plugin for querying prometheus|⚠️0.109.1|⚠️0.109.1|
+|[nu_plugin_prometheus](https://github.com/drbrain/nu_plugin_prometheus)|0.11.0|A nushell plugin for querying prometheus|✅0.110.0|✅0.110.0|
 |[nu_plugin_qr_maker](https://github.com/FMotalleb/nu_plugin_qr_maker)|1.1.0|A nushell plugin to create qr code in terminal|⚠️0.94.0|⚠️0.94.0|
 |[nu_plugin_query](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_query)|0.110.1|A Nushell plugin to query JSON, XML, and various web data|✅0.110.1|✅0.110.1|
 |[nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex)|0.19.0|nu plugin to search text with regex|✅0.110.0|✅0.110.0|
 |[nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm)|0.3.6|A nushell plugin for reading rpm package.|⚠️0.108.0|⚠️0.108.0|
-|[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.11.10|A nushell plugin for dealing with SemVer versions|✅0.110.0|✅0.110.0|
+|[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.11.14|A nushell plugin for dealing with SemVer versions|✅0.110.0|✅0.110.0|
 |[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.22.0|An `sk` command that can handle Nushell's structured data|✅0.110|✅0.110|
 |[nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled)|0.1.3|Manage sled db in nushell|⚠️0.108.0|⚠️0.108.0|
 |[nu_plugin_template](https://github.com/KAAtheWiseGit/nugins/tree/trunk/template)|0.109.0|Templating in Nushell, powered by TinyTemplate|⚠️0.102.0|⚠️0.102.0|
@@ -66,4 +67,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.6|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.8|A nushell plugin for working with x509 certificates.|⚠️0.109.0|⚠️0.109.0|
 
-last update at `2026-01-21 04:02:56 +00:00`
+last update at `2026-01-28 04:03:13 +00:00`
