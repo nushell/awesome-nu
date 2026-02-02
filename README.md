@@ -40,6 +40,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_hmac](https://github.com/fnuttens/nu_plugin_hmac): HMAC sealing for nushell.
 - [nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image): A nushell plugin to open png images in the shell and save ansi string as images.
 - [nu_plugin_inc](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc): Plugin to increment semantic versioning strings.
+- [nu_plugin_input_global_listen](https://codeberg.org/Chai/nu_plugin_input_global_listen): A Nushell plugin that lets you listen to keyboard input without focus
 - [nu_plugin_json_path](https://github.com/fdncred/nu_plugin_json_path): A nushell plugin for parsing json that uses the json path specification.
 - [nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl): A plugin to add KDL support to Nushell.
 - [nu_plugin_ldap](https://github.com/adevore/nu_plugin_adevore): Nushell plugin to query LDAP servers.
