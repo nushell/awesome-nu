@@ -387,7 +387,7 @@ plugins:
  - name: nu_plugin_input_global_listen
    language: rust
    repository:
-     url: https://codeberg.org/Chai/nu_plugin_input_global_liste
+     url: https://codeberg.org/Chai/nu_plugin_input_global_listen
      branch: master
 
 # Example
