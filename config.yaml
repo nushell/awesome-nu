@@ -384,11 +384,11 @@ plugins:
       description: "A Nushell plugin for interfacing with CalDAV servers."
       plugin: "0.109.1"
       protocol: "0.109.1"
- - name: nu_plugin_input_global_listen
-   language: rust
-   repository:
-     url: https://codeberg.org/Chai/nu_plugin_input_global_listen
-     branch: master
+  - name: nu_plugin_input_global_listen
+    language: rust
+    repository:
+      url: https://codeberg.org/Chai/nu_plugin_input_global_listen
+      branch: master
 
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
