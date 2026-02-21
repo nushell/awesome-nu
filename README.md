@@ -125,6 +125,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [terraform-importer.nu](https://github.com/Yethal/terraform-importer): Automatically import resources into your Terraform state.
 - [todo.nu](https://github.com/fj0r/todo.nu): Yet another TODO, but nu.
 - [ultimate_extractor](https://github.com/nushell/nu_scripts/blob/main/modules/data_extraction/ultimate_extractor.nu): Function to extract archives with different extensions.
+- [vouch](https://github.com/mitchellh/vouch): A community trust management system based on explicit vouches to participate.
 - [webserver.nu](https://github.com/Jan9103/webserver.nu): A library for creating webservers.
 - [wi](https://github.com/phoenixr-codes/wi): A linguist wrapper for the terminal.
 - [wolframalpha](https://github.com/nushell/nu_scripts/blob/main/sourced/api_wrappers/wolframalpha.nu): WolframAlpha API wrapper.
