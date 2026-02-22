@@ -35,6 +35,11 @@ plugins:
     repository:
       url: https://github.com/fdncred/nu_plugin_pnet
       branch: main
+  - name: nu_plugin_bigquery
+    language: rust
+    repository:
+      url: https://github.com/galuszkak/nu_plugin_bigquery
+      branch: main
   - name: nu_plugin_bin_reader
     language: python
     repository:
