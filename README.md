@@ -12,6 +12,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 
 - [nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook): A nushell plugin to make and play sounds.
 - [nu_plugin_bash_env](https://github.com/tesujimath/bash-env-nushell): The Bash environment plugin for nushell is **deprecated** in favour of the bash-env-nushell module (below)
+- [nu_plugin_bigquery](https://github.com/galuszkak/nu_plugin_bigquery): A Nushell plugin for querying Google BigQuery.
 - [nu_plugin_bexpand](https://codeberg.org/Taywee/nu-plugin-bexpand): Bash style brace expansion for nushell.
 - [nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader): A high level, general binary data reader.
 - [nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio): A bioinformatics plugin for nushell.
