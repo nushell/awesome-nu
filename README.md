@@ -135,6 +135,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [amasia/snip](https://github.com/amasialabs/nushell-modules): Simple but cool snippet manager for Nushell.
 - [nu_script_wttr](https://github.com/SuaveIV/nu_script_wttr): Weather fetcher using wttr.in — forecasts, hourly breakdowns, and astronomy data.
 - [nu_script_hnews](https://github.com/SuaveIV/nu_script_hnews): Browse Hacker News from your terminal — cached, responsive, and clickable.
+- [nu_script_gh_status](https://github.com/SuaveIV/nu_script_gh_status): Check GitHub's service health, components, incidents, and scheduled maintenance.
 
 ## Custom Completions
 
