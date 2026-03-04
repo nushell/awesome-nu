@@ -98,6 +98,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [alias-finder.nu](https://github.com/KamilKleina/alias-finder.nu): Alias finder for Nushell.
 - [bash-env-nushell](https://github.com/tesujimath/bash-env-nushell): Bash environment for Nushell.
 - [cargo_search](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/cargo_search.nu): Perform a cargo search.
+- [dagger.nu](https://github.com/danielbodnar/dagger.nu): Nushell completions for the Dagger container workflow CLI.
 - [discord.nu](https://github.com/cablehead/discord.nu): Nushell wrapper for the Discord REST API
 - [docker.nu](https://github.com/fj0r/docker.nu): Docker client toolset.
 - [dotnu](https://github.com/nushell-prophet/dotnu): tools for Nushell module developers.
