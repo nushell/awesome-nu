@@ -116,7 +116,9 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [nu-cmd-stack](https://github.com/nushell-prophet/nu-cmd-stack): scroll through the list of Nushell commands using `ctrl+alt+j/k` shortcuts.
 - [nu-dir-bookmark](https://github.com/yh17549/nu-dir-bookmark): Bookmark for directory and auto jump.
 - [nu-history-tools](https://github.com/nushell-prophet/nu-history-tools): analyze the command frequencies in Nushell history, generate cool graphs, benchmark statistics with other users.
+- [nu-salesforce](https://github.com/freepicheep/nu-salesforce): bring the power of Nu's focus on structured data and the terminal environment to your Salesforce data with this Nu module, complete with native Nu examples for commands.
 - [nu-telegram-bot](https://github.com/nushell-prophet/nu-telegram-bot): Interacting with telegram's bot api
+- [nu-quickbooks](https://github.com/freepicheep/nu-quickbooks): a Nu wrapper for the QuickBooks API, complete with native Nu examples for commands.
 - [nu_script_gh_status](https://github.com/SuaveIV/nu_script_gh_status): Check GitHub's service health, components, incidents, and scheduled maintenance.
 - [nu_script_hnews](https://github.com/SuaveIV/nu_script_hnews): Browse Hacker News from your terminal — cached, responsive, and clickable.
 - [nu_script_wttr](https://github.com/SuaveIV/nu_script_wttr): Weather fetcher using wttr.in — forecasts, hourly breakdowns, and astronomy data.
