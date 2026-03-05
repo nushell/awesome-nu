@@ -394,6 +394,22 @@ plugins:
     repository:
       url: https://codeberg.org/Chai/nu_plugin_input_global_listen
       branch: master
+  - name: nu_plugin_ccl
+    language: rust
+    repository:
+      url: https://github.com/punund/nu_plugin_ccl
+      branch: master
+    override:
+      plugin: "0.111.0"
+      protocol: "0.111.0"
+  - name: nu_plugin_mime_message
+    language: rust
+    repository:
+      url: https://github.com/punund/nu_plugin_mime_message
+      branch: master
+    override:
+      plugin: "0.111.0"
+      protocol: "0.111.0"
 
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)

@@ -19,6 +19,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson): A nushell plugin that implements `from bson` and `to bson` to read and write [BSON (Binary JSON)](https://bsonspec.org/) data.
 - [nu_plugin_caldav](https://github.com/LQR471814/nu_plugin_caldav): A Nushell plugin for interfacing with CalDAV servers.
 - [nu_plugin_cassandra_query](https://github.com/devyn/nu_plugin_cassandra_query): Query plugin for the Cassandra database for Nushell.
+- [nu_plugin_ccl](https://github.com/punund/nu_plugin_ccl): A Nushell plugin for parsing CCL format.
 - [nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard): A nushell plugin to copy text into clipboard or get text from it.
 - [nu_plugin_compress](https://github.com/yybit/nu_plugin_compress): A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.
 - [nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus): Nushell plugin for interacting with D-Bus.
@@ -49,6 +50,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_logfmt](https://github.com/oderwat/nu_plugin_logfmt): Nushell plugin that allows conversion between logfmt and Nushell values.
 - [nu_plugin_ls_colorize](https://github.com/brendon-felix/nu_plugin_ls_colorize): A plugin for Nushell which colorizes paths according to LS_COLORS.
 - [nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime): Nushell plugin for working with mime types without performing disk access.
+- [nu_plugin_mime_message](https://github.com/punund/nu_plugin_mime_message): A Nushell plugin for parsing MIME messages and mail streams.
 - [nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo): A nushell plugin to interactive with mongodb.
 - [nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack): Nushell plugin for converting to and from msgpack.
 - [nu_plugin_net](https://crates.io/crates/nu_plugin_net): List network interfaces on any platform.
