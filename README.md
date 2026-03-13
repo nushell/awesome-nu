@@ -140,6 +140,8 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [webserver.nu](https://github.com/Jan9103/webserver.nu): A library for creating webservers.
 - [wi](https://github.com/phoenixr-codes/wi): A linguist wrapper for the terminal.
 - [wolframalpha](https://github.com/nushell/nu_scripts/blob/main/sourced/api_wrappers/wolframalpha.nu): WolframAlpha API wrapper.
+- [nu_script_time_sync](https://github.com/SuaveIV/nu_script_time_sync): Check if your system clock is drifting using the Time.now API.
+- [nu_script_world_time](https://github.com/SuaveIV/nu_script_time_sync/tree/main/world-time): Look up the current time in any timezone using the Time.now API.
 
 ## Custom Completions
 
