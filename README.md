@@ -10,6 +10,7 @@ If you are looking for interesting blog posts, media attention or youtube videos
 
 You can find some examples about how to create and use plugins in the [Nushell Plugins](https://www.nushell.sh/book/plugins.html) page and in the [`plugin-examples` repository](https://github.com/nushell/plugin-examples).
 
+- [nu_plugin_audio](https://github.com/SuaveIV/nu_plugin_audio): A nushell plugin for generating tones, reading and writing audio metadata, and playing audio files with a live progress bar and keyboard controls.
 - [nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook): A nushell plugin to make and play sounds.
 - [nu_plugin_bash_env](https://github.com/tesujimath/bash-env-nushell): The Bash environment plugin for nushell is **deprecated** in favour of the bash-env-nushell module (below)
 - [nu_plugin_bexpand](https://codeberg.org/Taywee/nu-plugin-bexpand): Bash style brace expansion for nushell.
@@ -118,11 +119,13 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [nu-cmd-stack](https://github.com/nushell-prophet/nu-cmd-stack): scroll through the list of Nushell commands using `ctrl+alt+j/k` shortcuts.
 - [nu-dir-bookmark](https://github.com/yh17549/nu-dir-bookmark): Bookmark for directory and auto jump.
 - [nu-history-tools](https://github.com/nushell-prophet/nu-history-tools): analyze the command frequencies in Nushell history, generate cool graphs, benchmark statistics with other users.
+- [nu-quickbooks](https://github.com/freepicheep/nu-quickbooks): a Nu wrapper for the QuickBooks API, complete with native Nu examples for commands.
 - [nu-salesforce](https://github.com/freepicheep/nu-salesforce): bring the power of Nu's focus on structured data and the terminal environment to your Salesforce data with this Nu module, complete with native Nu examples for commands.
 - [nu-telegram-bot](https://github.com/nushell-prophet/nu-telegram-bot): Interacting with telegram's bot api
-- [nu-quickbooks](https://github.com/freepicheep/nu-quickbooks): a Nu wrapper for the QuickBooks API, complete with native Nu examples for commands.
 - [nu_script_gh_status](https://github.com/SuaveIV/nu_script_gh_status): Check GitHub's service health, components, incidents, and scheduled maintenance.
 - [nu_script_hnews](https://github.com/SuaveIV/nu_script_hnews): Browse Hacker News from your terminal — cached, responsive, and clickable.
+- [nu_script_time_sync](https://github.com/SuaveIV/nu_script_time_sync): Check if your system clock is drifting using the Time.now API.
+- [nu_script_world_time](https://github.com/SuaveIV/nu_script_time_sync/tree/main/world-time): Look up the current time in any timezone using the Time.now API.
 - [nu_script_wttr](https://github.com/SuaveIV/nu_script_wttr): Weather fetcher using wttr.in — forecasts, hourly breakdowns, and astronomy data.
 - [nufetch](https://github.com/Sanceilaks/nufetch): neofetch-like script written in Nu🐘
 - [numd](https://github.com/nushell-prophet/numd): reproducible Nushell Markdown documents.
@@ -145,10 +148,10 @@ You can find some examples about how to create and use scripts in the [Nushell S
 
 You can find some examples about how to create and use custom completions in the [Nushell Custom Completions](https://www.nushell.sh/book/custom_completions.html) page.
 
+- [cargo](https://github.com/nushell/nu_scripts/blob/main/custom-completions/cargo/cargo-completions.nu): Completions for `cargo` commands.
 - [git](https://github.com/nushell/nu_scripts/blob/main/custom-completions/git/git-completions.nu): Completions for `git` commands.
 - [make](https://github.com/nushell/nu_scripts/blob/main/custom-completions/make/make-completions.nu): Completions for `make` commands.
 - [npm](https://github.com/nushell/nu_scripts/blob/main/custom-completions/npm/npm-completions.nu): Completions for `npm` commands.
-- [cargo](https://github.com/nushell/nu_scripts/blob/main/custom-completions/cargo/cargo-completions.nu): Completions for `cargo` commands.
 - [winget](https://github.com/nushell/nu_scripts/blob/main/custom-completions/winget/winget-completions.nu): Completions for `winget` package manager.
 
 ## Integrations
