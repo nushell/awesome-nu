@@ -1,6 +1,7 @@
 |name|version|description|plugin|protocol|
 |-|-|-|-|-|
 |[nu-plugin-bexpand](https://forge.axfive.net/Taylor/nu-plugin-bexpand)|1.3.11100|A brace expansion plugin compatible with Bash for nushell|✅0.111.0|✅0.111.0|
+|[nu_plugin_audio](https://github.com/SuaveIV/nu_plugin_audio)|0.2.3|A nushell plugin to make and play sounds|✅0.111.0|✅0.111.0|
 |[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.110.0|A nushell plugin to make and play sounds|⚠️0.110.0|⚠️0.110.0|
 |[nu_plugin_bigquery](https://github.com/galuszkak/nu_plugin_bigquery)|0.1.1|A Nushell plugin for querying Google BigQuery|✅0.111.0|✅0.111.0|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
@@ -71,4 +72,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.6|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.8|A nushell plugin for working with x509 certificates.|⚠️0.109.0|⚠️0.109.0|
 
-last update at `2026-03-11 04:27:25 +00:00`
+last update at `2026-03-18 04:51:14 +00:00`
