@@ -51,7 +51,7 @@
 |[nu_plugin_plist](https://github.com/ainvaltin/nu_plugin_plist)|0.1.0|Nushell plist and base85 plugin implemented in Go.|⚠️0.94.0|⚠️0.94.0|
 |[nu_plugin_plist](https://github.com/ayax79/nu_plugin_plist)|0.96.0|Plist parsing for nushell|⚠️0.96|⚠️0.96|
 |[nu_plugin_plot](https://github.com/Euphrasiologist/nu_plugin_plot)|0.103.0|Plot graphs in nushell using numerical lists.|⚠️0.105.0|⚠️0.105.0|
-|[nu_plugin_plotters](https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters)|0.2.4+0.110.0|A nushell plugin for for plotting charts|⛔0.0.0|⛔0.0.0|
+|[nu_plugin_plotters](https://github.com/cptpiepmatz/nu-jupyter-kernel/tree/main/crates/nu_plugin_plotters)|0.2.5+0.111.0|A nushell plugin for for plotting charts|⛔0.0.0|⛔0.0.0|
 |[nu_plugin_pnet](https://github.com/fdncred/nu_plugin_pnet)|1.7.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.97.2|⚠️0.97.2|
 |[nu_plugin_port_extension](https://github.com/FMotalleb/nu_plugin_port_extension)|0.111.0|A nushell plugin to list all active connections and scanning ports on a target address|✅0.111.0|✅0.111.0|
 |[nu_plugin_prometheus](https://github.com/drbrain/nu_plugin_prometheus)|0.11.0|A nushell plugin for querying prometheus|⚠️0.110.0|⚠️0.110.0|
@@ -72,4 +72,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.6|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.8|A nushell plugin for working with x509 certificates.|⚠️0.109.0|⚠️0.109.0|
 
-last update at `2026-03-25 04:49:10 +00:00`
+last update at `2026-04-01 05:17:23 +00:00`
