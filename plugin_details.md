@@ -16,7 +16,7 @@
 |[nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm)|0.8.0|A nushell plugin to parse Dicom files and DICOMweb records|⚠️0.108.0|⚠️0.108.0|
 |[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|0.112.2|A nushell plugin to send desktop notifications|✅0.112.2|✅0.112.2|
 |[nu_plugin_dialog](https://github.com/Trivernis/nu-plugin-dialog)|0.2.0|A nushell plugin for user interaction|⚠️0.86.1|⚠️0.86.1|
-|[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|4.0.9-alpha.1|A DNS utility for nushell|⚠️0.111.0|⚠️0.111.0|
+|[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|4.0.10-alpha.1|A DNS utility for nushell|✅0.112.2|✅0.112.2|
 |[nu_plugin_dpkgtable](https://github.com/pdenapo/nu_plugin_dpkgtable)|0.1.0||⚠️0.111.0|⚠️0.111.0|
 |[nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji)|0.21.0|a nushell plugin called emoji|✅0.112.2|✅0.112.2|
 |[nu_plugin_endecode](https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode)|0.110.0|A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.|⚠️0.102.0|⚠️0.102.0|
@@ -36,7 +36,7 @@
 |[nu_plugin_input_global_listen](https://codeberg.org/Chai/nu_plugin_input_global_listen)|0.1.0|A Nushell plugin that lets you listen to keyboard input without focus|⚠️0.110.0|⚠️0.110.0|
 |[nu_plugin_json_path](https://github.com/fdncred/nu_plugin_json_path)|0.22.0|a nushell plugin created to parse json files using jsonpath|✅0.112.2|✅0.112.2|
 |[nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl)|0.83.2|Add support for the KDL data format to Nushell.|⚠️0.83.2|⚠️0.83.2|
-|[nu_plugin_ldap](https://github.com/adevore/nu_plugin_ldap)|0.1.0|Nushell plugin for LDAP queries|⚠️0.110.0|⚠️0.110.0|
+|[nu_plugin_ldap](https://github.com/adevore/nu_plugin_ldap)|0.1.1|Nushell plugin for LDAP queries|✅0.112.2|✅0.112.2|
 |[nu_plugin_logfmt](https://github.com/oderwat/nu_plugin_logfmt)|0.1.0|Nushell plugin that allows conversion between logfmt and Nushell values.|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_ls_colorize](https://github.com/brendon-felix/nu_plugin_ls_colorize)|1.0.5+0.112.2|A plugin for Nushell that colorizes paths using LS_COLORS|✅0.112.2|✅0.112.2|
 |[nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime)|0.111.0|A simple plugin for working with mime types without performing disk access|⚠️0.111.0|⚠️0.111.0|
@@ -72,4 +72,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.6|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.8|A nushell plugin for working with x509 certificates.|⚠️0.109.0|⚠️0.109.0|
 
-last update at `2026-04-22 05:18:21 +00:00`
+last update at `2026-04-29 05:47:18 +00:00`
