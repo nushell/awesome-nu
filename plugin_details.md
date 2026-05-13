@@ -2,7 +2,7 @@
 |-|-|-|-|-|
 |[nu-plugin-bexpand](https://forge.axfive.net/Taylor/nu-plugin-bexpand)|1.3.11210-dev|A brace expansion plugin compatible with Bash for nushell|✅0.112.1|✅0.112.1|
 |[nu_plugin_audio](https://github.com/SuaveIV/nu_plugin_audio)|0.2.7|A nushell plugin to make and play sounds|✅0.112.0|✅0.112.0|
-|[nu_plugin_bigquery](https://github.com/galuszkak/nu_plugin_bigquery)|0.1.2|A Nushell plugin for querying Google BigQuery|✅0.112.1|✅0.112.1|
+|[nu_plugin_bigquery](https://github.com/galuszkak/nu_plugin_bigquery)|0.2.0|A Nushell plugin for querying Google BigQuery|✅0.112.2|✅0.112.2|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.104.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.104.0|⚠️0.104.0|
 |[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|26.1121.0|Nushell plugin for BSON format (Binary JSON)|✅0.112.1|✅0.112.1|
@@ -35,7 +35,7 @@
 |[nu_plugin_ldap](https://github.com/adevore/nu_plugin_ldap)|0.1.1|Nushell plugin for LDAP queries|✅0.112.2|✅0.112.2|
 |[nu_plugin_logfmt](https://github.com/oderwat/nu_plugin_logfmt)|0.1.0|Nushell plugin that allows conversion between logfmt and Nushell values.|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_ls_colorize](https://github.com/brendon-felix/nu_plugin_ls_colorize)|1.0.5+0.112.2|A plugin for Nushell that colorizes paths using LS_COLORS|✅0.112.2|✅0.112.2|
-|[nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime)|0.111.0|A simple plugin for working with mime types without performing disk access|⚠️0.111.0|⚠️0.111.0|
+|[nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime)|0.112.2|A simple plugin for working with mime types without performing disk access|✅0.112.2|✅0.112.2|
 |[nu_plugin_mime_message](https://github.com/punund/nu_plugin_mime_message)|0.1.0+0.111.0|A Nushell plugin for parsing MIME messages and mail streams|⚠️0.111.0|⚠️0.111.0|
 |[nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo)|0.1.11|A nushell plugin to interactive with mongodb|⚠️0.111|⚠️0.111|
 |[nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack)|0.90.1|Commands to convert nushell data to and from MsgPack|⚠️0.90.1|⚠️0.90.1|
@@ -72,4 +72,4 @@
 |issue in config file for (https://github.com/FMotalleb/nu_plugin_port_extension)|0.0||⛔0.0|⛔0.0|
 |issue in config file for (https://github.com/FMotalleb/nu_plugin_qr_maker)|0.0||⛔0.0|⛔0.0|
 
-last update at `2026-05-06 05:49:49 +00:00`
+last update at `2026-05-13 06:19:49 +00:00`
