@@ -132,6 +132,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [nupk](https://github.com/mokeyish/nupk): Simplifying package installation, updates, and uninstallation from GitHub Releases
 - [nuschiit](https://github.com/nushell/nu_scripts/blob/main/sourced/webscraping/nuschiit.nu): Web scraping example for the schiit.co.uk website.
 - [nutest](https://github.com/vyadh/nutest): A Nushell test framework.
+- [sessionizer.nu](https://gitlab.com/boweflex/sessionizer.nu): A fuzzy finding sessionizer for Tmux.
 - [panache-git](https://github.com/nushell/nu_scripts/blob/main/modules/prompt/panache-git.nu): A Git prompt that summarizes the current status of your Git repository. Styled after posh-git.
 - [powerline.nu](https://github.com/fj0r/powerline.nu): Powerline prompt for nushell.
 - [refreshenv](https://github.com/Sanceilaks/nu-refreshenv-win): Refresh PATH on Windows like in chocolatey.
