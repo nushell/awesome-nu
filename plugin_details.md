@@ -72,4 +72,4 @@
 |issue in config file for (https://github.com/FMotalleb/nu_plugin_port_extension)|0.0||⛔0.0|⛔0.0|
 |issue in config file for (https://github.com/FMotalleb/nu_plugin_qr_maker)|0.0||⛔0.0|⛔0.0|
 
-last update at `2026-05-13 06:19:49 +00:00`
+last update at `2026-05-20 06:42:11 +00:00`
