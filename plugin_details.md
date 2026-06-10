@@ -21,7 +21,7 @@
 |[nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji)|0.22.0|a nushell plugin called emoji|⚠️0.113.0|⚠️0.113.0|
 |[nu_plugin_endecode](https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode)|0.113.1|A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.|⚠️0.102.0|⚠️0.102.0|
 |[nu_plugin_explore](https://github.com/amtoine/nu_plugin_explore)|0.102.0|A fast structured data explorer for Nushell.|⚠️0.102.0|⚠️0.102.0|
-|[nu_plugin_file](https://github.com/fdncred/nu_plugin_file)|0.24.0|a nushell plugin called file|⚠️0.113.0|⚠️0.113.0|
+|[nu_plugin_file](https://github.com/fdncred/nu_plugin_file)|0.25.2|a nushell plugin called file|⚠️0.113.0|⚠️0.113.0|
 |[nu_plugin_format_pcap](https://github.com/b4nst/nu_plugin_format_pcap)|0.1.0||⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_formats](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_formats)|{workspace: true}|An I/O plugin for a set of file formats for Nushell|⛔0.0.0|⛔0.0.0|
 |[nu_plugin_from_beancount](https://github.com/jcornaz/nu_plugin_from_beancount)|2.0.0|A nushell extension to load a beancount file into nu structured data|⚠️0.84.0|⚠️0.84.0|
@@ -41,7 +41,7 @@
 |[nu_plugin_ls_colorize](https://github.com/brendon-felix/nu_plugin_ls_colorize)|1.0.5+0.112.2|A plugin for Nushell that colorizes paths using LS_COLORS|⚠️0.112.2|⚠️0.112.2|
 |[nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime)|0.112.2|A simple plugin for working with mime types without performing disk access|⚠️0.112.2|⚠️0.112.2|
 |[nu_plugin_mime_message](https://github.com/punund/nu_plugin_mime_message)|0.1.0+0.111.0|A Nushell plugin for parsing MIME messages and mail streams|⚠️0.111.0|⚠️0.111.0|
-|[nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo)|0.1.11|A nushell plugin to interactive with mongodb|⚠️0.111|⚠️0.111|
+|[nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo)|0.1.13|A nushell plugin to interactive with mongodb|⚠️0.113|⚠️0.113|
 |[nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack)|0.90.1|Commands to convert nushell data to and from MsgPack|⚠️0.90.1|⚠️0.90.1|
 |[nu_plugin_net](https://github.com/fennewald/nu_plugin_net)|1.10.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.104.0|⚠️0.104.0|
 |[nu_plugin_nupsql](https://gitlab.com/HertelP/nu_plugin_nupsql)|1.0.0|A nushell plugin to query postgres databases|⚠️^0.109.0|⚠️^0.109.0|
@@ -72,4 +72,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.6|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.8|A nushell plugin for working with x509 certificates.|⚠️0.109.0|⚠️0.109.0|
 
-last update at `2026-06-03 08:09:02 +00:00`
+last update at `2026-06-10 07:01:39 +00:00`
