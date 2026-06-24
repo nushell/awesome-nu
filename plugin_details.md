@@ -61,7 +61,7 @@
 |[nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm)|0.3.6|A nushell plugin for reading rpm package.|⚠️0.108.0|⚠️0.108.0|
 |[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.11.17|A nushell plugin for dealing with SemVer versions|⚠️0.113.0|⚠️0.113.0|
 |[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.28.0|An `sk` command that can handle Nushell's structured data|⚠️0.113|⚠️0.113|
-|[nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled)|0.1.3|Manage sled db in nushell|⚠️0.111.0|⚠️0.111.0|
+|[nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled)|0.1.3|Manage sled db in nushell|⚠️0.113.1|⚠️0.113.1|
 |[nu_plugin_template](https://github.com/KAAtheWiseGit/nugins/tree/trunk/template)|0.113.1|Templating in Nushell, powered by TinyTemplate|⚠️0.102.0|⚠️0.102.0|
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_terminal_qr](https://github.com/Neuron-Mr-White/nu_plugin_terminal_qr)|1.1.1|A nushell plugin to create qr code in terminal|⚠️0.109.1|⚠️0.109.1|
@@ -72,4 +72,4 @@
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.6|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.8|A nushell plugin for working with x509 certificates.|⚠️0.109.0|⚠️0.109.0|
 
-last update at `2026-06-17 08:23:08 +00:00`
+last update at `2026-06-24 06:38:39 +00:00`
