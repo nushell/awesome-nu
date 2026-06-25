@@ -102,6 +102,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [amasia/snip](https://github.com/amasialabs/nushell-modules): Simple but cool snippet manager for Nushell.
 - [bash-env-nushell](https://github.com/tesujimath/bash-env-nushell): Bash environment for Nushell.
 - [cargo_search](https://github.com/nushell/nu_scripts/blob/main/sourced/cool-oneliners/cargo_search.nu): Perform a cargo search.
+- [conventional-commits (ccommit)](https://github.com/lassoColombo/conventional-commits): Parse conventional-commits into structured data and walk git ranges.
 - [digital-rain](https://github.com/ArmoredPony/nu-digital-rain): Digital rain effect implementation for Nushell.
 - [discord.nu](https://github.com/cablehead/discord.nu): Nushell wrapper for the Discord REST API
 - [docker.nu](https://github.com/fj0r/docker.nu): Docker client toolset.
