@@ -1,12 +1,12 @@
 |name|version|description|plugin|protocol|
 |-|-|-|-|-|
 |[nu-plugin-bexpand](https://forge.axfive.net/Taylor/nu-plugin-bexpand)|1.3.11300-dev|A brace expansion plugin compatible with Bash for nushell|⚠️0.113.1|⚠️0.113.1|
-|[nu_plugin_audio](https://github.com/SuaveIV/nu_plugin_audio)|0.2.7|A nushell plugin to make and play sounds|⚠️0.112.0|⚠️0.112.0|
+|[nu_plugin_audio](https://github.com/SuaveIV/nu_plugin_audio)|0.2.9|A nushell plugin to make and play sounds|⚠️0.114.0|⚠️0.114.0|
 |[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.110.0|A nushell plugin to make and play sounds|⚠️0.110.0|⚠️0.110.0|
 |[nu_plugin_bigquery](https://github.com/galuszkak/nu_plugin_bigquery)|0.2.0|A Nushell plugin for querying Google BigQuery|⚠️0.112.2|⚠️0.112.2|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.104.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.104.0|⚠️0.104.0|
-|[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|26.1130.0|Nushell plugin for BSON format (Binary JSON)|⚠️0.113.0|⚠️0.113.0|
+|[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|26.1140.0|Nushell plugin for BSON format (Binary JSON)|⚠️0.114.0|⚠️0.114.0|
 |[nu_plugin_caldav](https://github.com/LQR471814/nu_plugin_caldav)|0.1.0|A Nushell plugin for interfacing with CalDAV servers.|⚠️0.109.1|⚠️0.109.1|
 |[nu_plugin_cassandra_query](https://github.com/devyn/nu_plugin_cassandra_query)|0.3.0|Query plugin for the Cassandra database for Nushell|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_ccl](https://github.com/punund/nu_plugin_ccl)|0.1.0+0.111.0|A Nushell plugin for CCL format support|⚠️0.111.0|⚠️0.111.0|
@@ -60,16 +60,16 @@
 |[nu_plugin_regex](https://github.com/fdncred/nu_plugin_regex)|0.22.0|nu plugin to search text with regex|⚠️0.113.0|⚠️0.113.0|
 |[nu_plugin_rpm](https://github.com/yybit/nu_plugin_rpm)|0.3.6|A nushell plugin for reading rpm package.|⚠️0.108.0|⚠️0.108.0|
 |[nu_plugin_semver](https://github.com/abusch/nu_plugin_semver)|0.11.17|A nushell plugin for dealing with SemVer versions|⚠️0.113.0|⚠️0.113.0|
-|[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.28.0|An `sk` command that can handle Nushell's structured data|⚠️0.113|⚠️0.113|
+|[nu_plugin_skim](https://github.com/idanarye/nu_plugin_skim)|0.29.1|An `sk` command that can handle Nushell's structured data|⚠️0.114|⚠️0.114|
 |[nu_plugin_sled](https://github.com/mrxiaozhuox/nu_plugin_sled)|0.1.3|Manage sled db in nushell|⚠️0.113.1|⚠️0.113.1|
 |[nu_plugin_template](https://github.com/KAAtheWiseGit/nugins/tree/trunk/template)|0.113.1|Templating in Nushell, powered by TinyTemplate|⚠️0.102.0|⚠️0.102.0|
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_terminal_qr](https://github.com/Neuron-Mr-White/nu_plugin_terminal_qr)|1.1.1|A nushell plugin to create qr code in terminal|⚠️0.109.1|⚠️0.109.1|
 |[nu_plugin_termplot](https://github.com/termplot/termplot)|0.1.21|Beautiful plots in your terminal.|⚠️0.105.1|⚠️0.105.1|
-|[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.22.0|A nushell plugin that adds various ulid commands|⚠️0.113.0|⚠️0.113.0|
+|[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.23.0|A nushell plugin that adds various ulid commands|⚠️0.114.0|⚠️0.114.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.8|A Nushell plugin for easily converting between common units|⚠️0.106.1|⚠️0.106.1|
 |[nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec)|1.1.6|A Nushell plugin implementing vector operations|⚠️0.105.1|⚠️0.105.1|
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.6|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.8|A nushell plugin for working with x509 certificates.|⚠️0.109.0|⚠️0.109.0|
 
-last update at `2026-07-01 07:05:08 +00:00`
+last update at `2026-07-08 05:42:42 +00:00`
