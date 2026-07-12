@@ -415,6 +415,11 @@ plugins:
     repository:
       url: https://github.com/SuaveIV/nu_plugin_audio
       branch: main
+  - name: nu_plugin_handlebars
+    language: rust
+    repository:
+      url: https://github.com/idanarye/nu_plugin_handlebars
+      branch: main
 
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
