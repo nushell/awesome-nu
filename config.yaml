@@ -420,6 +420,11 @@ plugins:
     repository:
       url: https://github.com/idanarye/nu_plugin_handlebars
       branch: main
+  - name: nu_plugin_todu
+    language: rust
+    repository:
+      url: https://github.com/casedami/nu_plugin_todu/tree/main/crates/nu-plugin-todu
+      branch: main
 
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
