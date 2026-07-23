@@ -423,7 +423,7 @@ plugins:
   - name: nu_plugin_todu
     language: rust
     repository:
-      url: https://github.com/casedami/nu_plugin_todu/tree/main/crates/nu-plugin-todu
+      url: https://github.com/casedami/nu_plugin_todu/
       branch: main
 
 # Example
