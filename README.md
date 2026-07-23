@@ -77,6 +77,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_template (String and HTML templating)](https://codeberg.org/kaathewise/nugins/src/branch/trunk/template): String and HTML templating in Nu.
 - [nu_plugin_terminal_qr](https://github.com/Neuron-Mr-White/nu_plugin_terminal_qr): A nushell plugin to create QR codes in newer version of nushell (maintained version of qr_maker).
 - [nu_plugin_termplot](https://github.com/termplot/termplot): Beautiful plots in your terminal.
+- [nu_plugin_todu](https://github.com/casedami/nu_plugin_todu): A Nushell plugin for managing project-scoped todos, with optional sync to GitHub and Jira.
 - [nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid): A nushell plugin that adds various ulid commands.
 - [nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units): A Nushell plugin for easily converting between common units.
 - [nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec): A Nushell plugin adding support for vector operations.
