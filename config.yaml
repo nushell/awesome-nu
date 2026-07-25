@@ -425,6 +425,17 @@ plugins:
     repository:
       url: https://github.com/casedami/nu_plugin_todu/
       branch: main
+  - name: nu_plugin_todoist
+    language: python
+    repository:
+      url: https://github.com/fhalim/nu_plugin_todoist
+      branch: main
+    override:
+      name: "[nu_plugin_todoist](https://github.com/fhalim/nu_plugin_todoist)"
+      version: "0.1.0"
+      description: "A Nushell plugin for interacting with the Todoist API."
+      plugin: "0.114.1"
+      protocol: "0.114.1"
 
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
