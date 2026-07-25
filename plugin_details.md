@@ -30,7 +30,7 @@
 |[nu_plugin_handlebars](https://github.com/idanarye/nu_plugin_handlebars)|0.1.0|An `handlebars` command for Nushell for rendering Nu values using Handlebars templates|⚠️0.114.0|⚠️0.114.0|
 |[nu_plugin_hashes](https://github.com/ArmoredPony/nu_plugin_hashes)|0.1.9|A Nushell plugin that adds 63 cryptographic hash functions from Hashes project|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl)|0.106.0|A nushell plugin for parsing Hashicorp Configuration Language file format|⚠️0.106.0|⚠️0.106.0|
-|[nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight)|1.4.15+0.113.1|A nushell plugin for syntax highlighting|⚠️0.113.1|⚠️0.113.1|
+|[nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight)|1.4.16+0.114.1|A nushell plugin for syntax highlighting|⚠️0.114.1|⚠️0.114.1|
 |[nu_plugin_hmac](https://github.com/fnuttens/nu_plugin_hmac)|0.27.0|A HMAC sealing plugin for Nushell|⚠️0.113.0|⚠️0.113.0|
 |[nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image)|0.112.2|A nushell plugin to open png images in the shell and save ansi string as images (like tables or ...)|⚠️0.112.2|⚠️0.112.2|
 |[nu_plugin_inc](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc)|{workspace: true}|A version incrementer plugin for Nushell|⛔0.0.0|⛔0.0.0|
@@ -67,10 +67,12 @@
 |[nu_plugin_template](https://github.com/fdncred/nu_plugin_template)|0.0|A `cargo-generate` template for making it easier to create nushell plugins.|⛔0.0|⛔0.0|
 |[nu_plugin_terminal_qr](https://github.com/Neuron-Mr-White/nu_plugin_terminal_qr)|1.1.1|A nushell plugin to create qr code in terminal|⚠️0.109.1|⚠️0.109.1|
 |[nu_plugin_termplot](https://github.com/termplot/termplot)|0.1.21|Beautiful plots in your terminal.|⚠️0.105.1|⚠️0.105.1|
+|[nu_plugin_todoist](https://github.com/fhalim/nu_plugin_todoist)|0.1.0|A Nushell plugin for interacting with the Todoist API.|⚠️0.114.1|⚠️0.114.1|
 |[nu_plugin_ulid](https://github.com/lizclipse/nu_plugin_ulid)|0.23.0|A nushell plugin that adds various ulid commands|⚠️0.114.0|⚠️0.114.0|
 |[nu_plugin_units](https://github.com/JosephTLyons/nu_plugin_units)|0.1.8|A Nushell plugin for easily converting between common units|⚠️0.106.1|⚠️0.106.1|
 |[nu_plugin_vec](https://github.com/PhotonBursted/nu_plugin_vec)|1.1.6|A Nushell plugin implementing vector operations|⚠️0.105.1|⚠️0.105.1|
 |[nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws)|1.0.6|A Nushell plugin for easily streaming output from websocket endpoints|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_x509](https://github.com/yybit/nu_plugin_x509)|0.1.8|A nushell plugin for working with x509 certificates.|⚠️0.109.0|⚠️0.109.0|
+|issue in config file for (https://github.com/casedami/nu_plugin_todu/)|0.0||⛔0.0|⛔0.0|
 
-last update at `2026-07-22 05:40:38 +00:00`
+last update at `2026-07-25 22:58:25 +00:00`
