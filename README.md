@@ -85,6 +85,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_ws](https://github.com/alex-kattathra-johnson/nu_plugin_ws): A Nushell plugin for easily streaming output from websocket endpoints
 - [nu_plugin_x509](https://github.com/yybit/nu_plugin_x509): A Nushell plugin for parsing and generating x509 certificates.
 - [nu_plugin_handlebars](https://github.com/idanarye/nu_plugin_handlebars): An `handlebars` command for rendering Nu values using Handlebars templates.
+- [nu_plugin_zstdsep](https://github.com/kazu/seekzstdsep): A Nushell plugin for seekable, separator-aware zstd files(jsonl, csv, logfmt): open a `.seek.zst` and get any record without decompressing the file.
 
 > If the shell freezes while registering the command, that means the plugin is using an older Nu version no longer compatible with your current version. Consider bumping the Nu version to the latest in the `cargo.toml`, (may lead to breaking the script).
 
