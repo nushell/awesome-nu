@@ -195,7 +195,7 @@ export module plugin-list {
         let item = $in
         match $item.language {
             "rust" => {
-                return ($item.repository.url | get-toml $item.repository.branch ($item | get -i $.repository.software) | map toml to entry $item.repository.url)
+                return ($item.repository.url | get-toml $item.repository.branch ($item | get -o $.repository.software) | map toml to entry $item.repository.url)
             }
             _ => {
                 return {}
