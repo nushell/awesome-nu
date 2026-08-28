@@ -439,7 +439,7 @@ plugins:
   - name: nu_plugin_zstdsep
     language: rust
     repository:
-      url: https://github.com/kazu/seekzstdsep
+      url: https://github.com/kazu/seekzstdsep/tree/master/nu_plugin_zstdsep
       branch: master
     override:
       name: "[nu_plugin_zstdsep](https://github.com/kazu/seekzstdsep)"
