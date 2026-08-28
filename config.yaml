@@ -442,7 +442,7 @@ plugins:
       url: https://github.com/kazu/seekzstdsep
       branch: master
     override:
-      name: "[nu_plugin_todoist](https://github.com/kazu/seekzstdsep)"
+      name: "[nu_plugin_zstdsep](https://github.com/kazu/seekzstdsep)"
       version: "0.2.2"
       description: "A Nushell plugin for seekable, separator-aware zstd files(jsonl, csv, logfmt)"
       plugin: "0.115.1"
