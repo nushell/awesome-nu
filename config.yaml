@@ -436,6 +436,17 @@ plugins:
       description: "A Nushell plugin for interacting with the Todoist API."
       plugin: "0.114.1"
       protocol: "0.114.1"
+  - name: nu_plugin_zstdsep
+    language: rust
+    repository:
+      url: https://github.com/kazu/seekzstdsep
+      branch: master
+    override:
+      name: "[nu_plugin_zstdsep](https://github.com/kazu/seekzstdsep)"
+      version: "0.2.2"
+      description: "A Nushell plugin for seekable, separator-aware zstd files(jsonl, csv, logfmt)"
+      plugin: "0.115.1"
+      protocol: "0.115.1"
 
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
