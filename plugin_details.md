@@ -30,7 +30,7 @@
 |[nu_plugin_handlebars](https://github.com/idanarye/nu_plugin_handlebars)|0.2.0|An `handlebars` command for Nushell for rendering Nu values using Handlebars templates|⚠️0.115.0|⚠️0.115.0|
 |[nu_plugin_hashes](https://github.com/ArmoredPony/nu_plugin_hashes)|0.1.9|A Nushell plugin that adds 63 cryptographic hash functions from Hashes project|⚠️0.107.0|⚠️0.107.0|
 |[nu_plugin_hcl](https://github.com/Yethal/nu_plugin_hcl)|0.106.0|A nushell plugin for parsing Hashicorp Configuration Language file format|⚠️0.106.0|⚠️0.106.0|
-|[nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight)|1.4.16+0.114.1|A nushell plugin for syntax highlighting|⚠️0.114.1|⚠️0.114.1|
+|[nu_plugin_highlight](https://github.com/cptpiepmatz/nu-plugin-highlight)|1.4.17+0.115.1|A nushell plugin for syntax highlighting|⚠️0.115.1|⚠️0.115.1|
 |[nu_plugin_hmac](https://github.com/fnuttens/nu_plugin_hmac)|0.27.0|A HMAC sealing plugin for Nushell|⚠️0.113.0|⚠️0.113.0|
 |[nu_plugin_image](https://github.com/FMotalleb/nu_plugin_image)|0.112.2|A nushell plugin to open png images in the shell and save ansi string as images (like tables or ...)|⚠️0.112.2|⚠️0.112.2|
 |[nu_plugin_inc](https://github.com/nushell/nushell/tree/main/crates/nu_plugin_inc)|{workspace: true}|A version incrementer plugin for Nushell|⛔0.0.0|⛔0.0.0|
@@ -76,4 +76,4 @@
 |[nu_plugin_zstdsep](https://github.com/kazu/seekzstdsep)|0.2.2|A Nushell plugin for seekable, separator-aware zstd files(jsonl, csv, logfmt)|⚠️0.115.1|⚠️0.115.1|
 |issue in config file for (https://github.com/casedami/nu_plugin_todu/)|0.0||⛔0.0|⛔0.0|
 
-last update at `2026-08-28 15:24:23 +00:00`
+last update at `2026-09-02 19:36:24 +00:00`
