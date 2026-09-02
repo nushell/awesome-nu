@@ -12,9 +12,9 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-        -   uses: actions/checkout@v2
+        -   uses: actions/checkout@v7
         -   name: Setup Nushell
-            uses: hustcer/setup-nu@v3
+            uses: hustcer/setup-nu@v3.27
             with:
               version: 0.105.1
             env:
