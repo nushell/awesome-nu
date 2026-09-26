@@ -228,3 +228,4 @@ Plugins and Extensions that you can use in other text editors
 Applications that have done a nice job using [reedline](https://github.com/nushell/reedline)
 
 - [Glaredb](https://github.com/GlareDB/glaredb): An analytics DBMS for distributed data.
+- [reedline-bash](https://github.com/maxomatic458/reedline-bash): A bash plugin that replaces bash's line editor with nushell's reedline.
