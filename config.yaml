@@ -447,6 +447,17 @@ plugins:
       description: "A Nushell plugin for seekable, separator-aware zstd files(jsonl, csv, logfmt)"
       plugin: "0.115.1"
       protocol: "0.115.1"
+  - name: nu_plugin_charton
+    language: rust
+    repository:
+      url: https://github.com/wangjiawen2013/charton/tree/main/nu_plugin_charton
+      branch: main
+    override: # nu-plugin / nu-protocol are pinned as "=0.116"; give explicit versions for the status report
+      name: "[nu_plugin_charton](https://github.com/wangjiawen2013/charton/tree/main/nu_plugin_charton)"
+      version: "0.7.1"
+      description: "Nushell plugin for charton: turn pipeline tables into charts"
+      plugin: "0.116.0"
+      protocol: "0.116.0"
 
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
