@@ -21,6 +21,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_caldav](https://github.com/LQR471814/nu_plugin_caldav): A Nushell plugin for interfacing with CalDAV servers.
 - [nu_plugin_cassandra_query](https://github.com/devyn/nu_plugin_cassandra_query): Query plugin for the Cassandra database for Nushell.
 - [nu_plugin_ccl](https://github.com/punund/nu_plugin_ccl): A Nushell plugin for parsing CCL format.
+- [nu_plugin_charton](https://github.com/wangjiawen2013/charton/tree/main/nu_plugin_charton): A Nushell plugin that turns pipeline tables into charts, rendered inline in the terminal or saved as SVG/PNG.
 - [nu_plugin_clipboard](https://github.com/FMotalleb/nu_plugin_clipboard): A nushell plugin to copy text into clipboard or get text from it.
 - [nu_plugin_compress](https://github.com/yybit/nu_plugin_compress): A nushell plugin for compression and decompression, supporting zstd, gzip, bzip2, and xz.
 - [nu_plugin_dbus](https://github.com/devyn/nu_plugin_dbus): Nushell plugin for interacting with D-Bus.
