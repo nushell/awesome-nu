@@ -56,6 +56,7 @@ You can find some examples about how to create and use plugins in the [Nushell P
 - [nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo): A nushell plugin to interactive with mongodb.
 - [nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack): Nushell plugin for converting to and from msgpack.
 - [nu_plugin_net](https://crates.io/crates/nu_plugin_net): List network interfaces on any platform.
+- [nu_plugin_nuplot](https://github.com/gtnebel/nu_plugin_nuplot): Plot Nushell data directly in your browser window.
 - [nu_plugin_nupsql](https://gitlab.com/HertelP/nu_plugin_nupsql): A nushell plugin to query postgres databases.
 - [nu_plugin_nuts](https://github.com/dam4rus/nu_plugin_nuts): Performant Nats client for Nushell.
 - [nu_plugin_parquet](https://github.com/fdncred/nu_plugin_parquet): A nushell plugin to read and write parquet files.

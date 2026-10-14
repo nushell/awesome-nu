@@ -458,6 +458,17 @@ plugins:
       description: "Nushell plugin for charton: turn pipeline tables into charts"
       plugin: "0.116.0"
       protocol: "0.116.0"
+  - name: nu_plugin_nuplot
+    language: go
+    repository:
+      url: https://github.com/gtnebel/nu_plugin_nuplot
+      branch: main
+    override:
+      name: "[nu_plugin_nuplot](https://github.com/gtnebel/nu_plugin_nuplot)"
+      version: "0.2.8"
+      description: "nuplot builds interactive charts from your data that are opened inside the web browser."
+      plugin: "0.116.0"
+      protocol: "0.116.0"
 
 # Example
 #  - name: nu_plugin_bin_reader # the plugins name (mandatory)
