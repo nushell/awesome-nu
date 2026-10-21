@@ -3,7 +3,7 @@
 |[nu-plugin-bexpand](https://forge.axfive.net/Taylor/nu-plugin-bexpand)|1.3.11300-dev|A brace expansion plugin compatible with Bash for nushell|⚠️0.113.1|⚠️0.113.1|
 |[nu_plugin_audio](https://github.com/SuaveIV/nu_plugin_audio)|0.2.12|A nushell plugin to make and play sounds|⚠️0.116.1|⚠️0.116.1|
 |[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.110.0|A nushell plugin to make and play sounds|⚠️0.110.0|⚠️0.110.0|
-|[nu_plugin_bigquery](https://github.com/galuszkak/nu_plugin_bigquery)|0.5.0|A Nushell plugin for querying Google BigQuery|⚠️0.116.0|⚠️0.116.0|
+|[nu_plugin_bigquery](https://github.com/galuszkak/nu_plugin_bigquery)|0.5.1|A Nushell plugin for querying Google BigQuery|⚠️0.116.1|⚠️0.116.1|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.104.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.104.0|⚠️0.104.0|
 |[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|26.1160.0|Nushell plugin for BSON format (Binary JSON)|⚠️0.116.0|⚠️0.116.0|
@@ -38,7 +38,7 @@
 |[nu_plugin_input_global_listen](https://codeberg.org/Chai/nu_plugin_input_global_listen)|0.1.0|A Nushell plugin that lets you listen to keyboard input without focus|⚠️0.110.0|⚠️0.110.0|
 |[nu_plugin_json_path](https://github.com/fdncred/nu_plugin_json_path)|0.26.1|a nushell plugin created to parse json files using jsonpath|⚠️0.116.1|⚠️0.116.1|
 |[nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl)|0.83.2|Add support for the KDL data format to Nushell.|⚠️0.83.2|⚠️0.83.2|
-|[nu_plugin_ldap](https://github.com/adevore/nu_plugin_ldap)|0.1.1|Nushell plugin for LDAP queries|⚠️0.112.2|⚠️0.112.2|
+|[nu_plugin_ldap](https://github.com/adevore/nu_plugin_ldap)|0.1.1|Nushell plugin for LDAP queries|⚠️0.116.1|⚠️0.116.1|
 |[nu_plugin_logfmt](https://github.com/oderwat/nu_plugin_logfmt)|0.1.0|Nushell plugin that allows conversion between logfmt and Nushell values.|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_ls_colorize](https://github.com/brendon-felix/nu_plugin_ls_colorize)|1.0.7+0.114.1|A plugin for Nushell that colorizes paths using LS_COLORS|⚠️0.114.1|⚠️0.114.1|
 |[nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime)|0.115.0|A simple plugin for working with mime types without performing disk access|⚠️0.115.0|⚠️0.115.0|
@@ -46,6 +46,7 @@
 |[nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo)|0.1.14|A nushell plugin to interactive with mongodb|⚠️0.114|⚠️0.114|
 |[nu_plugin_msgpack](https://github.com/hulthe/nu_plugin_msgpack)|0.90.1|Commands to convert nushell data to and from MsgPack|⚠️0.90.1|⚠️0.90.1|
 |[nu_plugin_net](https://github.com/fennewald/nu_plugin_net)|1.10.0|A nushell plugin for enumerating network interfaces in a platform-agnostic way|⚠️0.104.0|⚠️0.104.0|
+|[nu_plugin_nuplot](https://github.com/gtnebel/nu_plugin_nuplot)|0.2.8|nuplot builds interactive charts from your data that are opened inside the web browser.|⚠️0.116.0|⚠️0.116.0|
 |[nu_plugin_nupsql](https://gitlab.com/HertelP/nu_plugin_nupsql)|1.0.0|A nushell plugin to query postgres databases|⚠️^0.109.0|⚠️^0.109.0|
 |[nu_plugin_nuts](https://github.com/dam4rus/nu_plugin_nuts)|0.1.2|Blazingly fast Nats client as a nushell plugin|⚠️0.110.0|⚠️0.110.0|
 |[nu_plugin_parquet](https://github.com/fdncred/nu_plugin_parquet)|0.26.0|nu plugin to add parquet support|⚠️0.116.1|⚠️0.116.1|
@@ -77,4 +78,4 @@
 |[nu_plugin_zstdsep](https://github.com/kazu/seekzstdsep)|0.2.2|A Nushell plugin for seekable, separator-aware zstd files(jsonl, csv, logfmt)|⚠️0.115.1|⚠️0.115.1|
 |issue in config file for (https://github.com/casedami/nu_plugin_todu/)|0.0||⛔0.0|⛔0.0|
 
-last update at `2026-10-14 08:15:27 +00:00`
+last update at `2026-10-21 08:09:11 +00:00`
