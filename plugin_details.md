@@ -1,7 +1,7 @@
 |name|version|description|plugin|protocol|
 |-|-|-|-|-|
 |[nu-plugin-bexpand](https://forge.axfive.net/Taylor/nu-plugin-bexpand)|1.3.11300-dev|A brace expansion plugin compatible with Bash for nushell|⚠️0.113.1|⚠️0.113.1|
-|[nu_plugin_audio](https://github.com/SuaveIV/nu_plugin_audio)|0.2.12|A nushell plugin to make and play sounds|⚠️0.116.1|⚠️0.116.1|
+|[nu_plugin_audio](https://github.com/SuaveIV/nu_plugin_audio)|0.2.13|A nushell plugin to make and play sounds|⚠️0.116.1|⚠️0.116.1|
 |[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.110.0|A nushell plugin to make and play sounds|⚠️0.110.0|⚠️0.110.0|
 |[nu_plugin_bigquery](https://github.com/galuszkak/nu_plugin_bigquery)|0.5.1|A Nushell plugin for querying Google BigQuery|⚠️0.116.1|⚠️0.116.1|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
@@ -17,7 +17,7 @@
 |[nu_plugin_dcm](https://github.com/realcundo/nu_plugin_dcm)|0.8.0|A nushell plugin to parse Dicom files and DICOMweb records|⚠️0.108.0|⚠️0.108.0|
 |[nu_plugin_desktop_notifications](https://github.com/FMotalleb/nu_plugin_desktop_notifications)|0.116.0|A nushell plugin to send desktop notifications|⚠️0.116.0|⚠️0.116.0|
 |[nu_plugin_dialog](https://github.com/Trivernis/nu-plugin-dialog)|0.2.0|A nushell plugin for user interaction|⚠️0.86.1|⚠️0.86.1|
-|[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|4.0.15-alpha.1|A DNS utility for nushell|⚠️0.116.0|⚠️0.116.0|
+|[nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns)|4.0.15-alpha.1|A DNS utility for nushell|⚠️0.116.1|⚠️0.116.1|
 |[nu_plugin_dpkgtable](https://github.com/pdenapo/nu_plugin_dpkgtable)|0.1.0||⚠️0.111.0|⚠️0.111.0|
 |[nu_plugin_emoji](https://github.com/fdncred/nu_plugin_emoji)|0.25.0|a nushell plugin called emoji|⚠️0.116.1|⚠️0.116.1|
 |[nu_plugin_endecode](https://github.com/KAAtheWiseGit/nugins/tree/trunk/endecode)|0.114.1|A plugin with various encoding schemes, from Crockford's base-32 to HTML entity escaping.|⚠️0.102.0|⚠️0.102.0|
@@ -78,4 +78,4 @@
 |[nu_plugin_zstdsep](https://github.com/kazu/seekzstdsep)|0.2.2|A Nushell plugin for seekable, separator-aware zstd files(jsonl, csv, logfmt)|⚠️0.115.1|⚠️0.115.1|
 |issue in config file for (https://github.com/casedami/nu_plugin_todu/)|0.0||⛔0.0|⛔0.0|
 
-last update at `2026-10-21 08:09:11 +00:00`
+last update at `2026-10-28 09:10:10 +00:00`
