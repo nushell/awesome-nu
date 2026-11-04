@@ -78,4 +78,4 @@
 |[nu_plugin_zstdsep](https://github.com/kazu/seekzstdsep)|0.2.2|A Nushell plugin for seekable, separator-aware zstd files(jsonl, csv, logfmt)|⚠️0.115.1|⚠️0.115.1|
 |issue in config file for (https://github.com/casedami/nu_plugin_todu/)|0.0||⛔0.0|⛔0.0|
 
-last update at `2026-10-28 09:10:10 +00:00`
+last update at `2026-11-04 10:14:15 +00:00`
