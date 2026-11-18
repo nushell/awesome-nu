@@ -1,12 +1,12 @@
 |name|version|description|plugin|protocol|
 |-|-|-|-|-|
 |[nu-plugin-bexpand](https://forge.axfive.net/Taylor/nu-plugin-bexpand)|1.3.11300-dev|A brace expansion plugin compatible with Bash for nushell|⚠️0.113.1|⚠️0.113.1|
-|[nu_plugin_audio](https://github.com/SuaveIV/nu_plugin_audio)|0.2.13|A nushell plugin to make and play sounds|⚠️0.116.1|⚠️0.116.1|
+|[nu_plugin_audio](https://github.com/SuaveIV/nu_plugin_audio)|0.2.14|A nushell plugin to make and play sounds|⚠️0.117.0|⚠️0.117.0|
 |[nu_plugin_audio_hook](https://github.com/FMotalleb/nu_plugin_audio_hook)|0.110.0|A nushell plugin to make and play sounds|⚠️0.110.0|⚠️0.110.0|
 |[nu_plugin_bigquery](https://github.com/galuszkak/nu_plugin_bigquery)|0.5.1|A Nushell plugin for querying Google BigQuery|⚠️0.116.1|⚠️0.116.1|
 |[nu_plugin_bin_reader](https://github.com/WindSoilder/nu_plugin_bin_reader)|0.0.0|A high level, general binary data reader.|⛔0.0|⛔0.0|
 |[nu_plugin_bio](https://github.com/Euphrasiologist/nu_plugin_bio)|0.104.0|Parse and manipulate common bioinformatic formats in nushell.|⚠️0.104.0|⚠️0.104.0|
-|[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|26.1160.0|Nushell plugin for BSON format (Binary JSON)|⚠️0.116.0|⚠️0.116.0|
+|[nu_plugin_bson](https://github.com/Kissaki/nu_plugin_bson)|26.1170.0|Nushell plugin for BSON format (Binary JSON)|⚠️0.117.0|⚠️0.117.0|
 |[nu_plugin_caldav](https://github.com/LQR471814/nu_plugin_caldav)|0.1.0|A Nushell plugin for interfacing with CalDAV servers.|⚠️0.109.1|⚠️0.109.1|
 |[nu_plugin_cassandra_query](https://github.com/devyn/nu_plugin_cassandra_query)|0.3.0|Query plugin for the Cassandra database for Nushell|⚠️0.101.0|⚠️0.101.0|
 |[nu_plugin_ccl](https://github.com/punund/nu_plugin_ccl)|0.1.0+0.111.0|A Nushell plugin for CCL format support|⚠️0.111.0|⚠️0.111.0|
@@ -39,7 +39,7 @@
 |[nu_plugin_kdl](https://github.com/amtoine/nu_plugin_kdl)|0.83.2|Add support for the KDL data format to Nushell.|⚠️0.83.2|⚠️0.83.2|
 |[nu_plugin_ldap](https://github.com/adevore/nu_plugin_ldap)|0.1.1|Nushell plugin for LDAP queries|⚠️0.116.1|⚠️0.116.1|
 |[nu_plugin_logfmt](https://github.com/oderwat/nu_plugin_logfmt)|0.1.0|Nushell plugin that allows conversion between logfmt and Nushell values.|⚠️0.101.0|⚠️0.101.0|
-|[nu_plugin_ls_colorize](https://github.com/brendon-felix/nu_plugin_ls_colorize)|1.0.7+0.114.1|A plugin for Nushell that colorizes paths using LS_COLORS|⚠️0.114.1|⚠️0.114.1|
+|[nu_plugin_ls_colorize](https://github.com/brendon-felix/nu_plugin_ls_colorize)|1.0.9+0.117.0|A plugin for Nushell that colorizes paths using LS_COLORS|⚠️0.117.0|⚠️0.117.0|
 |[nu_plugin_mime](https://github.com/kik4444/nu_plugin_mime)|0.115.0|A simple plugin for working with mime types without performing disk access|⚠️0.115.0|⚠️0.115.0|
 |[nu_plugin_mime_message](https://github.com/punund/nu_plugin_mime_message)|0.1.0+0.111.0|A Nushell plugin for parsing MIME messages and mail streams|⚠️0.111.0|⚠️0.111.0|
 |[nu_plugin_mongo](https://github.com/WindSoilder/nu_plugin_mongo)|0.1.17|A nushell plugin to interactive with mongodb|⚠️0.117.0|⚠️0.117.0|
@@ -78,4 +78,4 @@
 |issue in config file for (https://codeberg.org/Chai/nu_plugin_input_global_listen)|0.0||⛔0.0|⛔0.0|
 |issue in config file for (https://github.com/casedami/nu_plugin_todu/)|0.0||⛔0.0|⛔0.0|
 
-last update at `2026-11-11 10:07:06 +00:00`
+last update at `2026-11-18 10:55:59 +00:00`
