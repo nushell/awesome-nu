@@ -141,6 +141,7 @@ You can find some examples about how to create and use scripts in the [Nushell S
 - [nupk](https://github.com/mokeyish/nupk): Simplifying package installation, updates, and uninstallation from GitHub Releases
 - [nuschiit](https://github.com/nushell/nu_scripts/blob/main/sourced/webscraping/nuschiit.nu): Web scraping example for the schiit.co.uk website.
 - [nutest](https://github.com/vyadh/nutest): A Nushell test framework.
+- [Open Agent API pin.nu](https://gist.github.com/jiangxingfan1-coder/abb6eb0f88c2c86c8ab344be3fcceee2/d1f9dcf372048ae3a0a00e14d77f1c8da24cef17): Discover and invoke an inspected agent version on a local gateway, with an offline smoke test.
 - [sessionizer.nu](https://gitlab.com/boweflex/sessionizer.nu): A fuzzy finding sessionizer for Tmux.
 - [panache-git](https://github.com/nushell/nu_scripts/blob/main/modules/prompt/panache-git.nu): A Git prompt that summarizes the current status of your Git repository. Styled after posh-git.
 - [powerline.nu](https://github.com/fj0r/powerline.nu): Powerline prompt for nushell.
